@@ -79,7 +79,7 @@ namespace WindowsFormsApp1
             // 
             this.button3.BackColor = System.Drawing.Color.LightPink;
             this.button3.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(70, 256);
+            this.button3.Location = new System.Drawing.Point(70, 261);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(398, 40);
             this.button3.TabIndex = 5;

@@ -167,5 +167,17 @@
   <ItemGroup>
     <None Include="Resources\istockphoto-1133376756-612x6121.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beautiful-meticulously-designed-email-open-mail-new-email-icon-well-organized-and-fully-editable-vector-icon-WWBBX6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1211308388-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-tick-icon-vector-symbol-checkmark-isolated-white-background-checked-correct-choice-sign-check-mark-checkbox-pictogram-147212415.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

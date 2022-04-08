@@ -63,9 +63,51 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap beautiful_meticulously_designed_email_open_mail_new_email_icon_well_organized_and_fully_editable_vector_icon_WWBBX6 {
+            get {
+                object obj = ResourceManager.GetObject("beautiful-meticulously-designed-email-open-mail-new-email-icon-well-organized-and" +
+                        "-fully-editable-vector-icon-WWBBX6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blue_tick_icon_vector_symbol_checkmark_isolated_white_background_checked_correct_choice_sign_check_mark_checkbox_pictogram_147212415 {
+            get {
+                object obj = ResourceManager.GetObject("blue-tick-icon-vector-symbol-checkmark-isolated-white-background-checked-correct-" +
+                        "choice-sign-check-mark-checkbox-pictogram-147212415", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_3 {
+            get {
+                object obj = ResourceManager.GetObject("image 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1133376756_612x612 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1133376756-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1211308388_170667a {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1211308388-170667a", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
