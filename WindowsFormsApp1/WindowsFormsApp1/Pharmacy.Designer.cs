@@ -36,24 +36,25 @@ namespace WindowsFormsApp1
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label1.Location = new System.Drawing.Point(320, 152);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Font = new System.Drawing.Font("Lucida Fax", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(181, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 147);
+            this.label1.Size = new System.Drawing.Size(676, 69);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Pharmacy";
+            this.label1.Text = "Pharmacy Management";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pharmacy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Pharmacy";
             this.Text = "Pharmacy";
             this.ResumeLayout(false);
+
         }
 
         private System.Windows.Forms.Label label1;
