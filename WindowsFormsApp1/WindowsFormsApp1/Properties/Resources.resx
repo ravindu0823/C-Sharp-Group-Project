@@ -121,16 +121,40 @@
   <data name="istockphoto-1211308388-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1211308388-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Appointment-Reschedule-Request-Icon-Graphics-11757726-2-580x386" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Appointment-Reschedule-Request-Icon-Graphics-11757726-2-580x386.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-tick-icon-vector-symbol-checkmark-isolated-white-background-checked-correct-choice-sign-check-mark-checkbox-pictogram-147212415" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue-tick-icon-vector-symbol-checkmark-isolated-white-background-checked-correct-choice-sign-check-mark-checkbox-pictogram-147212415.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beautiful-meticulously-designed-email-open-mail-new-email-icon-well-organized-and-fully-editable-vector-icon-WWBBX6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beautiful-meticulously-designed-email-open-mail-new-email-icon-well-organized-and-fully-editable-vector-icon-WWBBX6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hospital-PNG-Transparent-HD-Photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hospital-PNG-Transparent-HD-Photo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="istockphoto-1133376756-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1133376756-612x6121.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="beautiful-meticulously-designed-email-open-mail-new-email-icon-well-organized-and-fully-editable-vector-icon-WWBBX6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beautiful-meticulously-designed-email-open-mail-new-email-icon-well-organized-and-fully-editable-vector-icon-WWBBX6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="istockphoto-1205256331-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1205256331-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blue-tick-icon-vector-symbol-checkmark-isolated-white-background-checked-correct-choice-sign-check-mark-checkbox-pictogram-147212415" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue-tick-icon-vector-symbol-checkmark-isolated-white-background-checked-correct-choice-sign-check-mark-checkbox-pictogram-147212415.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="500_F_217199479_VBxbYYxkX8uxmqQNTZUv9hXJGWsv5BZR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\500_F_217199479_VBxbYYxkX8uxmqQNTZUv9hXJGWsv5BZR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-the-doctor-examines-the-patient-with-covid-19-symptoms-png-image_5342356" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-the-doctor-examines-the-patient-with-covid-19-symptoms-png-image_5342356.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1285912397-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1285912397-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prescription-rx-recipe-line-icon-medicine-drugs-pills-sign-colorful-outline-concept-blue-orange-thin-color-vector-134564603" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prescription-rx-recipe-line-icon-medicine-drugs-pills-sign-colorful-outline-concept-blue-orange-thin-color-vector-134564603.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="secure-payment-icon-flat-design-vector-10515661" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\secure-payment-icon-flat-design-vector-10515661.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

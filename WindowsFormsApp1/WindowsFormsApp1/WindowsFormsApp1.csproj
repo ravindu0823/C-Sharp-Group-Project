@@ -179,5 +179,29 @@
   <ItemGroup>
     <None Include="Resources\blue-tick-icon-vector-symbol-checkmark-isolated-white-background-checked-correct-choice-sign-check-mark-checkbox-pictogram-147212415.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hospital-PNG-Transparent-HD-Photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1205256331-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-the-doctor-examines-the-patient-with-covid-19-symptoms-png-image_5342356.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Appointment-Reschedule-Request-Icon-Graphics-11757726-2-580x386.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_217199479_VBxbYYxkX8uxmqQNTZUv9hXJGWsv5BZR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prescription-rx-recipe-line-icon-medicine-drugs-pills-sign-colorful-outline-concept-blue-orange-thin-color-vector-134564603.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1285912397-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secure-payment-icon-flat-design-vector-10515661.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

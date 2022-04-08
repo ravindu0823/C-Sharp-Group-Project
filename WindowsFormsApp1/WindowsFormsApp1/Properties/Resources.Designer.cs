@@ -63,6 +63,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _500_F_217199479_VBxbYYxkX8uxmqQNTZUv9hXJGWsv5BZR {
+            get {
+                object obj = ResourceManager.GetObject("500_F_217199479_VBxbYYxkX8uxmqQNTZUv9hXJGWsv5BZR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Appointment_Reschedule_Request_Icon_Graphics_11757726_2_580x386 {
+            get {
+                object obj = ResourceManager.GetObject("Appointment-Reschedule-Request-Icon-Graphics-11757726-2-580x386", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap beautiful_meticulously_designed_email_open_mail_new_email_icon_well_organized_and_fully_editable_vector_icon_WWBBX6 {
             get {
                 object obj = ResourceManager.GetObject("beautiful-meticulously-designed-email-open-mail-new-email-icon-well-organized-and" +
@@ -78,6 +98,16 @@ namespace WindowsFormsApp1.Properties {
             get {
                 object obj = ResourceManager.GetObject("blue-tick-icon-vector-symbol-checkmark-isolated-white-background-checked-correct-" +
                         "choice-sign-check-mark-checkbox-pictogram-147212415", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hospital_PNG_Transparent_HD_Photo {
+            get {
+                object obj = ResourceManager.GetObject("Hospital-PNG-Transparent-HD-Photo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,9 +135,60 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1205256331_170667a {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1205256331-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1211308388_170667a {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1211308388-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1285912397_170667a {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1285912397-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_the_doctor_examines_the_patient_with_covid_19_symptoms_png_image_5342356 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-the-doctor-examines-the-patient-with-covid-19-symptoms-png-image_5342356", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap prescription_rx_recipe_line_icon_medicine_drugs_pills_sign_colorful_outline_concept_blue_orange_thin_color_vector_134564603 {
+            get {
+                object obj = ResourceManager.GetObject("prescription-rx-recipe-line-icon-medicine-drugs-pills-sign-colorful-outline-conce" +
+                        "pt-blue-orange-thin-color-vector-134564603", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap secure_payment_icon_flat_design_vector_10515661 {
+            get {
+                object obj = ResourceManager.GetObject("secure-payment-icon-flat-design-vector-10515661", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
