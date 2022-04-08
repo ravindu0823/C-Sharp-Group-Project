@@ -8,15 +8,5 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, System.EventArgs e)
-        {
-
-        }
-
-        private void Pharmacy_Load(object sender, System.EventArgs e)
-        {
-
-        }
     }
 }

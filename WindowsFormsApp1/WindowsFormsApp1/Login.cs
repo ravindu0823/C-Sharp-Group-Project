@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         private NewForm2 home = new NewForm2();
         private NewForm3 docotorrecords = new NewForm3();
         private Appoinment app = new Appoinment();
-        private Lbl_heading bil = new Lbl_heading();
+        private Billing bil = new Billing();
         private PatientHistory ph = new PatientHistory();
         private PatientRecords pr = new PatientRecords();
         private Pharmacy pharmacy = new Pharmacy();
