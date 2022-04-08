@@ -161,7 +161,7 @@ namespace WindowsFormsApp1
             // 
             this.lbl_bilingaddress.AutoSize = true;
             this.lbl_bilingaddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_bilingaddress.Location = new System.Drawing.Point(265, 284);
+            this.lbl_bilingaddress.Location = new System.Drawing.Point(263, 284);
             this.lbl_bilingaddress.Name = "lbl_bilingaddress";
             this.lbl_bilingaddress.Size = new System.Drawing.Size(216, 32);
             this.lbl_bilingaddress.TabIndex = 13;
