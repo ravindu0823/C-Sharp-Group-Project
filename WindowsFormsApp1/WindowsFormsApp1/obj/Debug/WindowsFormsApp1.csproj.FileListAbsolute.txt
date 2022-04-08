@@ -53,3 +53,6 @@ C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\Win
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\aa-DJ\WindowsFormsApp1.resources.dll
+C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacy.aa-DJ.resources
+C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\aa-DJ\WindowsFormsApp1.resources.dll
