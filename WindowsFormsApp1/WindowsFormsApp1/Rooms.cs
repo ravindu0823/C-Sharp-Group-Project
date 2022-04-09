@@ -8,5 +8,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void label37_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
