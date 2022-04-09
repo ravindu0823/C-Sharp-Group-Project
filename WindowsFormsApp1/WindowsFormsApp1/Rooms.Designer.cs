@@ -257,6 +257,7 @@ namespace WindowsFormsApp1
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.textBox21);
@@ -634,6 +635,7 @@ namespace WindowsFormsApp1
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.button8);
             this.panel2.Controls.Add(this.button7);
@@ -689,6 +691,7 @@ namespace WindowsFormsApp1
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Controls.Add(this.button13);
             this.panel4.Controls.Add(this.button15);
             this.panel4.Controls.Add(this.button12);
