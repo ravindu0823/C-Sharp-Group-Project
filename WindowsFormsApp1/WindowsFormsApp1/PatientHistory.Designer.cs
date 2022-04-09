@@ -31,1004 +31,889 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lbl_gender = new System.Windows.Forms.Label();
-            this.lbl_language = new System.Windows.Forms.Label();
-            this.lbl_age = new System.Windows.Forms.Label();
-            this.lbl_height = new System.Windows.Forms.Label();
-            this.txt_gender = new System.Windows.Forms.TextBox();
-            this.txt_language = new System.Windows.Forms.TextBox();
-            this.txt_age = new System.Windows.Forms.TextBox();
-            this.txt_height = new System.Windows.Forms.TextBox();
-            this.lbl_allergies = new System.Windows.Forms.Label();
-            this.lbl_penicillian = new System.Windows.Forms.Label();
-            this.lbl_tilorone = new System.Windows.Forms.Label();
-            this.txt_penicillian = new System.Windows.Forms.TextBox();
-            this.txt_tilorone = new System.Windows.Forms.TextBox();
-            this.lbl_notes = new System.Windows.Forms.Label();
-            this.txt_notes1 = new System.Windows.Forms.TextBox();
-            this.txt_notes2 = new System.Windows.Forms.TextBox();
-            this.txt_notes3 = new System.Windows.Forms.TextBox();
-            this.lbl_status = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.txt_status = new System.Windows.Forms.TextBox();
-            this.lbl_personaldetails = new System.Windows.Forms.Label();
-            this.lbl_lastname = new System.Windows.Forms.Label();
-            this.lbl_firstname = new System.Windows.Forms.Label();
-            this.lbl_salutation = new System.Windows.Forms.Label();
-            this.lbl_birthdate = new System.Windows.Forms.Label();
-            this.lbl_address = new System.Windows.Forms.Label();
-            this.lbl_phonenumber = new System.Windows.Forms.Label();
-            this.lbl_email = new System.Windows.Forms.Label();
-            this.lbl_prescription = new System.Windows.Forms.Label();
-            this.lbl_deliverytype = new System.Windows.Forms.Label();
-            this.lbl_pricegroup = new System.Windows.Forms.Label();
-            this.lbl_deliveryroute = new System.Windows.Forms.Label();
-            this.lbl_drugline1 = new System.Windows.Forms.Label();
-            this.lbl_drugline2 = new System.Windows.Forms.Label();
-            this.lbl_doublecount = new System.Windows.Forms.Label();
-            this.txt_lastname = new System.Windows.Forms.TextBox();
-            this.txt_firstname = new System.Windows.Forms.TextBox();
-            this.txt_salutation = new System.Windows.Forms.TextBox();
-            this.txt_birthdate = new System.Windows.Forms.TextBox();
-            this.txt_address = new System.Windows.Forms.TextBox();
-            this.txt_email = new System.Windows.Forms.TextBox();
-            this.txt_phonenumber = new System.Windows.Forms.TextBox();
-            this.txt_deliverytype = new System.Windows.Forms.TextBox();
-            this.txt_deliveryroute = new System.Windows.Forms.TextBox();
-            this.txt_pricegroup = new System.Windows.Forms.TextBox();
-            this.txt_drugline1 = new System.Windows.Forms.TextBox();
-            this.txt_drugline2 = new System.Windows.Forms.TextBox();
-            this.txt_doublecount = new System.Windows.Forms.TextBox();
+            this.lbl_status = new System.Windows.Forms.Label();
+            this.txt_height = new System.Windows.Forms.TextBox();
+            this.txt_age = new System.Windows.Forms.TextBox();
+            this.txt_language = new System.Windows.Forms.TextBox();
+            this.txt_gender = new System.Windows.Forms.TextBox();
+            this.lbl_height = new System.Windows.Forms.Label();
+            this.lbl_age = new System.Windows.Forms.Label();
+            this.lbl_language = new System.Windows.Forms.Label();
+            this.lbl_gender = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox21 = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbl_brandname = new System.Windows.Forms.Label();
-            this.lbl_genericname = new System.Windows.Forms.Label();
-            this.lbl_strength = new System.Windows.Forms.Label();
-            this.lbl_form = new System.Windows.Forms.Label();
-            this.lbl_pack = new System.Windows.Forms.Label();
-            this.lbl_manufacturer = new System.Windows.Forms.Label();
-            this.txt_brandname1 = new System.Windows.Forms.TextBox();
-            this.txt_genericname1 = new System.Windows.Forms.TextBox();
-            this.txt_strength1 = new System.Windows.Forms.TextBox();
-            this.txt_pack1 = new System.Windows.Forms.TextBox();
-            this.txt_form1 = new System.Windows.Forms.TextBox();
-            this.txt_manufacturer1 = new System.Windows.Forms.TextBox();
-            this.txt_brandname2 = new System.Windows.Forms.TextBox();
-            this.txt_genericname2 = new System.Windows.Forms.TextBox();
-            this.txt_strength2 = new System.Windows.Forms.TextBox();
-            this.txt_pack2 = new System.Windows.Forms.TextBox();
-            this.txt_manufacturer2 = new System.Windows.Forms.TextBox();
-            this.txt_form2 = new System.Windows.Forms.TextBox();
-            this.txt_brandname3 = new System.Windows.Forms.TextBox();
-            this.txt_genericname3 = new System.Windows.Forms.TextBox();
-            this.txt_strength3 = new System.Windows.Forms.TextBox();
-            this.txt_pack3 = new System.Windows.Forms.TextBox();
-            this.txt_form3 = new System.Windows.Forms.TextBox();
-            this.txt_manufacturer3 = new System.Windows.Forms.TextBox();
-            this.txt_brandname4 = new System.Windows.Forms.TextBox();
-            this.txt_genericname4 = new System.Windows.Forms.TextBox();
-            this.txt_strength4 = new System.Windows.Forms.TextBox();
-            this.txt_pack4 = new System.Windows.Forms.TextBox();
-            this.txt_form4 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btn_addallergy = new System.Windows.Forms.Button();
-            this.btn_adddrug = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // panel1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(82, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(75, 85);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.txt_status);
+            this.panel1.Controls.Add(this.lbl_status);
+            this.panel1.Controls.Add(this.txt_height);
+            this.panel1.Controls.Add(this.txt_age);
+            this.panel1.Controls.Add(this.txt_language);
+            this.panel1.Controls.Add(this.txt_gender);
+            this.panel1.Controls.Add(this.lbl_height);
+            this.panel1.Controls.Add(this.lbl_age);
+            this.panel1.Controls.Add(this.lbl_language);
+            this.panel1.Controls.Add(this.lbl_gender);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(268, 284);
+            this.panel1.TabIndex = 88;
             // 
-            // lbl_gender
+            // textBox1
             // 
-            this.lbl_gender.AutoSize = true;
-            this.lbl_gender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_gender.Location = new System.Drawing.Point(47, 210);
-            this.lbl_gender.Name = "lbl_gender";
-            this.lbl_gender.Size = new System.Drawing.Size(64, 20);
-            this.lbl_gender.TabIndex = 4;
-            this.lbl_gender.Text = "Gender";
-            this.lbl_gender.Click += new System.EventHandler(this.label3_Click);
+            this.textBox1.Location = new System.Drawing.Point(111, 92);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(124, 22);
+            this.textBox1.TabIndex = 98;
             // 
-            // lbl_language
+            // label2
             // 
-            this.lbl_language.AutoSize = true;
-            this.lbl_language.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_language.Location = new System.Drawing.Point(47, 279);
-            this.lbl_language.Name = "lbl_language";
-            this.lbl_language.Size = new System.Drawing.Size(82, 20);
-            this.lbl_language.TabIndex = 5;
-            this.lbl_language.Text = "Language";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(20, 89);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.TabIndex = 97;
+            this.label2.Text = "Name";
             // 
-            // lbl_age
+            // txt_status
             // 
-            this.lbl_age.AutoSize = true;
-            this.lbl_age.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_age.Location = new System.Drawing.Point(48, 243);
-            this.lbl_age.Name = "lbl_age";
-            this.lbl_age.Size = new System.Drawing.Size(38, 20);
-            this.lbl_age.TabIndex = 6;
-            this.lbl_age.Text = "Age";
-            this.lbl_age.Click += new System.EventHandler(this.lbl_age_Click);
-            // 
-            // lbl_height
-            // 
-            this.lbl_height.AutoSize = true;
-            this.lbl_height.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_height.Location = new System.Drawing.Point(48, 310);
-            this.lbl_height.Name = "lbl_height";
-            this.lbl_height.Size = new System.Drawing.Size(58, 20);
-            this.lbl_height.TabIndex = 7;
-            this.lbl_height.Text = "Height";
-            // 
-            // txt_gender
-            // 
-            this.txt_gender.Location = new System.Drawing.Point(137, 208);
-            this.txt_gender.Name = "txt_gender";
-            this.txt_gender.Size = new System.Drawing.Size(100, 22);
-            this.txt_gender.TabIndex = 8;
-            this.txt_gender.TextChanged += new System.EventHandler(this.txt_gender_TextChanged);
-            // 
-            // txt_language
-            // 
-            this.txt_language.Location = new System.Drawing.Point(137, 277);
-            this.txt_language.Name = "txt_language";
-            this.txt_language.Size = new System.Drawing.Size(100, 22);
-            this.txt_language.TabIndex = 9;
-            this.txt_language.TextChanged += new System.EventHandler(this.txt_language_TextChanged);
-            // 
-            // txt_age
-            // 
-            this.txt_age.Location = new System.Drawing.Point(137, 241);
-            this.txt_age.Name = "txt_age";
-            this.txt_age.Size = new System.Drawing.Size(100, 22);
-            this.txt_age.TabIndex = 10;
-            // 
-            // txt_height
-            // 
-            this.txt_height.Location = new System.Drawing.Point(137, 308);
-            this.txt_height.Name = "txt_height";
-            this.txt_height.Size = new System.Drawing.Size(100, 22);
-            this.txt_height.TabIndex = 11;
-            // 
-            // lbl_allergies
-            // 
-            this.lbl_allergies.AutoSize = true;
-            this.lbl_allergies.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_allergies.Location = new System.Drawing.Point(47, 357);
-            this.lbl_allergies.Name = "lbl_allergies";
-            this.lbl_allergies.Size = new System.Drawing.Size(96, 25);
-            this.lbl_allergies.TabIndex = 12;
-            this.lbl_allergies.Text = "Allergies";
-            // 
-            // lbl_penicillian
-            // 
-            this.lbl_penicillian.AutoSize = true;
-            this.lbl_penicillian.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_penicillian.Location = new System.Drawing.Point(48, 404);
-            this.lbl_penicillian.Name = "lbl_penicillian";
-            this.lbl_penicillian.Size = new System.Drawing.Size(90, 20);
-            this.lbl_penicillian.TabIndex = 13;
-            this.lbl_penicillian.Text = "Penicillian ";
-            // 
-            // lbl_tilorone
-            // 
-            this.lbl_tilorone.AutoSize = true;
-            this.lbl_tilorone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tilorone.Location = new System.Drawing.Point(48, 438);
-            this.lbl_tilorone.Name = "lbl_tilorone";
-            this.lbl_tilorone.Size = new System.Drawing.Size(74, 20);
-            this.lbl_tilorone.TabIndex = 14;
-            this.lbl_tilorone.Text = "Tilorone ";
-            // 
-            // txt_penicillian
-            // 
-            this.txt_penicillian.Location = new System.Drawing.Point(137, 402);
-            this.txt_penicillian.Name = "txt_penicillian";
-            this.txt_penicillian.Size = new System.Drawing.Size(100, 22);
-            this.txt_penicillian.TabIndex = 15;
-            // 
-            // txt_tilorone
-            // 
-            this.txt_tilorone.Location = new System.Drawing.Point(137, 436);
-            this.txt_tilorone.Name = "txt_tilorone";
-            this.txt_tilorone.Size = new System.Drawing.Size(100, 22);
-            this.txt_tilorone.TabIndex = 16;
-            // 
-            // lbl_notes
-            // 
-            this.lbl_notes.AutoSize = true;
-            this.lbl_notes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_notes.Location = new System.Drawing.Point(46, 511);
-            this.lbl_notes.Name = "lbl_notes";
-            this.lbl_notes.Size = new System.Drawing.Size(68, 25);
-            this.lbl_notes.TabIndex = 17;
-            this.lbl_notes.Text = "Notes";
-            this.lbl_notes.Click += new System.EventHandler(this.lbl_notes_Click);
-            // 
-            // txt_notes1
-            // 
-            this.txt_notes1.Location = new System.Drawing.Point(51, 553);
-            this.txt_notes1.Name = "txt_notes1";
-            this.txt_notes1.Size = new System.Drawing.Size(186, 22);
-            this.txt_notes1.TabIndex = 18;
-            // 
-            // txt_notes2
-            // 
-            this.txt_notes2.Location = new System.Drawing.Point(51, 584);
-            this.txt_notes2.Name = "txt_notes2";
-            this.txt_notes2.Size = new System.Drawing.Size(186, 22);
-            this.txt_notes2.TabIndex = 19;
-            // 
-            // txt_notes3
-            // 
-            this.txt_notes3.Location = new System.Drawing.Point(51, 613);
-            this.txt_notes3.Name = "txt_notes3";
-            this.txt_notes3.Size = new System.Drawing.Size(186, 22);
-            this.txt_notes3.TabIndex = 20;
+            this.txt_status.Location = new System.Drawing.Point(111, 123);
+            this.txt_status.Name = "txt_status";
+            this.txt_status.Size = new System.Drawing.Size(124, 22);
+            this.txt_status.TabIndex = 96;
             // 
             // lbl_status
             // 
             this.lbl_status.AutoSize = true;
-            this.lbl_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_status.Location = new System.Drawing.Point(47, 179);
+            this.lbl_status.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_status.Location = new System.Drawing.Point(22, 123);
             this.lbl_status.Name = "lbl_status";
-            this.lbl_status.Size = new System.Drawing.Size(57, 20);
-            this.lbl_status.TabIndex = 21;
+            this.lbl_status.Size = new System.Drawing.Size(62, 20);
+            this.lbl_status.TabIndex = 95;
             this.lbl_status.Text = "Status";
             // 
-            // txt_status
+            // txt_height
             // 
-            this.txt_status.Location = new System.Drawing.Point(137, 177);
-            this.txt_status.Name = "txt_status";
-            this.txt_status.Size = new System.Drawing.Size(100, 22);
-            this.txt_status.TabIndex = 22;
+            this.txt_height.Location = new System.Drawing.Point(111, 251);
+            this.txt_height.Name = "txt_height";
+            this.txt_height.Size = new System.Drawing.Size(124, 22);
+            this.txt_height.TabIndex = 94;
             // 
-            // lbl_personaldetails
+            // txt_age
             // 
-            this.lbl_personaldetails.AutoSize = true;
-            this.lbl_personaldetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_personaldetails.ForeColor = System.Drawing.Color.DimGray;
-            this.lbl_personaldetails.Location = new System.Drawing.Point(306, 9);
-            this.lbl_personaldetails.Name = "lbl_personaldetails";
-            this.lbl_personaldetails.Size = new System.Drawing.Size(169, 25);
-            this.lbl_personaldetails.TabIndex = 23;
-            this.lbl_personaldetails.Text = "Personal Details";
-            this.lbl_personaldetails.Click += new System.EventHandler(this.lbl_personaldetails_Click);
+            this.txt_age.Location = new System.Drawing.Point(111, 186);
+            this.txt_age.Name = "txt_age";
+            this.txt_age.Size = new System.Drawing.Size(124, 22);
+            this.txt_age.TabIndex = 93;
             // 
-            // lbl_lastname
+            // txt_language
             // 
-            this.lbl_lastname.AutoSize = true;
-            this.lbl_lastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_lastname.Location = new System.Drawing.Point(307, 43);
-            this.lbl_lastname.Name = "lbl_lastname";
-            this.lbl_lastname.Size = new System.Drawing.Size(91, 20);
-            this.lbl_lastname.TabIndex = 24;
-            this.lbl_lastname.Text = "Last Name";
+            this.txt_language.Location = new System.Drawing.Point(111, 220);
+            this.txt_language.Name = "txt_language";
+            this.txt_language.Size = new System.Drawing.Size(124, 22);
+            this.txt_language.TabIndex = 92;
             // 
-            // lbl_firstname
+            // txt_gender
             // 
-            this.lbl_firstname.AutoSize = true;
-            this.lbl_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_firstname.Location = new System.Drawing.Point(446, 43);
-            this.lbl_firstname.Name = "lbl_firstname";
-            this.lbl_firstname.Size = new System.Drawing.Size(92, 20);
-            this.lbl_firstname.TabIndex = 25;
-            this.lbl_firstname.Text = "First Name";
-            this.lbl_firstname.Click += new System.EventHandler(this.lbl_firstname_Click);
+            this.txt_gender.Location = new System.Drawing.Point(111, 156);
+            this.txt_gender.Name = "txt_gender";
+            this.txt_gender.Size = new System.Drawing.Size(124, 22);
+            this.txt_gender.TabIndex = 91;
             // 
-            // lbl_salutation
+            // lbl_height
             // 
-            this.lbl_salutation.AutoSize = true;
-            this.lbl_salutation.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_salutation.Location = new System.Drawing.Point(598, 43);
-            this.lbl_salutation.Name = "lbl_salutation";
-            this.lbl_salutation.Size = new System.Drawing.Size(83, 20);
-            this.lbl_salutation.TabIndex = 26;
-            this.lbl_salutation.Text = "Salutation";
+            this.lbl_height.AutoSize = true;
+            this.lbl_height.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_height.Location = new System.Drawing.Point(22, 251);
+            this.lbl_height.Name = "lbl_height";
+            this.lbl_height.Size = new System.Drawing.Size(66, 20);
+            this.lbl_height.TabIndex = 90;
+            this.lbl_height.Text = "Height";
             // 
-            // lbl_birthdate
+            // lbl_age
             // 
-            this.lbl_birthdate.AutoSize = true;
-            this.lbl_birthdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_birthdate.Location = new System.Drawing.Point(742, 43);
-            this.lbl_birthdate.Name = "lbl_birthdate";
-            this.lbl_birthdate.Size = new System.Drawing.Size(77, 20);
-            this.lbl_birthdate.TabIndex = 27;
-            this.lbl_birthdate.Text = "Birthdate";
+            this.lbl_age.AutoSize = true;
+            this.lbl_age.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_age.Location = new System.Drawing.Point(22, 186);
+            this.lbl_age.Name = "lbl_age";
+            this.lbl_age.Size = new System.Drawing.Size(41, 20);
+            this.lbl_age.TabIndex = 89;
+            this.lbl_age.Text = "Age";
             // 
-            // lbl_address
+            // lbl_language
             // 
-            this.lbl_address.AutoSize = true;
-            this.lbl_address.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_address.Location = new System.Drawing.Point(307, 101);
-            this.lbl_address.Name = "lbl_address";
-            this.lbl_address.Size = new System.Drawing.Size(71, 20);
-            this.lbl_address.TabIndex = 28;
-            this.lbl_address.Text = "Address";
+            this.lbl_language.AutoSize = true;
+            this.lbl_language.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_language.Location = new System.Drawing.Point(20, 220);
+            this.lbl_language.Name = "lbl_language";
+            this.lbl_language.Size = new System.Drawing.Size(91, 20);
+            this.lbl_language.TabIndex = 88;
+            this.lbl_language.Text = "Language";
             // 
-            // lbl_phonenumber
+            // lbl_gender
             // 
-            this.lbl_phonenumber.AutoSize = true;
-            this.lbl_phonenumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_phonenumber.Location = new System.Drawing.Point(742, 101);
-            this.lbl_phonenumber.Name = "lbl_phonenumber";
-            this.lbl_phonenumber.Size = new System.Drawing.Size(120, 20);
-            this.lbl_phonenumber.TabIndex = 29;
-            this.lbl_phonenumber.Text = "Phone Number";
+            this.lbl_gender.AutoSize = true;
+            this.lbl_gender.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_gender.Location = new System.Drawing.Point(22, 156);
+            this.lbl_gender.Name = "lbl_gender";
+            this.lbl_gender.Size = new System.Drawing.Size(72, 20);
+            this.lbl_gender.TabIndex = 87;
+            this.lbl_gender.Text = "Gender";
             // 
-            // lbl_email
+            // pictureBox1
             // 
-            this.lbl_email.AutoSize = true;
-            this.lbl_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_email.Location = new System.Drawing.Point(931, 101);
-            this.lbl_email.Name = "lbl_email";
-            this.lbl_email.Size = new System.Drawing.Size(51, 20);
-            this.lbl_email.TabIndex = 30;
-            this.lbl_email.Text = "Email";
-            this.lbl_email.Click += new System.EventHandler(this.lbl_email_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Location = new System.Drawing.Point(82, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(92, 62);
+            this.pictureBox1.TabIndex = 86;
+            this.pictureBox1.TabStop = false;
             // 
-            // lbl_prescription
+            // panel2
             // 
-            this.lbl_prescription.AutoSize = true;
-            this.lbl_prescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_prescription.ForeColor = System.Drawing.Color.DimGray;
-            this.lbl_prescription.Location = new System.Drawing.Point(306, 160);
-            this.lbl_prescription.Name = "lbl_prescription";
-            this.lbl_prescription.Size = new System.Drawing.Size(126, 25);
-            this.lbl_prescription.TabIndex = 31;
-            this.lbl_prescription.Text = "Prescription";
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Location = new System.Drawing.Point(11, 310);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(271, 189);
+            this.panel2.TabIndex = 89;
             // 
-            // lbl_deliverytype
+            // button1
             // 
-            this.lbl_deliverytype.AutoSize = true;
-            this.lbl_deliverytype.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_deliverytype.Location = new System.Drawing.Point(307, 195);
-            this.lbl_deliverytype.Name = "lbl_deliverytype";
-            this.lbl_deliverytype.Size = new System.Drawing.Size(111, 20);
-            this.lbl_deliverytype.TabIndex = 32;
-            this.lbl_deliverytype.Text = "Delivery Type";
+            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button1.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(40, 130);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(171, 33);
+            this.button1.TabIndex = 97;
+            this.button1.Text = "Add Allergy";
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // lbl_pricegroup
+            // textBox3
             // 
-            this.lbl_pricegroup.AutoSize = true;
-            this.lbl_pricegroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_pricegroup.Location = new System.Drawing.Point(307, 252);
-            this.lbl_pricegroup.Name = "lbl_pricegroup";
-            this.lbl_pricegroup.Size = new System.Drawing.Size(99, 20);
-            this.lbl_pricegroup.TabIndex = 33;
-            this.lbl_pricegroup.Text = "Price Group";
+            this.textBox3.Location = new System.Drawing.Point(119, 86);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(124, 22);
+            this.textBox3.TabIndex = 96;
             // 
-            // lbl_deliveryroute
+            // textBox2
             // 
-            this.lbl_deliveryroute.AutoSize = true;
-            this.lbl_deliveryroute.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_deliveryroute.Location = new System.Drawing.Point(476, 195);
-            this.lbl_deliveryroute.Name = "lbl_deliveryroute";
-            this.lbl_deliveryroute.Size = new System.Drawing.Size(119, 20);
-            this.lbl_deliveryroute.TabIndex = 34;
-            this.lbl_deliveryroute.Text = "Delivery Route";
+            this.textBox2.Location = new System.Drawing.Point(119, 45);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(124, 22);
+            this.textBox2.TabIndex = 95;
             // 
-            // lbl_drugline1
+            // label5
             // 
-            this.lbl_drugline1.AutoSize = true;
-            this.lbl_drugline1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_drugline1.Location = new System.Drawing.Point(476, 252);
-            this.lbl_drugline1.Name = "lbl_drugline1";
-            this.lbl_drugline1.Size = new System.Drawing.Size(102, 20);
-            this.lbl_drugline1.TabIndex = 35;
-            this.lbl_drugline1.Text = "Drug Line 1 ";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(13, 88);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 20);
+            this.label5.TabIndex = 90;
+            this.label5.Text = "Tilorone";
             // 
-            // lbl_drugline2
+            // label4
             // 
-            this.lbl_drugline2.AutoSize = true;
-            this.lbl_drugline2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_drugline2.Location = new System.Drawing.Point(648, 252);
-            this.lbl_drugline2.Name = "lbl_drugline2";
-            this.lbl_drugline2.Size = new System.Drawing.Size(97, 20);
-            this.lbl_drugline2.TabIndex = 36;
-            this.lbl_drugline2.Text = "Drug Line 2";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(13, 47);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 20);
+            this.label4.TabIndex = 89;
+            this.label4.Text = "Penicillian";
             // 
-            // lbl_doublecount
+            // label3
             // 
-            this.lbl_doublecount.AutoSize = true;
-            this.lbl_doublecount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_doublecount.Location = new System.Drawing.Point(307, 310);
-            this.lbl_doublecount.Name = "lbl_doublecount";
-            this.lbl_doublecount.Size = new System.Drawing.Size(111, 20);
-            this.lbl_doublecount.TabIndex = 37;
-            this.lbl_doublecount.Text = "Double Count";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(13, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 21);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Allergies";
             // 
-            // txt_lastname
+            // panel3
             // 
-            this.txt_lastname.Location = new System.Drawing.Point(311, 66);
-            this.txt_lastname.Name = "txt_lastname";
-            this.txt_lastname.Size = new System.Drawing.Size(107, 22);
-            this.txt_lastname.TabIndex = 38;
+            this.panel3.BackColor = System.Drawing.Color.Silver;
+            this.panel3.Controls.Add(this.checkBox3);
+            this.panel3.Controls.Add(this.checkBox2);
+            this.panel3.Controls.Add(this.checkBox1);
+            this.panel3.Controls.Add(this.textBox20);
+            this.panel3.Controls.Add(this.textBox19);
+            this.panel3.Controls.Add(this.textBox18);
+            this.panel3.Controls.Add(this.textBox17);
+            this.panel3.Controls.Add(this.label21);
+            this.panel3.Controls.Add(this.label20);
+            this.panel3.Controls.Add(this.label19);
+            this.panel3.Controls.Add(this.label18);
+            this.panel3.Controls.Add(this.textBox16);
+            this.panel3.Controls.Add(this.label17);
+            this.panel3.Controls.Add(this.textBox15);
+            this.panel3.Controls.Add(this.label16);
+            this.panel3.Controls.Add(this.label15);
+            this.panel3.Controls.Add(this.label14);
+            this.panel3.Controls.Add(this.label13);
+            this.panel3.Controls.Add(this.textBox14);
+            this.panel3.Controls.Add(this.textBox13);
+            this.panel3.Controls.Add(this.textBox12);
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Controls.Add(this.textBox7);
+            this.panel3.Controls.Add(this.textBox6);
+            this.panel3.Controls.Add(this.textBox5);
+            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Location = new System.Drawing.Point(286, 16);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(951, 402);
+            this.panel3.TabIndex = 90;
             // 
-            // txt_firstname
+            // label6
             // 
-            this.txt_firstname.Location = new System.Drawing.Point(450, 66);
-            this.txt_firstname.Name = "txt_firstname";
-            this.txt_firstname.Size = new System.Drawing.Size(113, 22);
-            this.txt_firstname.TabIndex = 39;
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Gainsboro;
+            this.label6.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label6.Location = new System.Drawing.Point(23, 10);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(165, 21);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Personal Details";
             // 
-            // txt_salutation
+            // label7
             // 
-            this.txt_salutation.Location = new System.Drawing.Point(602, 66);
-            this.txt_salutation.Name = "txt_salutation";
-            this.txt_salutation.Size = new System.Drawing.Size(100, 22);
-            this.txt_salutation.TabIndex = 40;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(21, 43);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(99, 20);
+            this.label7.TabIndex = 96;
+            this.label7.Text = "Last Name";
             // 
-            // txt_birthdate
+            // label8
             // 
-            this.txt_birthdate.Location = new System.Drawing.Point(746, 66);
-            this.txt_birthdate.Name = "txt_birthdate";
-            this.txt_birthdate.Size = new System.Drawing.Size(162, 22);
-            this.txt_birthdate.TabIndex = 41;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(186, 43);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(103, 20);
+            this.label8.TabIndex = 97;
+            this.label8.Text = "First Name";
             // 
-            // txt_address
+            // label9
             // 
-            this.txt_address.Location = new System.Drawing.Point(311, 124);
-            this.txt_address.Name = "txt_address";
-            this.txt_address.Size = new System.Drawing.Size(391, 22);
-            this.txt_address.TabIndex = 42;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(346, 43);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(97, 20);
+            this.label9.TabIndex = 98;
+            this.label9.Text = "Salutation";
             // 
-            // txt_email
+            // label10
             // 
-            this.txt_email.Location = new System.Drawing.Point(935, 124);
-            this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(192, 22);
-            this.txt_email.TabIndex = 43;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(507, 43);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(83, 20);
+            this.label10.TabIndex = 99;
+            this.label10.Text = "Birthday";
             // 
-            // txt_phonenumber
+            // textBox4
             // 
-            this.txt_phonenumber.Location = new System.Drawing.Point(746, 124);
-            this.txt_phonenumber.Name = "txt_phonenumber";
-            this.txt_phonenumber.Size = new System.Drawing.Size(162, 22);
-            this.txt_phonenumber.TabIndex = 44;
+            this.textBox4.Location = new System.Drawing.Point(25, 66);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(124, 22);
+            this.textBox4.TabIndex = 100;
             // 
-            // txt_deliverytype
+            // textBox5
             // 
-            this.txt_deliverytype.Location = new System.Drawing.Point(311, 218);
-            this.txt_deliverytype.Name = "txt_deliverytype";
-            this.txt_deliverytype.Size = new System.Drawing.Size(121, 22);
-            this.txt_deliverytype.TabIndex = 45;
+            this.textBox5.Location = new System.Drawing.Point(190, 66);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(124, 22);
+            this.textBox5.TabIndex = 101;
             // 
-            // txt_deliveryroute
+            // textBox6
             // 
-            this.txt_deliveryroute.Location = new System.Drawing.Point(480, 218);
-            this.txt_deliveryroute.Name = "txt_deliveryroute";
-            this.txt_deliveryroute.Size = new System.Drawing.Size(127, 22);
-            this.txt_deliveryroute.TabIndex = 46;
+            this.textBox6.Location = new System.Drawing.Point(350, 66);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(124, 22);
+            this.textBox6.TabIndex = 102;
             // 
-            // txt_pricegroup
+            // textBox7
             // 
-            this.txt_pricegroup.Location = new System.Drawing.Point(311, 275);
-            this.txt_pricegroup.Name = "txt_pricegroup";
-            this.txt_pricegroup.Size = new System.Drawing.Size(121, 22);
-            this.txt_pricegroup.TabIndex = 47;
-            this.txt_pricegroup.TextChanged += new System.EventHandler(this.txt_pricegroup_TextChanged);
+            this.textBox7.Location = new System.Drawing.Point(511, 66);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(124, 22);
+            this.textBox7.TabIndex = 103;
             // 
-            // txt_drugline1
+            // label11
             // 
-            this.txt_drugline1.Location = new System.Drawing.Point(478, 275);
-            this.txt_drugline1.Name = "txt_drugline1";
-            this.txt_drugline1.Size = new System.Drawing.Size(129, 22);
-            this.txt_drugline1.TabIndex = 48;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(21, 101);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(79, 20);
+            this.label11.TabIndex = 104;
+            this.label11.Text = "Address";
             // 
-            // txt_drugline2
+            // panel4
             // 
-            this.txt_drugline2.Location = new System.Drawing.Point(652, 275);
-            this.txt_drugline2.Name = "txt_drugline2";
-            this.txt_drugline2.Size = new System.Drawing.Size(119, 22);
-            this.txt_drugline2.TabIndex = 49;
+            this.panel4.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel4.Controls.Add(this.textBox21);
+            this.panel4.Controls.Add(this.textBox11);
+            this.panel4.Controls.Add(this.textBox10);
+            this.panel4.Controls.Add(this.textBox9);
+            this.panel4.Controls.Add(this.textBox8);
+            this.panel4.Controls.Add(this.label12);
+            this.panel4.Location = new System.Drawing.Point(11, 514);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(271, 221);
+            this.panel4.TabIndex = 91;
             // 
-            // txt_doublecount
+            // label12
             // 
-            this.txt_doublecount.Location = new System.Drawing.Point(311, 333);
-            this.txt_doublecount.Name = "txt_doublecount";
-            this.txt_doublecount.Size = new System.Drawing.Size(121, 22);
-            this.txt_doublecount.TabIndex = 50;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(13, 24);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(65, 21);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Notes";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(17, 65);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(226, 22);
+            this.textBox8.TabIndex = 93;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(17, 93);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(226, 22);
+            this.textBox9.TabIndex = 94;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(17, 121);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(226, 22);
+            this.textBox10.TabIndex = 95;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(17, 149);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(226, 22);
+            this.textBox11.TabIndex = 96;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(25, 124);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(453, 22);
+            this.textBox12.TabIndex = 105;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(511, 124);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(124, 22);
+            this.textBox13.TabIndex = 106;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(675, 124);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(253, 22);
+            this.textBox14.TabIndex = 107;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(507, 101);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(136, 20);
+            this.label13.TabIndex = 109;
+            this.label13.Text = "Phone Number";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(671, 101);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(57, 20);
+            this.label14.TabIndex = 110;
+            this.label14.Text = "Email";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Gainsboro;
+            this.label15.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label15.Location = new System.Drawing.Point(23, 163);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(131, 21);
+            this.label15.TabIndex = 111;
+            this.label15.Text = "Priscriptions";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label16.Location = new System.Drawing.Point(22, 196);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(113, 17);
+            this.label16.TabIndex = 112;
+            this.label16.Text = "Delivery Type";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(21, 216);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(124, 22);
+            this.textBox15.TabIndex = 113;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label17.Location = new System.Drawing.Point(187, 196);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(119, 17);
+            this.label17.TabIndex = 114;
+            this.label17.Text = "Delivery Route";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(190, 216);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(124, 22);
+            this.textBox16.TabIndex = 115;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label18.Location = new System.Drawing.Point(347, 196);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(97, 17);
+            this.label18.TabIndex = 116;
+            this.label18.Text = "Price Group";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label19.Location = new System.Drawing.Point(21, 249);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(97, 17);
+            this.label19.TabIndex = 117;
+            this.label19.Text = "Drug Line 1";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label20.Location = new System.Drawing.Point(187, 250);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(97, 17);
+            this.label20.TabIndex = 118;
+            this.label20.Text = "Drug Line 2";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label21.Location = new System.Drawing.Point(347, 252);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(113, 17);
+            this.label21.TabIndex = 119;
+            this.label21.Text = "Double Count";
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(350, 216);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(124, 22);
+            this.textBox17.TabIndex = 120;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(24, 270);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(124, 22);
+            this.textBox18.TabIndex = 121;
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(190, 270);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(124, 22);
+            this.textBox19.TabIndex = 122;
+            // 
+            // textBox20
+            // 
+            this.textBox20.ForeColor = System.Drawing.Color.Silver;
+            this.textBox20.Location = new System.Drawing.Point(350, 272);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(124, 22);
+            this.textBox20.TabIndex = 123;
+            this.textBox20.Text = "      Not Required";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.Control;
+            this.panel5.Controls.Add(this.panel6);
+            this.panel5.Controls.Add(this.button2);
+            this.panel5.Controls.Add(this.label1);
+            this.panel5.Location = new System.Drawing.Point(286, 424);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(951, 311);
+            this.panel5.TabIndex = 92;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(17, 177);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(226, 22);
+            this.textBox21.TabIndex = 97;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(311, 372);
+            this.checkBox1.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(25, 319);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(175, 20);
-            this.checkBox1.TabIndex = 51;
-            this.checkBox1.Text = "Snap  Caps  Requested ";
+            this.checkBox1.Size = new System.Drawing.Size(191, 21);
+            this.checkBox1.TabIndex = 127;
+            this.checkBox1.Text = "Snap Caps Requested";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(311, 406);
+            this.checkBox2.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(24, 355);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(223, 20);
-            this.checkBox2.TabIndex = 52;
-            this.checkBox2.Text = "Compliance  Calender  on Label ";
+            this.checkBox2.Size = new System.Drawing.Size(260, 21);
+            this.checkBox2.TabIndex = 128;
+            this.checkBox2.Text = "Compliance Calender on Label";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(577, 372);
+            this.checkBox3.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.checkBox3.Location = new System.Drawing.Point(350, 319);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(185, 20);
-            this.checkBox3.TabIndex = 53;
-            this.checkBox3.Text = "Snap  Caps  Documented ";
+            this.checkBox3.Size = new System.Drawing.Size(209, 21);
+            this.checkBox3.TabIndex = 129;
+            this.checkBox3.Text = "Snap Caps Documented";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(306, 448);
+            this.label1.BackColor = System.Drawing.Color.Gainsboro;
+            this.label1.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label1.Location = new System.Drawing.Point(20, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 25);
-            this.label1.TabIndex = 54;
+            this.label1.Size = new System.Drawing.Size(120, 21);
+            this.label1.TabIndex = 2;
             this.label1.Text = "Used Drugs";
             // 
-            // lbl_brandname
-            // 
-            this.lbl_brandname.AutoSize = true;
-            this.lbl_brandname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_brandname.Location = new System.Drawing.Point(307, 482);
-            this.lbl_brandname.Name = "lbl_brandname";
-            this.lbl_brandname.Size = new System.Drawing.Size(113, 20);
-            this.lbl_brandname.TabIndex = 55;
-            this.lbl_brandname.Text = "Brand Name";
-            // 
-            // lbl_genericname
-            // 
-            this.lbl_genericname.AutoSize = true;
-            this.lbl_genericname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_genericname.Location = new System.Drawing.Point(446, 482);
-            this.lbl_genericname.Name = "lbl_genericname";
-            this.lbl_genericname.Size = new System.Drawing.Size(129, 20);
-            this.lbl_genericname.TabIndex = 56;
-            this.lbl_genericname.Text = "Generic Name";
-            // 
-            // lbl_strength
-            // 
-            this.lbl_strength.AutoSize = true;
-            this.lbl_strength.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_strength.Location = new System.Drawing.Point(597, 482);
-            this.lbl_strength.Name = "lbl_strength";
-            this.lbl_strength.Size = new System.Drawing.Size(80, 20);
-            this.lbl_strength.TabIndex = 57;
-            this.lbl_strength.Text = "Strength";
-            // 
-            // lbl_form
-            // 
-            this.lbl_form.AutoSize = true;
-            this.lbl_form.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_form.Location = new System.Drawing.Point(857, 482);
-            this.lbl_form.Name = "lbl_form";
-            this.lbl_form.Size = new System.Drawing.Size(52, 20);
-            this.lbl_form.TabIndex = 58;
-            this.lbl_form.Text = "Form";
-            // 
-            // lbl_pack
-            // 
-            this.lbl_pack.AutoSize = true;
-            this.lbl_pack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_pack.Location = new System.Drawing.Point(725, 482);
-            this.lbl_pack.Name = "lbl_pack";
-            this.lbl_pack.Size = new System.Drawing.Size(50, 20);
-            this.lbl_pack.TabIndex = 59;
-            this.lbl_pack.Text = "Pack";
-            // 
-            // lbl_manufacturer
-            // 
-            this.lbl_manufacturer.AutoSize = true;
-            this.lbl_manufacturer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_manufacturer.Location = new System.Drawing.Point(979, 482);
-            this.lbl_manufacturer.Name = "lbl_manufacturer";
-            this.lbl_manufacturer.Size = new System.Drawing.Size(120, 20);
-            this.lbl_manufacturer.TabIndex = 60;
-            this.lbl_manufacturer.Text = "Manufacturer";
-            // 
-            // txt_brandname1
-            // 
-            this.txt_brandname1.Location = new System.Drawing.Point(311, 515);
-            this.txt_brandname1.Name = "txt_brandname1";
-            this.txt_brandname1.Size = new System.Drawing.Size(100, 22);
-            this.txt_brandname1.TabIndex = 61;
-            // 
-            // txt_genericname1
-            // 
-            this.txt_genericname1.Location = new System.Drawing.Point(450, 515);
-            this.txt_genericname1.Name = "txt_genericname1";
-            this.txt_genericname1.Size = new System.Drawing.Size(125, 22);
-            this.txt_genericname1.TabIndex = 62;
-            // 
-            // txt_strength1
-            // 
-            this.txt_strength1.Location = new System.Drawing.Point(601, 514);
-            this.txt_strength1.Name = "txt_strength1";
-            this.txt_strength1.Size = new System.Drawing.Size(100, 22);
-            this.txt_strength1.TabIndex = 63;
-            // 
-            // txt_pack1
-            // 
-            this.txt_pack1.Location = new System.Drawing.Point(729, 515);
-            this.txt_pack1.Name = "txt_pack1";
-            this.txt_pack1.Size = new System.Drawing.Size(100, 22);
-            this.txt_pack1.TabIndex = 64;
-            // 
-            // txt_form1
-            // 
-            this.txt_form1.Location = new System.Drawing.Point(861, 515);
-            this.txt_form1.Name = "txt_form1";
-            this.txt_form1.Size = new System.Drawing.Size(100, 22);
-            this.txt_form1.TabIndex = 65;
-            // 
-            // txt_manufacturer1
-            // 
-            this.txt_manufacturer1.Location = new System.Drawing.Point(983, 515);
-            this.txt_manufacturer1.Name = "txt_manufacturer1";
-            this.txt_manufacturer1.Size = new System.Drawing.Size(116, 22);
-            this.txt_manufacturer1.TabIndex = 66;
-            // 
-            // txt_brandname2
-            // 
-            this.txt_brandname2.Location = new System.Drawing.Point(311, 553);
-            this.txt_brandname2.Name = "txt_brandname2";
-            this.txt_brandname2.Size = new System.Drawing.Size(100, 22);
-            this.txt_brandname2.TabIndex = 67;
-            // 
-            // txt_genericname2
-            // 
-            this.txt_genericname2.Location = new System.Drawing.Point(450, 553);
-            this.txt_genericname2.Name = "txt_genericname2";
-            this.txt_genericname2.Size = new System.Drawing.Size(125, 22);
-            this.txt_genericname2.TabIndex = 68;
-            this.txt_genericname2.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
-            // 
-            // txt_strength2
-            // 
-            this.txt_strength2.Location = new System.Drawing.Point(601, 553);
-            this.txt_strength2.Name = "txt_strength2";
-            this.txt_strength2.Size = new System.Drawing.Size(100, 22);
-            this.txt_strength2.TabIndex = 69;
-            // 
-            // txt_pack2
-            // 
-            this.txt_pack2.Location = new System.Drawing.Point(729, 553);
-            this.txt_pack2.Name = "txt_pack2";
-            this.txt_pack2.Size = new System.Drawing.Size(100, 22);
-            this.txt_pack2.TabIndex = 70;
-            // 
-            // txt_manufacturer2
-            // 
-            this.txt_manufacturer2.Location = new System.Drawing.Point(983, 553);
-            this.txt_manufacturer2.Name = "txt_manufacturer2";
-            this.txt_manufacturer2.Size = new System.Drawing.Size(116, 22);
-            this.txt_manufacturer2.TabIndex = 71;
-            // 
-            // txt_form2
-            // 
-            this.txt_form2.Location = new System.Drawing.Point(861, 553);
-            this.txt_form2.Name = "txt_form2";
-            this.txt_form2.Size = new System.Drawing.Size(100, 22);
-            this.txt_form2.TabIndex = 72;
-            this.txt_form2.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
-            // 
-            // txt_brandname3
-            // 
-            this.txt_brandname3.Location = new System.Drawing.Point(311, 593);
-            this.txt_brandname3.Name = "txt_brandname3";
-            this.txt_brandname3.Size = new System.Drawing.Size(100, 22);
-            this.txt_brandname3.TabIndex = 73;
-            // 
-            // txt_genericname3
-            // 
-            this.txt_genericname3.Location = new System.Drawing.Point(450, 593);
-            this.txt_genericname3.Name = "txt_genericname3";
-            this.txt_genericname3.Size = new System.Drawing.Size(125, 22);
-            this.txt_genericname3.TabIndex = 74;
-            // 
-            // txt_strength3
-            // 
-            this.txt_strength3.Location = new System.Drawing.Point(601, 593);
-            this.txt_strength3.Name = "txt_strength3";
-            this.txt_strength3.Size = new System.Drawing.Size(100, 22);
-            this.txt_strength3.TabIndex = 75;
-            // 
-            // txt_pack3
-            // 
-            this.txt_pack3.Location = new System.Drawing.Point(729, 593);
-            this.txt_pack3.Name = "txt_pack3";
-            this.txt_pack3.Size = new System.Drawing.Size(100, 22);
-            this.txt_pack3.TabIndex = 76;
-            // 
-            // txt_form3
-            // 
-            this.txt_form3.Location = new System.Drawing.Point(861, 593);
-            this.txt_form3.Name = "txt_form3";
-            this.txt_form3.Size = new System.Drawing.Size(100, 22);
-            this.txt_form3.TabIndex = 77;
-            // 
-            // txt_manufacturer3
-            // 
-            this.txt_manufacturer3.Location = new System.Drawing.Point(983, 593);
-            this.txt_manufacturer3.Name = "txt_manufacturer3";
-            this.txt_manufacturer3.Size = new System.Drawing.Size(116, 22);
-            this.txt_manufacturer3.TabIndex = 78;
-            // 
-            // txt_brandname4
-            // 
-            this.txt_brandname4.Location = new System.Drawing.Point(310, 631);
-            this.txt_brandname4.Name = "txt_brandname4";
-            this.txt_brandname4.Size = new System.Drawing.Size(100, 22);
-            this.txt_brandname4.TabIndex = 79;
-            // 
-            // txt_genericname4
-            // 
-            this.txt_genericname4.Location = new System.Drawing.Point(450, 631);
-            this.txt_genericname4.Name = "txt_genericname4";
-            this.txt_genericname4.Size = new System.Drawing.Size(125, 22);
-            this.txt_genericname4.TabIndex = 80;
-            // 
-            // txt_strength4
-            // 
-            this.txt_strength4.Location = new System.Drawing.Point(602, 631);
-            this.txt_strength4.Name = "txt_strength4";
-            this.txt_strength4.Size = new System.Drawing.Size(100, 22);
-            this.txt_strength4.TabIndex = 81;
-            // 
-            // txt_pack4
-            // 
-            this.txt_pack4.Location = new System.Drawing.Point(729, 631);
-            this.txt_pack4.Name = "txt_pack4";
-            this.txt_pack4.Size = new System.Drawing.Size(100, 22);
-            this.txt_pack4.TabIndex = 82;
-            // 
-            // txt_form4
-            // 
-            this.txt_form4.Location = new System.Drawing.Point(861, 631);
-            this.txt_form4.Name = "txt_form4";
-            this.txt_form4.Size = new System.Drawing.Size(100, 22);
-            this.txt_form4.TabIndex = 83;
-            this.txt_form4.TextChanged += new System.EventHandler(this.txt_form4_TextChanged);
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(983, 631);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(116, 22);
-            this.textBox24.TabIndex = 84;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(51, 140);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 27);
-            this.textBox1.TabIndex = 85;
-            this.textBox1.Text = "Patient Name";
-            // 
-            // btn_addallergy
-            // 
-            this.btn_addallergy.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btn_addallergy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_addallergy.ForeColor = System.Drawing.Color.Black;
-            this.btn_addallergy.Location = new System.Drawing.Point(52, 472);
-            this.btn_addallergy.Name = "btn_addallergy";
-            this.btn_addallergy.Size = new System.Drawing.Size(124, 36);
-            this.btn_addallergy.TabIndex = 86;
-            this.btn_addallergy.Text = "Add Allergy";
-            this.btn_addallergy.UseVisualStyleBackColor = false;
-            // 
-            // btn_adddrug
-            // 
-            this.btn_adddrug.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btn_adddrug.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_adddrug.ForeColor = System.Drawing.Color.Black;
-            this.btn_adddrug.Location = new System.Drawing.Point(1057, 443);
-            this.btn_adddrug.Name = "btn_adddrug";
-            this.btn_adddrug.Size = new System.Drawing.Size(115, 36);
-            this.btn_adddrug.TabIndex = 87;
-            this.btn_adddrug.Text = "Add Drug";
-            this.btn_adddrug.UseVisualStyleBackColor = false;
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(757, 16);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(171, 33);
+            this.button2.TabIndex = 98;
+            this.button2.Text = "Add Drugs";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel6.Controls.Add(this.label27);
+            this.panel6.Controls.Add(this.label26);
+            this.panel6.Controls.Add(this.label25);
+            this.panel6.Controls.Add(this.label24);
+            this.panel6.Controls.Add(this.label23);
+            this.panel6.Controls.Add(this.label22);
+            this.panel6.Location = new System.Drawing.Point(21, 55);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(907, 33);
+            this.panel6.TabIndex = 99;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(7, 9);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(98, 17);
+            this.label22.TabIndex = 118;
+            this.label22.Text = "Brand name";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(166, 9);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(111, 17);
+            this.label23.TabIndex = 119;
+            this.label23.Text = "Generic name";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(326, 9);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(72, 17);
+            this.label24.TabIndex = 120;
+            this.label24.Text = "Strength";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(487, 9);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(42, 17);
+            this.label25.TabIndex = 121;
+            this.label25.Text = "Pack";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Location = new System.Drawing.Point(620, 9);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(47, 17);
+            this.label26.TabIndex = 122;
+            this.label26.Text = "Form";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.White;
+            this.label27.Location = new System.Drawing.Point(733, 9);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(102, 17);
+            this.label27.TabIndex = 123;
+            this.label27.Text = "Manufacture";
             // 
             // PatientHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.btn_adddrug);
-            this.Controls.Add(this.btn_addallergy);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.txt_form4);
-            this.Controls.Add(this.txt_pack4);
-            this.Controls.Add(this.txt_strength4);
-            this.Controls.Add(this.txt_genericname4);
-            this.Controls.Add(this.txt_brandname4);
-            this.Controls.Add(this.txt_manufacturer3);
-            this.Controls.Add(this.txt_form3);
-            this.Controls.Add(this.txt_pack3);
-            this.Controls.Add(this.txt_strength3);
-            this.Controls.Add(this.txt_genericname3);
-            this.Controls.Add(this.txt_brandname3);
-            this.Controls.Add(this.txt_form2);
-            this.Controls.Add(this.txt_manufacturer2);
-            this.Controls.Add(this.txt_pack2);
-            this.Controls.Add(this.txt_strength2);
-            this.Controls.Add(this.txt_genericname2);
-            this.Controls.Add(this.txt_brandname2);
-            this.Controls.Add(this.txt_manufacturer1);
-            this.Controls.Add(this.txt_form1);
-            this.Controls.Add(this.txt_pack1);
-            this.Controls.Add(this.txt_strength1);
-            this.Controls.Add(this.txt_genericname1);
-            this.Controls.Add(this.txt_brandname1);
-            this.Controls.Add(this.lbl_manufacturer);
-            this.Controls.Add(this.lbl_pack);
-            this.Controls.Add(this.lbl_form);
-            this.Controls.Add(this.lbl_strength);
-            this.Controls.Add(this.lbl_genericname);
-            this.Controls.Add(this.lbl_brandname);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.txt_doublecount);
-            this.Controls.Add(this.txt_drugline2);
-            this.Controls.Add(this.txt_drugline1);
-            this.Controls.Add(this.txt_pricegroup);
-            this.Controls.Add(this.txt_deliveryroute);
-            this.Controls.Add(this.txt_deliverytype);
-            this.Controls.Add(this.txt_phonenumber);
-            this.Controls.Add(this.txt_email);
-            this.Controls.Add(this.txt_address);
-            this.Controls.Add(this.txt_birthdate);
-            this.Controls.Add(this.txt_salutation);
-            this.Controls.Add(this.txt_firstname);
-            this.Controls.Add(this.txt_lastname);
-            this.Controls.Add(this.lbl_doublecount);
-            this.Controls.Add(this.lbl_drugline2);
-            this.Controls.Add(this.lbl_drugline1);
-            this.Controls.Add(this.lbl_deliveryroute);
-            this.Controls.Add(this.lbl_pricegroup);
-            this.Controls.Add(this.lbl_deliverytype);
-            this.Controls.Add(this.lbl_prescription);
-            this.Controls.Add(this.lbl_email);
-            this.Controls.Add(this.lbl_phonenumber);
-            this.Controls.Add(this.lbl_address);
-            this.Controls.Add(this.lbl_birthdate);
-            this.Controls.Add(this.lbl_salutation);
-            this.Controls.Add(this.lbl_firstname);
-            this.Controls.Add(this.lbl_lastname);
-            this.Controls.Add(this.lbl_personaldetails);
-            this.Controls.Add(this.txt_status);
-            this.Controls.Add(this.lbl_status);
-            this.Controls.Add(this.txt_notes3);
-            this.Controls.Add(this.txt_notes2);
-            this.Controls.Add(this.txt_notes1);
-            this.Controls.Add(this.lbl_notes);
-            this.Controls.Add(this.txt_tilorone);
-            this.Controls.Add(this.txt_penicillian);
-            this.Controls.Add(this.lbl_tilorone);
-            this.Controls.Add(this.lbl_penicillian);
-            this.Controls.Add(this.lbl_allergies);
-            this.Controls.Add(this.txt_height);
-            this.Controls.Add(this.txt_age);
-            this.Controls.Add(this.txt_language);
-            this.Controls.Add(this.txt_gender);
-            this.Controls.Add(this.lbl_height);
-            this.Controls.Add(this.lbl_age);
-            this.Controls.Add(this.lbl_language);
-            this.Controls.Add(this.lbl_gender);
-            this.Controls.Add(this.pictureBox1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1249, 756);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PatientHistory";
             this.Text = "PatientHistory";
             this.Load += new System.EventHandler(this.PatientHistory_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lbl_gender;
-        private System.Windows.Forms.Label lbl_language;
-        private System.Windows.Forms.Label lbl_age;
-        private System.Windows.Forms.Label lbl_height;
-        private System.Windows.Forms.TextBox txt_gender;
-        private System.Windows.Forms.TextBox txt_language;
-        private System.Windows.Forms.TextBox txt_age;
-        private System.Windows.Forms.TextBox txt_height;
-        private System.Windows.Forms.Label lbl_allergies;
-        private System.Windows.Forms.Label lbl_penicillian;
-        private System.Windows.Forms.Label lbl_tilorone;
-        private System.Windows.Forms.TextBox txt_penicillian;
-        private System.Windows.Forms.TextBox txt_tilorone;
-        private System.Windows.Forms.Label lbl_notes;
-        private System.Windows.Forms.TextBox txt_notes1;
-        private System.Windows.Forms.TextBox txt_notes2;
-        private System.Windows.Forms.TextBox txt_notes3;
-        private System.Windows.Forms.Label lbl_status;
-        private System.Windows.Forms.TextBox txt_status;
-        private System.Windows.Forms.Label lbl_personaldetails;
-        private System.Windows.Forms.Label lbl_lastname;
-        private System.Windows.Forms.Label lbl_firstname;
-        private System.Windows.Forms.Label lbl_salutation;
-        private System.Windows.Forms.Label lbl_birthdate;
-        private System.Windows.Forms.Label lbl_address;
-        private System.Windows.Forms.Label lbl_phonenumber;
-        private System.Windows.Forms.Label lbl_email;
-        private System.Windows.Forms.Label lbl_prescription;
-        private System.Windows.Forms.Label lbl_deliverytype;
-        private System.Windows.Forms.Label lbl_pricegroup;
-        private System.Windows.Forms.Label lbl_deliveryroute;
-        private System.Windows.Forms.Label lbl_drugline1;
-        private System.Windows.Forms.Label lbl_drugline2;
-        private System.Windows.Forms.Label lbl_doublecount;
-        private System.Windows.Forms.TextBox txt_lastname;
-        private System.Windows.Forms.TextBox txt_firstname;
-        private System.Windows.Forms.TextBox txt_salutation;
-        private System.Windows.Forms.TextBox txt_birthdate;
-        private System.Windows.Forms.TextBox txt_address;
-        private System.Windows.Forms.TextBox txt_email;
-        private System.Windows.Forms.TextBox txt_phonenumber;
-        private System.Windows.Forms.TextBox txt_deliverytype;
-        private System.Windows.Forms.TextBox txt_deliveryroute;
-        private System.Windows.Forms.TextBox txt_pricegroup;
-        private System.Windows.Forms.TextBox txt_drugline1;
-        private System.Windows.Forms.TextBox txt_drugline2;
-        private System.Windows.Forms.TextBox txt_doublecount;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbl_brandname;
-        private System.Windows.Forms.Label lbl_genericname;
-        private System.Windows.Forms.Label lbl_strength;
-        private System.Windows.Forms.Label lbl_form;
-        private System.Windows.Forms.Label lbl_pack;
-        private System.Windows.Forms.Label lbl_manufacturer;
-        private System.Windows.Forms.TextBox txt_brandname1;
-        private System.Windows.Forms.TextBox txt_genericname1;
-        private System.Windows.Forms.TextBox txt_strength1;
-        private System.Windows.Forms.TextBox txt_pack1;
-        private System.Windows.Forms.TextBox txt_form1;
-        private System.Windows.Forms.TextBox txt_manufacturer1;
-        private System.Windows.Forms.TextBox txt_brandname2;
-        private System.Windows.Forms.TextBox txt_genericname2;
-        private System.Windows.Forms.TextBox txt_strength2;
-        private System.Windows.Forms.TextBox txt_pack2;
-        private System.Windows.Forms.TextBox txt_manufacturer2;
-        private System.Windows.Forms.TextBox txt_form2;
-        private System.Windows.Forms.TextBox txt_brandname3;
-        private System.Windows.Forms.TextBox txt_genericname3;
-        private System.Windows.Forms.TextBox txt_strength3;
-        private System.Windows.Forms.TextBox txt_pack3;
-        private System.Windows.Forms.TextBox txt_form3;
-        private System.Windows.Forms.TextBox txt_manufacturer3;
-        private System.Windows.Forms.TextBox txt_brandname4;
-        private System.Windows.Forms.TextBox txt_genericname4;
-        private System.Windows.Forms.TextBox txt_strength4;
-        private System.Windows.Forms.TextBox txt_pack4;
-        private System.Windows.Forms.TextBox txt_form4;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button btn_addallergy;
-        private System.Windows.Forms.Button btn_adddrug;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_status;
+        private System.Windows.Forms.Label lbl_status;
+        private System.Windows.Forms.TextBox txt_height;
+        private System.Windows.Forms.TextBox txt_age;
+        private System.Windows.Forms.TextBox txt_language;
+        private System.Windows.Forms.TextBox txt_gender;
+        private System.Windows.Forms.Label lbl_height;
+        private System.Windows.Forms.Label lbl_age;
+        private System.Windows.Forms.Label lbl_language;
+        private System.Windows.Forms.Label lbl_gender;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }
