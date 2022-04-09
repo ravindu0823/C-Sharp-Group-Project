@@ -69,5 +69,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void txt_form4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

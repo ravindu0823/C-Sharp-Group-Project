@@ -8,5 +8,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

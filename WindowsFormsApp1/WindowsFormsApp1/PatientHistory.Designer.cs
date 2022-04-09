@@ -258,21 +258,21 @@ namespace WindowsFormsApp1
             // 
             this.txt_notes1.Location = new System.Drawing.Point(51, 553);
             this.txt_notes1.Name = "txt_notes1";
-            this.txt_notes1.Size = new System.Drawing.Size(100, 22);
+            this.txt_notes1.Size = new System.Drawing.Size(186, 22);
             this.txt_notes1.TabIndex = 18;
             // 
             // txt_notes2
             // 
             this.txt_notes2.Location = new System.Drawing.Point(51, 584);
             this.txt_notes2.Name = "txt_notes2";
-            this.txt_notes2.Size = new System.Drawing.Size(100, 22);
+            this.txt_notes2.Size = new System.Drawing.Size(186, 22);
             this.txt_notes2.TabIndex = 19;
             // 
             // txt_notes3
             // 
             this.txt_notes3.Location = new System.Drawing.Point(51, 613);
             this.txt_notes3.Name = "txt_notes3";
-            this.txt_notes3.Size = new System.Drawing.Size(100, 22);
+            this.txt_notes3.Size = new System.Drawing.Size(186, 22);
             this.txt_notes3.TabIndex = 20;
             // 
             // lbl_status
@@ -369,7 +369,7 @@ namespace WindowsFormsApp1
             // 
             this.lbl_email.AutoSize = true;
             this.lbl_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_email.Location = new System.Drawing.Point(910, 101);
+            this.lbl_email.Location = new System.Drawing.Point(931, 101);
             this.lbl_email.Name = "lbl_email";
             this.lbl_email.Size = new System.Drawing.Size(51, 20);
             this.lbl_email.TabIndex = 30;
@@ -451,14 +451,14 @@ namespace WindowsFormsApp1
             // 
             this.txt_lastname.Location = new System.Drawing.Point(311, 66);
             this.txt_lastname.Name = "txt_lastname";
-            this.txt_lastname.Size = new System.Drawing.Size(100, 22);
+            this.txt_lastname.Size = new System.Drawing.Size(107, 22);
             this.txt_lastname.TabIndex = 38;
             // 
             // txt_firstname
             // 
             this.txt_firstname.Location = new System.Drawing.Point(450, 66);
             this.txt_firstname.Name = "txt_firstname";
-            this.txt_firstname.Size = new System.Drawing.Size(100, 22);
+            this.txt_firstname.Size = new System.Drawing.Size(113, 22);
             this.txt_firstname.TabIndex = 39;
             // 
             // txt_salutation
@@ -472,49 +472,49 @@ namespace WindowsFormsApp1
             // 
             this.txt_birthdate.Location = new System.Drawing.Point(746, 66);
             this.txt_birthdate.Name = "txt_birthdate";
-            this.txt_birthdate.Size = new System.Drawing.Size(100, 22);
+            this.txt_birthdate.Size = new System.Drawing.Size(162, 22);
             this.txt_birthdate.TabIndex = 41;
             // 
             // txt_address
             // 
             this.txt_address.Location = new System.Drawing.Point(311, 124);
             this.txt_address.Name = "txt_address";
-            this.txt_address.Size = new System.Drawing.Size(100, 22);
+            this.txt_address.Size = new System.Drawing.Size(391, 22);
             this.txt_address.TabIndex = 42;
             // 
             // txt_email
             // 
-            this.txt_email.Location = new System.Drawing.Point(914, 124);
+            this.txt_email.Location = new System.Drawing.Point(935, 124);
             this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(100, 22);
+            this.txt_email.Size = new System.Drawing.Size(192, 22);
             this.txt_email.TabIndex = 43;
             // 
             // txt_phonenumber
             // 
             this.txt_phonenumber.Location = new System.Drawing.Point(746, 124);
             this.txt_phonenumber.Name = "txt_phonenumber";
-            this.txt_phonenumber.Size = new System.Drawing.Size(100, 22);
+            this.txt_phonenumber.Size = new System.Drawing.Size(162, 22);
             this.txt_phonenumber.TabIndex = 44;
             // 
             // txt_deliverytype
             // 
             this.txt_deliverytype.Location = new System.Drawing.Point(311, 218);
             this.txt_deliverytype.Name = "txt_deliverytype";
-            this.txt_deliverytype.Size = new System.Drawing.Size(100, 22);
+            this.txt_deliverytype.Size = new System.Drawing.Size(121, 22);
             this.txt_deliverytype.TabIndex = 45;
             // 
             // txt_deliveryroute
             // 
             this.txt_deliveryroute.Location = new System.Drawing.Point(480, 218);
             this.txt_deliveryroute.Name = "txt_deliveryroute";
-            this.txt_deliveryroute.Size = new System.Drawing.Size(100, 22);
+            this.txt_deliveryroute.Size = new System.Drawing.Size(127, 22);
             this.txt_deliveryroute.TabIndex = 46;
             // 
             // txt_pricegroup
             // 
             this.txt_pricegroup.Location = new System.Drawing.Point(311, 275);
             this.txt_pricegroup.Name = "txt_pricegroup";
-            this.txt_pricegroup.Size = new System.Drawing.Size(100, 22);
+            this.txt_pricegroup.Size = new System.Drawing.Size(121, 22);
             this.txt_pricegroup.TabIndex = 47;
             this.txt_pricegroup.TextChanged += new System.EventHandler(this.txt_pricegroup_TextChanged);
             // 
@@ -522,21 +522,21 @@ namespace WindowsFormsApp1
             // 
             this.txt_drugline1.Location = new System.Drawing.Point(478, 275);
             this.txt_drugline1.Name = "txt_drugline1";
-            this.txt_drugline1.Size = new System.Drawing.Size(100, 22);
+            this.txt_drugline1.Size = new System.Drawing.Size(129, 22);
             this.txt_drugline1.TabIndex = 48;
             // 
             // txt_drugline2
             // 
             this.txt_drugline2.Location = new System.Drawing.Point(652, 275);
             this.txt_drugline2.Name = "txt_drugline2";
-            this.txt_drugline2.Size = new System.Drawing.Size(100, 22);
+            this.txt_drugline2.Size = new System.Drawing.Size(119, 22);
             this.txt_drugline2.TabIndex = 49;
             // 
             // txt_doublecount
             // 
             this.txt_doublecount.Location = new System.Drawing.Point(311, 333);
             this.txt_doublecount.Name = "txt_doublecount";
-            this.txt_doublecount.Size = new System.Drawing.Size(100, 22);
+            this.txt_doublecount.Size = new System.Drawing.Size(121, 22);
             this.txt_doublecount.TabIndex = 50;
             // 
             // checkBox1
@@ -583,60 +583,60 @@ namespace WindowsFormsApp1
             // lbl_brandname
             // 
             this.lbl_brandname.AutoSize = true;
-            this.lbl_brandname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_brandname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_brandname.Location = new System.Drawing.Point(307, 482);
             this.lbl_brandname.Name = "lbl_brandname";
-            this.lbl_brandname.Size = new System.Drawing.Size(103, 20);
+            this.lbl_brandname.Size = new System.Drawing.Size(113, 20);
             this.lbl_brandname.TabIndex = 55;
             this.lbl_brandname.Text = "Brand Name";
             // 
             // lbl_genericname
             // 
             this.lbl_genericname.AutoSize = true;
-            this.lbl_genericname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_genericname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_genericname.Location = new System.Drawing.Point(446, 482);
             this.lbl_genericname.Name = "lbl_genericname";
-            this.lbl_genericname.Size = new System.Drawing.Size(117, 20);
+            this.lbl_genericname.Size = new System.Drawing.Size(129, 20);
             this.lbl_genericname.TabIndex = 56;
             this.lbl_genericname.Text = "Generic Name";
             // 
             // lbl_strength
             // 
             this.lbl_strength.AutoSize = true;
-            this.lbl_strength.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_strength.Location = new System.Drawing.Point(573, 482);
+            this.lbl_strength.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_strength.Location = new System.Drawing.Point(597, 482);
             this.lbl_strength.Name = "lbl_strength";
-            this.lbl_strength.Size = new System.Drawing.Size(72, 20);
+            this.lbl_strength.Size = new System.Drawing.Size(80, 20);
             this.lbl_strength.TabIndex = 57;
             this.lbl_strength.Text = "Strength";
             // 
             // lbl_form
             // 
             this.lbl_form.AutoSize = true;
-            this.lbl_form.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_form.Location = new System.Drawing.Point(835, 482);
+            this.lbl_form.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_form.Location = new System.Drawing.Point(857, 482);
             this.lbl_form.Name = "lbl_form";
-            this.lbl_form.Size = new System.Drawing.Size(48, 20);
+            this.lbl_form.Size = new System.Drawing.Size(52, 20);
             this.lbl_form.TabIndex = 58;
             this.lbl_form.Text = "Form";
             // 
             // lbl_pack
             // 
             this.lbl_pack.AutoSize = true;
-            this.lbl_pack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_pack.Location = new System.Drawing.Point(708, 482);
+            this.lbl_pack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_pack.Location = new System.Drawing.Point(725, 482);
             this.lbl_pack.Name = "lbl_pack";
-            this.lbl_pack.Size = new System.Drawing.Size(46, 20);
+            this.lbl_pack.Size = new System.Drawing.Size(50, 20);
             this.lbl_pack.TabIndex = 59;
             this.lbl_pack.Text = "Pack";
             // 
             // lbl_manufacturer
             // 
             this.lbl_manufacturer.AutoSize = true;
-            this.lbl_manufacturer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_manufacturer.Location = new System.Drawing.Point(947, 482);
+            this.lbl_manufacturer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_manufacturer.Location = new System.Drawing.Point(979, 482);
             this.lbl_manufacturer.Name = "lbl_manufacturer";
-            this.lbl_manufacturer.Size = new System.Drawing.Size(108, 20);
+            this.lbl_manufacturer.Size = new System.Drawing.Size(120, 20);
             this.lbl_manufacturer.TabIndex = 60;
             this.lbl_manufacturer.Text = "Manufacturer";
             // 
@@ -651,35 +651,35 @@ namespace WindowsFormsApp1
             // 
             this.txt_genericname1.Location = new System.Drawing.Point(450, 515);
             this.txt_genericname1.Name = "txt_genericname1";
-            this.txt_genericname1.Size = new System.Drawing.Size(100, 22);
+            this.txt_genericname1.Size = new System.Drawing.Size(125, 22);
             this.txt_genericname1.TabIndex = 62;
             // 
             // txt_strength1
             // 
-            this.txt_strength1.Location = new System.Drawing.Point(577, 515);
+            this.txt_strength1.Location = new System.Drawing.Point(601, 514);
             this.txt_strength1.Name = "txt_strength1";
             this.txt_strength1.Size = new System.Drawing.Size(100, 22);
             this.txt_strength1.TabIndex = 63;
             // 
             // txt_pack1
             // 
-            this.txt_pack1.Location = new System.Drawing.Point(712, 515);
+            this.txt_pack1.Location = new System.Drawing.Point(729, 515);
             this.txt_pack1.Name = "txt_pack1";
             this.txt_pack1.Size = new System.Drawing.Size(100, 22);
             this.txt_pack1.TabIndex = 64;
             // 
             // txt_form1
             // 
-            this.txt_form1.Location = new System.Drawing.Point(830, 515);
+            this.txt_form1.Location = new System.Drawing.Point(861, 515);
             this.txt_form1.Name = "txt_form1";
             this.txt_form1.Size = new System.Drawing.Size(100, 22);
             this.txt_form1.TabIndex = 65;
             // 
             // txt_manufacturer1
             // 
-            this.txt_manufacturer1.Location = new System.Drawing.Point(951, 515);
+            this.txt_manufacturer1.Location = new System.Drawing.Point(983, 515);
             this.txt_manufacturer1.Name = "txt_manufacturer1";
-            this.txt_manufacturer1.Size = new System.Drawing.Size(100, 22);
+            this.txt_manufacturer1.Size = new System.Drawing.Size(116, 22);
             this.txt_manufacturer1.TabIndex = 66;
             // 
             // txt_brandname2
@@ -693,34 +693,34 @@ namespace WindowsFormsApp1
             // 
             this.txt_genericname2.Location = new System.Drawing.Point(450, 553);
             this.txt_genericname2.Name = "txt_genericname2";
-            this.txt_genericname2.Size = new System.Drawing.Size(100, 22);
+            this.txt_genericname2.Size = new System.Drawing.Size(125, 22);
             this.txt_genericname2.TabIndex = 68;
             this.txt_genericname2.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // txt_strength2
             // 
-            this.txt_strength2.Location = new System.Drawing.Point(577, 553);
+            this.txt_strength2.Location = new System.Drawing.Point(601, 553);
             this.txt_strength2.Name = "txt_strength2";
             this.txt_strength2.Size = new System.Drawing.Size(100, 22);
             this.txt_strength2.TabIndex = 69;
             // 
             // txt_pack2
             // 
-            this.txt_pack2.Location = new System.Drawing.Point(712, 553);
+            this.txt_pack2.Location = new System.Drawing.Point(729, 553);
             this.txt_pack2.Name = "txt_pack2";
             this.txt_pack2.Size = new System.Drawing.Size(100, 22);
             this.txt_pack2.TabIndex = 70;
             // 
             // txt_manufacturer2
             // 
-            this.txt_manufacturer2.Location = new System.Drawing.Point(951, 553);
+            this.txt_manufacturer2.Location = new System.Drawing.Point(983, 553);
             this.txt_manufacturer2.Name = "txt_manufacturer2";
-            this.txt_manufacturer2.Size = new System.Drawing.Size(100, 22);
+            this.txt_manufacturer2.Size = new System.Drawing.Size(116, 22);
             this.txt_manufacturer2.TabIndex = 71;
             // 
             // txt_form2
             // 
-            this.txt_form2.Location = new System.Drawing.Point(830, 553);
+            this.txt_form2.Location = new System.Drawing.Point(861, 553);
             this.txt_form2.Name = "txt_form2";
             this.txt_form2.Size = new System.Drawing.Size(100, 22);
             this.txt_form2.TabIndex = 72;
@@ -737,35 +737,35 @@ namespace WindowsFormsApp1
             // 
             this.txt_genericname3.Location = new System.Drawing.Point(450, 593);
             this.txt_genericname3.Name = "txt_genericname3";
-            this.txt_genericname3.Size = new System.Drawing.Size(100, 22);
+            this.txt_genericname3.Size = new System.Drawing.Size(125, 22);
             this.txt_genericname3.TabIndex = 74;
             // 
             // txt_strength3
             // 
-            this.txt_strength3.Location = new System.Drawing.Point(577, 593);
+            this.txt_strength3.Location = new System.Drawing.Point(601, 593);
             this.txt_strength3.Name = "txt_strength3";
             this.txt_strength3.Size = new System.Drawing.Size(100, 22);
             this.txt_strength3.TabIndex = 75;
             // 
             // txt_pack3
             // 
-            this.txt_pack3.Location = new System.Drawing.Point(712, 593);
+            this.txt_pack3.Location = new System.Drawing.Point(729, 593);
             this.txt_pack3.Name = "txt_pack3";
             this.txt_pack3.Size = new System.Drawing.Size(100, 22);
             this.txt_pack3.TabIndex = 76;
             // 
             // txt_form3
             // 
-            this.txt_form3.Location = new System.Drawing.Point(830, 593);
+            this.txt_form3.Location = new System.Drawing.Point(861, 593);
             this.txt_form3.Name = "txt_form3";
             this.txt_form3.Size = new System.Drawing.Size(100, 22);
             this.txt_form3.TabIndex = 77;
             // 
             // txt_manufacturer3
             // 
-            this.txt_manufacturer3.Location = new System.Drawing.Point(951, 593);
+            this.txt_manufacturer3.Location = new System.Drawing.Point(983, 593);
             this.txt_manufacturer3.Name = "txt_manufacturer3";
-            this.txt_manufacturer3.Size = new System.Drawing.Size(100, 22);
+            this.txt_manufacturer3.Size = new System.Drawing.Size(116, 22);
             this.txt_manufacturer3.TabIndex = 78;
             // 
             // txt_brandname4
@@ -779,35 +779,36 @@ namespace WindowsFormsApp1
             // 
             this.txt_genericname4.Location = new System.Drawing.Point(450, 631);
             this.txt_genericname4.Name = "txt_genericname4";
-            this.txt_genericname4.Size = new System.Drawing.Size(100, 22);
+            this.txt_genericname4.Size = new System.Drawing.Size(125, 22);
             this.txt_genericname4.TabIndex = 80;
             // 
             // txt_strength4
             // 
-            this.txt_strength4.Location = new System.Drawing.Point(577, 631);
+            this.txt_strength4.Location = new System.Drawing.Point(602, 631);
             this.txt_strength4.Name = "txt_strength4";
             this.txt_strength4.Size = new System.Drawing.Size(100, 22);
             this.txt_strength4.TabIndex = 81;
             // 
             // txt_pack4
             // 
-            this.txt_pack4.Location = new System.Drawing.Point(712, 631);
+            this.txt_pack4.Location = new System.Drawing.Point(729, 631);
             this.txt_pack4.Name = "txt_pack4";
             this.txt_pack4.Size = new System.Drawing.Size(100, 22);
             this.txt_pack4.TabIndex = 82;
             // 
             // txt_form4
             // 
-            this.txt_form4.Location = new System.Drawing.Point(830, 631);
+            this.txt_form4.Location = new System.Drawing.Point(861, 631);
             this.txt_form4.Name = "txt_form4";
             this.txt_form4.Size = new System.Drawing.Size(100, 22);
             this.txt_form4.TabIndex = 83;
+            this.txt_form4.TextChanged += new System.EventHandler(this.txt_form4_TextChanged);
             // 
             // textBox24
             // 
-            this.textBox24.Location = new System.Drawing.Point(951, 631);
+            this.textBox24.Location = new System.Drawing.Point(983, 631);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(100, 22);
+            this.textBox24.Size = new System.Drawing.Size(116, 22);
             this.textBox24.TabIndex = 84;
             // 
             // textBox1
@@ -821,25 +822,27 @@ namespace WindowsFormsApp1
             // 
             // btn_addallergy
             // 
+            this.btn_addallergy.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn_addallergy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_addallergy.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_addallergy.ForeColor = System.Drawing.Color.Black;
             this.btn_addallergy.Location = new System.Drawing.Point(52, 472);
             this.btn_addallergy.Name = "btn_addallergy";
-            this.btn_addallergy.Size = new System.Drawing.Size(111, 30);
+            this.btn_addallergy.Size = new System.Drawing.Size(124, 36);
             this.btn_addallergy.TabIndex = 86;
             this.btn_addallergy.Text = "Add Allergy";
-            this.btn_addallergy.UseVisualStyleBackColor = true;
+            this.btn_addallergy.UseVisualStyleBackColor = false;
             // 
             // btn_adddrug
             // 
+            this.btn_adddrug.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn_adddrug.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_adddrug.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_adddrug.ForeColor = System.Drawing.Color.Black;
             this.btn_adddrug.Location = new System.Drawing.Point(1057, 443);
             this.btn_adddrug.Name = "btn_adddrug";
-            this.btn_adddrug.Size = new System.Drawing.Size(111, 30);
+            this.btn_adddrug.Size = new System.Drawing.Size(115, 36);
             this.btn_adddrug.TabIndex = 87;
             this.btn_adddrug.Text = "Add Drug";
-            this.btn_adddrug.UseVisualStyleBackColor = true;
+            this.btn_adddrug.UseVisualStyleBackColor = false;
             // 
             // PatientHistory
             // 
@@ -931,7 +934,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.lbl_language);
             this.Controls.Add(this.lbl_gender);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PatientHistory";
             this.Text = "PatientHistory";
             this.Load += new System.EventHandler(this.PatientHistory_Load);
