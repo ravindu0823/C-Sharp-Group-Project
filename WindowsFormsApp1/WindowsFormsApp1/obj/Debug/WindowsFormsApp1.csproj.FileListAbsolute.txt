@@ -98,3 +98,21 @@ C:\Users\2001a\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsForm
 C:\Users\2001a\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\2001a\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 >>>>>>> Stashed changes
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Appoinment.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Billing.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientHistory.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientRecords.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacy.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Rooms.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm2.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm3.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\GitHub\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
