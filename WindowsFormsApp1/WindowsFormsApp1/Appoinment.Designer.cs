@@ -114,7 +114,7 @@ namespace WindowsFormsApp1
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.label2);
@@ -134,7 +134,7 @@ namespace WindowsFormsApp1
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(692, 111);
+            this.panel1.Location = new System.Drawing.Point(692, 103);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(507, 559);
             this.panel1.TabIndex = 16;
