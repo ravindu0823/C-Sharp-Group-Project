@@ -39,7 +39,6 @@
             this.button10 = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -48,7 +47,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -153,6 +151,7 @@
             // 
             // pictureBox9
             // 
+            this.pictureBox9.BackColor = System.Drawing.Color.RoyalBlue;
             this.pictureBox9.Image = global::WindowsFormsApp1.Properties.Resources.secure_payment_icon_flat_design_vector_10515661;
             this.pictureBox9.Location = new System.Drawing.Point(651, 555);
             this.pictureBox9.Name = "pictureBox9";
@@ -171,16 +170,6 @@
             this.pictureBox8.TabIndex = 17;
             this.pictureBox8.TabStop = false;
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::WindowsFormsApp1.Properties.Resources.Hospital_PNG_Transparent_HD_Photo;
-            this.pictureBox7.Location = new System.Drawing.Point(481, 333);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(231, 130);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 16;
-            this.pictureBox7.TabStop = false;
-            // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::WindowsFormsApp1.Properties.Resources.prescription_rx_recipe_line_icon_medicine_drugs_pills_sign_colorful_outline_concept_blue_orange_thin_color_vector_134564603;
@@ -193,6 +182,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.pictureBox5.Image = global::WindowsFormsApp1.Properties.Resources._500_F_217199479_VBxbYYxkX8uxmqQNTZUv9hXJGWsv5BZR;
             this.pictureBox5.Location = new System.Drawing.Point(459, 295);
             this.pictureBox5.Name = "pictureBox5";
@@ -246,10 +236,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1192, 797);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -269,7 +259,6 @@
             this.Text = "Home";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -295,7 +284,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
     }
