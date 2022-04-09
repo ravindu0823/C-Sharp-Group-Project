@@ -203,5 +203,8 @@
   <ItemGroup>
     <None Include="Resources\secure-payment-icon-flat-design-vector-10515661.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images 1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
