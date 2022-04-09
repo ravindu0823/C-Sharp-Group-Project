@@ -61,6 +61,7 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.LightGray;
             this.textBox1.Location = new System.Drawing.Point(156, 147);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(625, 22);
@@ -68,6 +69,7 @@ namespace WindowsFormsApp1
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.LightGray;
             this.textBox2.Location = new System.Drawing.Point(156, 211);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(625, 22);
@@ -75,6 +77,7 @@ namespace WindowsFormsApp1
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.LightGray;
             this.textBox3.Location = new System.Drawing.Point(156, 276);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(625, 22);
@@ -155,7 +158,7 @@ namespace WindowsFormsApp1
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackColor = System.Drawing.Color.Gainsboro;
             this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
             this.button2.Location = new System.Drawing.Point(527, 454);
             this.button2.Name = "button2";
@@ -177,6 +180,7 @@ namespace WindowsFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(921, 544);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button2);

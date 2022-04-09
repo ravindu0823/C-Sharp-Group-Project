@@ -77,6 +77,7 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox1.Location = new System.Drawing.Point(149, 136);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(370, 22);
@@ -125,6 +126,7 @@ namespace WindowsFormsApp1
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox2.Location = new System.Drawing.Point(149, 193);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(370, 22);
@@ -132,6 +134,7 @@ namespace WindowsFormsApp1
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox3.Location = new System.Drawing.Point(149, 249);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(370, 22);
@@ -139,6 +142,7 @@ namespace WindowsFormsApp1
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox4.Location = new System.Drawing.Point(853, 135);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(370, 22);
@@ -146,6 +150,7 @@ namespace WindowsFormsApp1
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox5.Location = new System.Drawing.Point(853, 191);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(370, 22);
@@ -185,6 +190,7 @@ namespace WindowsFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1278, 675);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel3);

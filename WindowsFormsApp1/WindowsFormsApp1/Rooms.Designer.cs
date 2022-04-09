@@ -46,66 +46,66 @@ namespace WindowsFormsApp1
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -311,75 +311,205 @@ namespace WindowsFormsApp1
             this.panel1.Size = new System.Drawing.Size(841, 391);
             this.panel1.TabIndex = 15;
             // 
-            // textBox1
+            // button4
             // 
-            this.textBox1.Location = new System.Drawing.Point(164, 60);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(254, 22);
-            this.textBox1.TabIndex = 15;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(657, 341);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(179, 34);
+            this.button4.TabIndex = 53;
+            this.button4.Text = "Save";
+            this.button4.UseVisualStyleBackColor = false;
             // 
-            // textBox2
+            // button3
             // 
-            this.textBox2.Location = new System.Drawing.Point(164, 92);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(254, 22);
-            this.textBox2.TabIndex = 16;
+            this.button3.BackColor = System.Drawing.Color.Violet;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(472, 341);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(179, 34);
+            this.button3.TabIndex = 52;
+            this.button3.Text = "Update info";
+            this.button3.UseVisualStyleBackColor = false;
             // 
-            // textBox3
+            // textBox21
             // 
-            this.textBox3.Location = new System.Drawing.Point(164, 124);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(254, 22);
-            this.textBox3.TabIndex = 17;
+            this.textBox21.Location = new System.Drawing.Point(763, 189);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(73, 22);
+            this.textBox21.TabIndex = 51;
             // 
-            // textBox4
+            // label18
             // 
-            this.textBox4.Location = new System.Drawing.Point(164, 156);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(254, 22);
-            this.textBox4.TabIndex = 18;
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(670, 191);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(72, 17);
+            this.label18.TabIndex = 50;
+            this.label18.Text = "Advance";
             // 
-            // textBox5
+            // textBox19
             // 
-            this.textBox5.Location = new System.Drawing.Point(164, 187);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(143, 22);
-            this.textBox5.TabIndex = 19;
+            this.textBox19.Location = new System.Drawing.Point(582, 189);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(73, 22);
+            this.textBox19.TabIndex = 49;
             // 
-            // textBox6
+            // textBox23
             // 
-            this.textBox6.Location = new System.Drawing.Point(164, 217);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(254, 22);
-            this.textBox6.TabIndex = 20;
+            this.textBox23.Location = new System.Drawing.Point(763, 156);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(73, 22);
+            this.textBox23.TabIndex = 48;
             // 
-            // textBox7
+            // label16
             // 
-            this.textBox7.Location = new System.Drawing.Point(164, 253);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(254, 22);
-            this.textBox7.TabIndex = 21;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(670, 158);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(45, 17);
+            this.label16.TabIndex = 47;
+            this.label16.Text = "Price";
             // 
-            // textBox8
+            // textBox22
             // 
-            this.textBox8.Location = new System.Drawing.Point(164, 284);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(254, 22);
-            this.textBox8.TabIndex = 22;
+            this.textBox22.Location = new System.Drawing.Point(582, 156);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(73, 22);
+            this.textBox22.TabIndex = 46;
             // 
-            // textBox9
+            // textBox20
             // 
-            this.textBox9.Location = new System.Drawing.Point(164, 315);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(254, 22);
-            this.textBox9.TabIndex = 23;
+            this.textBox20.Location = new System.Drawing.Point(763, 124);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(73, 22);
+            this.textBox20.TabIndex = 45;
             // 
-            // textBox10
+            // label13
             // 
-            this.textBox10.Location = new System.Drawing.Point(356, 189);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(62, 22);
-            this.textBox10.TabIndex = 24;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(670, 126);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(69, 17);
+            this.label13.TabIndex = 44;
+            this.label13.Text = "Religion";
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(582, 253);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(254, 22);
+            this.textBox17.TabIndex = 43;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(582, 284);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(254, 22);
+            this.textBox18.TabIndex = 41;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(582, 217);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(254, 22);
+            this.textBox16.TabIndex = 39;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(582, 124);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(73, 22);
+            this.textBox13.TabIndex = 36;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(582, 92);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(254, 22);
+            this.textBox12.TabIndex = 35;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(582, 60);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(254, 22);
+            this.textBox11.TabIndex = 34;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(433, 284);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(42, 17);
+            this.label38.TabIndex = 33;
+            this.label38.Text = "Date";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(433, 255);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(121, 17);
+            this.label37.TabIndex = 32;
+            this.label37.Text = "Referrenced By";
+            this.label37.Click += new System.EventHandler(this.label37_Click);
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(433, 60);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(111, 17);
+            this.label36.TabIndex = 25;
+            this.label36.Text = "Emergency Id";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(433, 223);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(91, 17);
+            this.label35.TabIndex = 31;
+            this.label35.Text = "Consultant";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(433, 92);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(94, 17);
+            this.label34.TabIndex = 26;
+            this.label34.Text = "Occupation";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(433, 191);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(116, 17);
+            this.label33.TabIndex = 30;
+            this.label33.Text = "Admission fee";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(433, 124);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(102, 17);
+            this.label32.TabIndex = 27;
+            this.label32.Text = "Blood Group";
             // 
             // label24
             // 
@@ -401,205 +531,75 @@ namespace WindowsFormsApp1
             this.label20.TabIndex = 28;
             this.label20.Text = "Room";
             // 
-            // label32
+            // textBox10
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(433, 124);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(102, 17);
-            this.label32.TabIndex = 27;
-            this.label32.Text = "Blood Group";
+            this.textBox10.Location = new System.Drawing.Point(356, 189);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(62, 22);
+            this.textBox10.TabIndex = 24;
             // 
-            // label33
+            // textBox9
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(433, 191);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(116, 17);
-            this.label33.TabIndex = 30;
-            this.label33.Text = "Admission fee";
+            this.textBox9.Location = new System.Drawing.Point(164, 315);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(254, 22);
+            this.textBox9.TabIndex = 23;
             // 
-            // label34
+            // textBox8
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(433, 92);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(94, 17);
-            this.label34.TabIndex = 26;
-            this.label34.Text = "Occupation";
+            this.textBox8.Location = new System.Drawing.Point(164, 284);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(254, 22);
+            this.textBox8.TabIndex = 22;
             // 
-            // label35
+            // textBox7
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(433, 223);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(91, 17);
-            this.label35.TabIndex = 31;
-            this.label35.Text = "Consultant";
+            this.textBox7.Location = new System.Drawing.Point(164, 253);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(254, 22);
+            this.textBox7.TabIndex = 21;
             // 
-            // label36
+            // textBox6
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(433, 60);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(111, 17);
-            this.label36.TabIndex = 25;
-            this.label36.Text = "Emergency Id";
+            this.textBox6.Location = new System.Drawing.Point(164, 217);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(254, 22);
+            this.textBox6.TabIndex = 20;
             // 
-            // label37
+            // textBox5
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(433, 255);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(121, 17);
-            this.label37.TabIndex = 32;
-            this.label37.Text = "Referrenced By";
-            this.label37.Click += new System.EventHandler(this.label37_Click);
+            this.textBox5.Location = new System.Drawing.Point(164, 187);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(143, 22);
+            this.textBox5.TabIndex = 19;
             // 
-            // label38
+            // textBox4
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(433, 284);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(42, 17);
-            this.label38.TabIndex = 33;
-            this.label38.Text = "Date";
+            this.textBox4.Location = new System.Drawing.Point(164, 156);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(254, 22);
+            this.textBox4.TabIndex = 18;
             // 
-            // textBox11
+            // textBox3
             // 
-            this.textBox11.Location = new System.Drawing.Point(582, 60);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(254, 22);
-            this.textBox11.TabIndex = 34;
+            this.textBox3.Location = new System.Drawing.Point(164, 124);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(254, 22);
+            this.textBox3.TabIndex = 17;
             // 
-            // textBox12
+            // textBox2
             // 
-            this.textBox12.Location = new System.Drawing.Point(582, 92);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(254, 22);
-            this.textBox12.TabIndex = 35;
+            this.textBox2.Location = new System.Drawing.Point(164, 92);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(254, 22);
+            this.textBox2.TabIndex = 16;
             // 
-            // textBox13
+            // textBox1
             // 
-            this.textBox13.Location = new System.Drawing.Point(582, 124);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(73, 22);
-            this.textBox13.TabIndex = 36;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(582, 217);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(254, 22);
-            this.textBox16.TabIndex = 39;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(582, 284);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(254, 22);
-            this.textBox18.TabIndex = 41;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(582, 253);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(254, 22);
-            this.textBox17.TabIndex = 43;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(670, 126);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 17);
-            this.label13.TabIndex = 44;
-            this.label13.Text = "Religion";
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(763, 124);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(73, 22);
-            this.textBox20.TabIndex = 45;
-            // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(582, 156);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(73, 22);
-            this.textBox22.TabIndex = 46;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(670, 158);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 17);
-            this.label16.TabIndex = 47;
-            this.label16.Text = "Price";
-            // 
-            // textBox23
-            // 
-            this.textBox23.Location = new System.Drawing.Point(763, 156);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(73, 22);
-            this.textBox23.TabIndex = 48;
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(582, 189);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(73, 22);
-            this.textBox19.TabIndex = 49;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(670, 191);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(72, 17);
-            this.label18.TabIndex = 50;
-            this.label18.Text = "Advance";
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(763, 189);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(73, 22);
-            this.textBox21.TabIndex = 51;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Violet;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(472, 341);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(179, 34);
-            this.button3.TabIndex = 52;
-            this.button3.Text = "Update info";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(657, 341);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 34);
-            this.button4.TabIndex = 53;
-            this.button4.Text = "Save";
-            this.button4.UseVisualStyleBackColor = false;
+            this.textBox1.Location = new System.Drawing.Point(164, 60);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(254, 22);
+            this.textBox1.TabIndex = 15;
             // 
             // label14
             // 
@@ -656,16 +656,16 @@ namespace WindowsFormsApp1
             this.panel3.Size = new System.Drawing.Size(678, 26);
             this.panel3.TabIndex = 8;
             // 
-            // label15
+            // label19
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(12, 5);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(45, 17);
-            this.label15.TabIndex = 29;
-            this.label15.Text = "Type";
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(609, 5);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(45, 17);
+            this.label19.TabIndex = 29;
+            this.label19.Text = "Price";
             // 
             // label17
             // 
@@ -678,16 +678,16 @@ namespace WindowsFormsApp1
             this.label17.TabIndex = 30;
             this.label17.Text = "Room No";
             // 
-            // label19
+            // label15
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(609, 5);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(45, 17);
-            this.label19.TabIndex = 29;
-            this.label19.Text = "Price";
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(12, 5);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(45, 17);
+            this.label15.TabIndex = 29;
+            this.label15.Text = "Type";
             // 
             // panel4
             // 
@@ -706,15 +706,82 @@ namespace WindowsFormsApp1
             this.panel4.Size = new System.Drawing.Size(1545, 466);
             this.panel4.TabIndex = 17;
             // 
-            // label21
+            // button13
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(9, 19);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(198, 21);
-            this.label21.TabIndex = 3;
-            this.label21.Text = "Current Patient List";
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(1930, -173);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(140, 34);
+            this.button13.TabIndex = 13;
+            this.button13.Text = "Refresh";
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button15.ForeColor = System.Drawing.Color.DimGray;
+            this.button15.Location = new System.Drawing.Point(1388, 14);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(140, 34);
+            this.button15.TabIndex = 13;
+            this.button15.Text = "Refresh";
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Location = new System.Drawing.Point(1388, 14);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(140, 34);
+            this.button12.TabIndex = 13;
+            this.button12.Text = "Refresh";
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button14.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button14.Location = new System.Drawing.Point(1233, 14);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(140, 34);
+            this.button14.TabIndex = 12;
+            this.button14.Text = "Add Rooms";
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(1233, 14);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(140, 34);
+            this.button11.TabIndex = 12;
+            this.button11.Text = "Add Rooms";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button10.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button10.Location = new System.Drawing.Point(1087, 14);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(140, 34);
+            this.button10.TabIndex = 11;
+            this.button10.Text = "Refresh";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button9.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button9.Location = new System.Drawing.Point(932, 14);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(140, 34);
+            this.button9.TabIndex = 10;
+            this.button9.Text = "Add Rooms";
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // panel5
             // 
@@ -730,6 +797,50 @@ namespace WindowsFormsApp1
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1515, 26);
             this.panel5.TabIndex = 9;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Location = new System.Drawing.Point(1392, 5);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(46, 17);
+            this.label29.TabIndex = 34;
+            this.label29.Text = "Time";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.White;
+            this.label28.Location = new System.Drawing.Point(1229, 5);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(42, 17);
+            this.label28.TabIndex = 33;
+            this.label28.Text = "Date";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.White;
+            this.label27.Location = new System.Drawing.Point(1061, 5);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(76, 17);
+            this.label27.TabIndex = 32;
+            this.label27.Text = "Room No";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Location = new System.Drawing.Point(542, 5);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(70, 17);
+            this.label26.TabIndex = 31;
+            this.label26.Text = "Address";
             // 
             // label22
             // 
@@ -764,137 +875,27 @@ namespace WindowsFormsApp1
             this.label25.TabIndex = 29;
             this.label25.Text = "ID";
             // 
-            // button11
+            // label21
             // 
-            this.button11.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(1233, 14);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(140, 34);
-            this.button11.TabIndex = 12;
-            this.button11.Text = "Add Rooms";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(1388, 14);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(140, 34);
-            this.button12.TabIndex = 13;
-            this.button12.Text = "Refresh";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button14.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button14.Location = new System.Drawing.Point(1233, 14);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(140, 34);
-            this.button14.TabIndex = 12;
-            this.button14.Text = "Add Rooms";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button15.ForeColor = System.Drawing.Color.DimGray;
-            this.button15.Location = new System.Drawing.Point(1388, 14);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(140, 34);
-            this.button15.TabIndex = 13;
-            this.button15.Text = "Refresh";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button9.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button9.Location = new System.Drawing.Point(932, 14);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(140, 34);
-            this.button9.TabIndex = 10;
-            this.button9.Text = "Add Rooms";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button10.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button10.Location = new System.Drawing.Point(1087, 14);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(140, 34);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Refresh";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(1930, -173);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(140, 34);
-            this.button13.TabIndex = 13;
-            this.button13.Text = "Refresh";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(542, 5);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(70, 17);
-            this.label26.TabIndex = 31;
-            this.label26.Text = "Address";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(1061, 5);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(76, 17);
-            this.label27.TabIndex = 32;
-            this.label27.Text = "Room No";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(1229, 5);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(42, 17);
-            this.label28.TabIndex = 33;
-            this.label28.Text = "Date";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(1392, 5);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(46, 17);
-            this.label29.TabIndex = 34;
-            this.label29.Text = "Time";
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(9, 19);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(198, 21);
+            this.label21.TabIndex = 3;
+            this.label21.Text = "Current Patient List";
             // 
             // Rooms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1561, 963);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Rooms";
             this.Text = "Rooms";
             this.panel1.ResumeLayout(false);
