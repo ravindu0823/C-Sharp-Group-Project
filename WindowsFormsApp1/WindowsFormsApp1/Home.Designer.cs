@@ -223,6 +223,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.Hospital_PNG_Transparent_HD_Photo;
             this.pictureBox1.Location = new System.Drawing.Point(63, 28);
             this.pictureBox1.Name = "pictureBox1";
