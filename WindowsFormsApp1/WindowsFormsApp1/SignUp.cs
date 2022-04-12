@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
@@ -87,6 +88,61 @@ namespace WindowsFormsApp1
                 textBox3.Text = "Password";
                 textBox3.ForeColor = System.Drawing.Color.RoyalBlue;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /*if (textBox1.Text == "Name" || textBox1.Text == "")
+            {
+                MessageBox.Show("Please enter your name!");
+            }
+
+            if (textBox2.Text == "E-mail" || textBox2.Text == "")
+            {
+                MessageBox.Show("Please enter your E-Mail !");
+            }
+
+            if (textBox3.Text == "Password" || textBox3.Text == "")
+            {
+                MessageBox.Show("Please enter your Password !");
+            }*/
+            
+            if (!checkBox1.Checked)
+            {
+                MessageBox.Show("You must agree with our Terms and Conditions");
+            }
+
+            else
+            {
+                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+
+                string name = textBox1.Text;
+                string email = textBox2.Text;
+                string password = textBox3.Text;
+
+                string sql = "INSERT INTO Users (Name, Email, Password) VALUES ('" + name + "', '" + email + "', '" + password + "')";
+                // string sql = "INSERT INTO Users (Name, Email, Password) VALUES ('" + "Ravindu" + "', '" + "guestpc87@gmail.com" + "', '" + "ravindu0823" + "')";
+
+                SqlCommand cmd = new SqlCommand(sql, conn);
+
+                try
+                {
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("User Added Successfully");
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
+                finally
+                {
+                    conn.Close();
+                }
+            }          
+           
         }
     }
 }
