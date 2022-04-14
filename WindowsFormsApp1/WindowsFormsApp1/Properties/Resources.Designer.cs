@@ -63,9 +63,59 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _360_F_186372280_80FQAz60eaFojyysih6rlaB7GMmRPG7O {
+            get {
+                object obj = ResourceManager.GetObject("360_F_186372280_80FQAz60eaFojyysih6rlaB7GMmRPG7O", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _455_4555037_blue_doctor_icon_png_transparent_png {
+            get {
+                object obj = ResourceManager.GetObject("455-4555037_blue-doctor-icon-png-transparent-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _500_F_217199479_VBxbYYxkX8uxmqQNTZUv9hXJGWsv5BZR {
             get {
                 object obj = ResourceManager.GetObject("500_F_217199479_VBxbYYxkX8uxmqQNTZUv9hXJGWsv5BZR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _64_641423_blue_phone_logo_png_transparent_blue_phone_icon {
+            get {
+                object obj = ResourceManager.GetObject("64-641423_blue-phone-logo-png-transparent-blue-phone-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _84_841013_bank_png_blue_bank_icon {
+            get {
+                object obj = ResourceManager.GetObject("84-841013_bank-png-blue-bank-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap age_icon_20181102083837 {
+            get {
+                object obj = ResourceManager.GetObject("age_icon_20181102083837", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -118,6 +168,26 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap image_3 {
             get {
                 object obj = ResourceManager.GetObject("image 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_31 {
+            get {
+                object obj = ResourceManager.GetObject("image 31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_32 {
+            get {
+                object obj = ResourceManager.GetObject("image 32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
