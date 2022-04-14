@@ -249,5 +249,11 @@
   <ItemGroup>
     <None Include="Resources\13-130474_black-credit-card-pay-card-icon-png-transparent.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_icon_125165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_icon_1251651.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -326,6 +326,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap search_icon_125165 {
+            get {
+                object obj = ResourceManager.GetObject("search_icon_125165", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_icon_1251651 {
+            get {
+                object obj = ResourceManager.GetObject("search_icon_1251651", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap secure_payment_icon_flat_design_vector_10515661 {
             get {
                 object obj = ResourceManager.GetObject("secure-payment-icon-flat-design-vector-10515661", resourceCulture);

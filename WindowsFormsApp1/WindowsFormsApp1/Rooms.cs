@@ -13,5 +13,25 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void guna2Button5_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void guna2Button7_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox22_TextChanged(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

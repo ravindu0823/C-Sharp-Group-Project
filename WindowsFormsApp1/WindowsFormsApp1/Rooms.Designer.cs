@@ -33,8 +33,6 @@ namespace WindowsFormsApp1
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -46,22 +44,9 @@ namespace WindowsFormsApp1
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox21 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
@@ -71,19 +56,7 @@ namespace WindowsFormsApp1
             this.label32 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
@@ -91,12 +64,6 @@ namespace WindowsFormsApp1
             this.label15 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
@@ -106,6 +73,37 @@ namespace WindowsFormsApp1
             this.label23 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox11 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox12 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox13 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox14 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox15 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox16 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox17 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox18 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox19 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox20 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox21 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2TextBox22 = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -127,33 +125,11 @@ namespace WindowsFormsApp1
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 17);
+            this.label2.Location = new System.Drawing.Point(16, 17);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(198, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "Patient Information";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(472, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(179, 34);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "New";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(657, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(179, 34);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Delete";
-            this.button2.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -258,22 +234,34 @@ namespace WindowsFormsApp1
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.textBox21);
+            this.panel1.Controls.Add(this.guna2Button4);
+            this.panel1.Controls.Add(this.guna2Button3);
+            this.panel1.Controls.Add(this.guna2Button2);
+            this.panel1.Controls.Add(this.guna2Button1);
+            this.panel1.Controls.Add(this.guna2TextBox21);
+            this.panel1.Controls.Add(this.guna2TextBox20);
+            this.panel1.Controls.Add(this.guna2TextBox19);
+            this.panel1.Controls.Add(this.guna2TextBox18);
+            this.panel1.Controls.Add(this.guna2TextBox17);
+            this.panel1.Controls.Add(this.guna2TextBox16);
+            this.panel1.Controls.Add(this.guna2TextBox15);
+            this.panel1.Controls.Add(this.guna2TextBox14);
+            this.panel1.Controls.Add(this.guna2TextBox13);
+            this.panel1.Controls.Add(this.guna2TextBox12);
+            this.panel1.Controls.Add(this.guna2TextBox11);
+            this.panel1.Controls.Add(this.guna2TextBox10);
+            this.panel1.Controls.Add(this.guna2TextBox9);
+            this.panel1.Controls.Add(this.guna2TextBox8);
+            this.panel1.Controls.Add(this.guna2TextBox7);
+            this.panel1.Controls.Add(this.guna2TextBox6);
+            this.panel1.Controls.Add(this.guna2TextBox5);
+            this.panel1.Controls.Add(this.guna2TextBox4);
+            this.panel1.Controls.Add(this.guna2TextBox3);
+            this.panel1.Controls.Add(this.guna2TextBox2);
+            this.panel1.Controls.Add(this.guna2TextBox1);
             this.panel1.Controls.Add(this.label18);
-            this.panel1.Controls.Add(this.textBox19);
-            this.panel1.Controls.Add(this.textBox23);
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.textBox22);
-            this.panel1.Controls.Add(this.textBox20);
             this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.textBox17);
-            this.panel1.Controls.Add(this.textBox18);
-            this.panel1.Controls.Add(this.textBox16);
-            this.panel1.Controls.Add(this.textBox13);
-            this.panel1.Controls.Add(this.textBox12);
-            this.panel1.Controls.Add(this.textBox11);
             this.panel1.Controls.Add(this.label38);
             this.panel1.Controls.Add(this.label37);
             this.panel1.Controls.Add(this.label36);
@@ -283,21 +271,9 @@ namespace WindowsFormsApp1
             this.panel1.Controls.Add(this.label32);
             this.panel1.Controls.Add(this.label24);
             this.panel1.Controls.Add(this.label20);
-            this.panel1.Controls.Add(this.textBox10);
-            this.panel1.Controls.Add(this.textBox9);
-            this.panel1.Controls.Add(this.textBox8);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label9);
@@ -311,35 +287,6 @@ namespace WindowsFormsApp1
             this.panel1.Size = new System.Drawing.Size(841, 391);
             this.panel1.TabIndex = 15;
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(657, 341);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 34);
-            this.button4.TabIndex = 53;
-            this.button4.Text = "Save";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Violet;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(472, 341);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(179, 34);
-            this.button3.TabIndex = 52;
-            this.button3.Text = "Update info";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(763, 189);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(73, 22);
-            this.textBox21.TabIndex = 51;
-            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -349,20 +296,6 @@ namespace WindowsFormsApp1
             this.label18.Size = new System.Drawing.Size(72, 17);
             this.label18.TabIndex = 50;
             this.label18.Text = "Advance";
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(582, 189);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(73, 22);
-            this.textBox19.TabIndex = 49;
-            // 
-            // textBox23
-            // 
-            this.textBox23.Location = new System.Drawing.Point(763, 156);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(73, 22);
-            this.textBox23.TabIndex = 48;
             // 
             // label16
             // 
@@ -374,20 +307,6 @@ namespace WindowsFormsApp1
             this.label16.TabIndex = 47;
             this.label16.Text = "Price";
             // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(582, 156);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(73, 22);
-            this.textBox22.TabIndex = 46;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(763, 124);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(73, 22);
-            this.textBox20.TabIndex = 45;
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -397,48 +316,6 @@ namespace WindowsFormsApp1
             this.label13.Size = new System.Drawing.Size(69, 17);
             this.label13.TabIndex = 44;
             this.label13.Text = "Religion";
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(582, 253);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(254, 22);
-            this.textBox17.TabIndex = 43;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(582, 284);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(254, 22);
-            this.textBox18.TabIndex = 41;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(582, 217);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(254, 22);
-            this.textBox16.TabIndex = 39;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(582, 124);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(73, 22);
-            this.textBox13.TabIndex = 36;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(582, 92);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(254, 22);
-            this.textBox12.TabIndex = 35;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(582, 60);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(254, 22);
-            this.textBox11.TabIndex = 34;
             // 
             // label38
             // 
@@ -531,114 +408,22 @@ namespace WindowsFormsApp1
             this.label20.TabIndex = 28;
             this.label20.Text = "Room";
             // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(356, 189);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(62, 22);
-            this.textBox10.TabIndex = 24;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(164, 315);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(254, 22);
-            this.textBox9.TabIndex = 23;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(164, 284);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(254, 22);
-            this.textBox8.TabIndex = 22;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(164, 253);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(254, 22);
-            this.textBox7.TabIndex = 21;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(164, 217);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(254, 22);
-            this.textBox6.TabIndex = 20;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(164, 187);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(143, 22);
-            this.textBox5.TabIndex = 19;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(164, 156);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(254, 22);
-            this.textBox4.TabIndex = 18;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(164, 124);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(254, 22);
-            this.textBox3.TabIndex = 17;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(164, 92);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(254, 22);
-            this.textBox2.TabIndex = 16;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(164, 60);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(254, 22);
-            this.textBox1.TabIndex = 15;
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(3, 22);
+            this.label14.Location = new System.Drawing.Point(3, 17);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(198, 21);
             this.label14.TabIndex = 3;
             this.label14.Text = "Patient Information";
             // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(386, 17);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(140, 34);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "Add Rooms";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(541, 17);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(140, 34);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Refresh";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Controls.Add(this.guna2Button6);
+            this.panel2.Controls.Add(this.guna2Button5);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.button8);
-            this.panel2.Controls.Add(this.button7);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Location = new System.Drawing.Point(848, 88);
             this.panel2.Name = "panel2";
@@ -651,7 +436,7 @@ namespace WindowsFormsApp1
             this.panel3.Controls.Add(this.label19);
             this.panel3.Controls.Add(this.label17);
             this.panel3.Controls.Add(this.label15);
-            this.panel3.Location = new System.Drawing.Point(3, 60);
+            this.panel3.Location = new System.Drawing.Point(3, 57);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(678, 26);
             this.panel3.TabIndex = 8;
@@ -692,13 +477,11 @@ namespace WindowsFormsApp1
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.guna2TextBox22);
+            this.panel4.Controls.Add(this.guna2Button9);
+            this.panel4.Controls.Add(this.guna2Button8);
+            this.panel4.Controls.Add(this.guna2Button7);
             this.panel4.Controls.Add(this.button13);
-            this.panel4.Controls.Add(this.button15);
-            this.panel4.Controls.Add(this.button12);
-            this.panel4.Controls.Add(this.button14);
-            this.panel4.Controls.Add(this.button11);
-            this.panel4.Controls.Add(this.button10);
-            this.panel4.Controls.Add(this.button9);
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Controls.Add(this.label21);
             this.panel4.Location = new System.Drawing.Point(1, 485);
@@ -716,72 +499,6 @@ namespace WindowsFormsApp1
             this.button13.TabIndex = 13;
             this.button13.Text = "Refresh";
             this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button15.ForeColor = System.Drawing.Color.DimGray;
-            this.button15.Location = new System.Drawing.Point(1388, 14);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(140, 34);
-            this.button15.TabIndex = 13;
-            this.button15.Text = "Refresh";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(1388, 14);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(140, 34);
-            this.button12.TabIndex = 13;
-            this.button12.Text = "Refresh";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button14.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button14.Location = new System.Drawing.Point(1233, 14);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(140, 34);
-            this.button14.TabIndex = 12;
-            this.button14.Text = "Add Rooms";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(1233, 14);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(140, 34);
-            this.button11.TabIndex = 12;
-            this.button11.Text = "Add Rooms";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button10.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button10.Location = new System.Drawing.Point(1087, 14);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(140, 34);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Refresh";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button9.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button9.Location = new System.Drawing.Point(932, 14);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(140, 34);
-            this.button9.TabIndex = 10;
-            this.button9.Text = "Add Rooms";
-            this.button9.UseVisualStyleBackColor = false;
             // 
             // panel5
             // 
@@ -885,6 +602,655 @@ namespace WindowsFormsApp1
             this.label21.TabIndex = 3;
             this.label21.Text = "Current Patient List";
             // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Location = new System.Drawing.Point(164, 57);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox1.TabIndex = 54;
+            // 
+            // guna2TextBox2
+            // 
+            this.guna2TextBox2.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox2.DefaultText = "";
+            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Location = new System.Drawing.Point(164, 93);
+            this.guna2TextBox2.Name = "guna2TextBox2";
+            this.guna2TextBox2.PasswordChar = '\0';
+            this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox2.PlaceholderText = "";
+            this.guna2TextBox2.SelectedText = "";
+            this.guna2TextBox2.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox2.TabIndex = 55;
+            // 
+            // guna2TextBox3
+            // 
+            this.guna2TextBox3.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox3.DefaultText = "";
+            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox3.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox3.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox3.Location = new System.Drawing.Point(164, 126);
+            this.guna2TextBox3.Name = "guna2TextBox3";
+            this.guna2TextBox3.PasswordChar = '\0';
+            this.guna2TextBox3.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox3.PlaceholderText = "";
+            this.guna2TextBox3.SelectedText = "";
+            this.guna2TextBox3.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox3.TabIndex = 56;
+            // 
+            // guna2TextBox4
+            // 
+            this.guna2TextBox4.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox4.DefaultText = "";
+            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox4.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox4.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox4.Location = new System.Drawing.Point(164, 157);
+            this.guna2TextBox4.Name = "guna2TextBox4";
+            this.guna2TextBox4.PasswordChar = '\0';
+            this.guna2TextBox4.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox4.PlaceholderText = "";
+            this.guna2TextBox4.SelectedText = "";
+            this.guna2TextBox4.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox4.TabIndex = 57;
+            // 
+            // guna2TextBox5
+            // 
+            this.guna2TextBox5.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox5.DefaultText = "";
+            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox5.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox5.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox5.Location = new System.Drawing.Point(164, 217);
+            this.guna2TextBox5.Name = "guna2TextBox5";
+            this.guna2TextBox5.PasswordChar = '\0';
+            this.guna2TextBox5.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox5.PlaceholderText = "";
+            this.guna2TextBox5.SelectedText = "";
+            this.guna2TextBox5.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox5.TabIndex = 58;
+            // 
+            // guna2TextBox6
+            // 
+            this.guna2TextBox6.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox6.DefaultText = "";
+            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox6.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox6.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox6.Location = new System.Drawing.Point(164, 250);
+            this.guna2TextBox6.Name = "guna2TextBox6";
+            this.guna2TextBox6.PasswordChar = '\0';
+            this.guna2TextBox6.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox6.PlaceholderText = "";
+            this.guna2TextBox6.SelectedText = "";
+            this.guna2TextBox6.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox6.TabIndex = 59;
+            // 
+            // guna2TextBox7
+            // 
+            this.guna2TextBox7.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox7.DefaultText = "";
+            this.guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox7.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox7.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox7.Location = new System.Drawing.Point(164, 284);
+            this.guna2TextBox7.Name = "guna2TextBox7";
+            this.guna2TextBox7.PasswordChar = '\0';
+            this.guna2TextBox7.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox7.PlaceholderText = "";
+            this.guna2TextBox7.SelectedText = "";
+            this.guna2TextBox7.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox7.TabIndex = 60;
+            // 
+            // guna2TextBox8
+            // 
+            this.guna2TextBox8.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox8.DefaultText = "";
+            this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox8.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox8.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox8.Location = new System.Drawing.Point(164, 315);
+            this.guna2TextBox8.Name = "guna2TextBox8";
+            this.guna2TextBox8.PasswordChar = '\0';
+            this.guna2TextBox8.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox8.PlaceholderText = "";
+            this.guna2TextBox8.SelectedText = "";
+            this.guna2TextBox8.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox8.TabIndex = 61;
+            // 
+            // guna2TextBox9
+            // 
+            this.guna2TextBox9.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox9.DefaultText = "";
+            this.guna2TextBox9.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox9.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox9.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox9.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox9.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox9.Location = new System.Drawing.Point(582, 57);
+            this.guna2TextBox9.Name = "guna2TextBox9";
+            this.guna2TextBox9.PasswordChar = '\0';
+            this.guna2TextBox9.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox9.PlaceholderText = "";
+            this.guna2TextBox9.SelectedText = "";
+            this.guna2TextBox9.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox9.TabIndex = 62;
+            // 
+            // guna2TextBox10
+            // 
+            this.guna2TextBox10.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox10.DefaultText = "";
+            this.guna2TextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox10.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox10.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox10.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox10.Location = new System.Drawing.Point(582, 88);
+            this.guna2TextBox10.Name = "guna2TextBox10";
+            this.guna2TextBox10.PasswordChar = '\0';
+            this.guna2TextBox10.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox10.PlaceholderText = "";
+            this.guna2TextBox10.SelectedText = "";
+            this.guna2TextBox10.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox10.TabIndex = 63;
+            // 
+            // guna2TextBox11
+            // 
+            this.guna2TextBox11.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox11.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox11.DefaultText = "";
+            this.guna2TextBox11.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox11.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox11.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox11.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox11.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox11.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox11.Location = new System.Drawing.Point(582, 222);
+            this.guna2TextBox11.Name = "guna2TextBox11";
+            this.guna2TextBox11.PasswordChar = '\0';
+            this.guna2TextBox11.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox11.PlaceholderText = "";
+            this.guna2TextBox11.SelectedText = "";
+            this.guna2TextBox11.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox11.TabIndex = 64;
+            // 
+            // guna2TextBox12
+            // 
+            this.guna2TextBox12.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox12.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox12.DefaultText = "";
+            this.guna2TextBox12.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox12.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox12.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox12.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox12.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox12.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox12.Location = new System.Drawing.Point(582, 253);
+            this.guna2TextBox12.Name = "guna2TextBox12";
+            this.guna2TextBox12.PasswordChar = '\0';
+            this.guna2TextBox12.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox12.PlaceholderText = "";
+            this.guna2TextBox12.SelectedText = "";
+            this.guna2TextBox12.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox12.TabIndex = 65;
+            // 
+            // guna2TextBox13
+            // 
+            this.guna2TextBox13.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox13.DefaultText = "";
+            this.guna2TextBox13.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox13.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox13.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox13.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox13.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox13.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox13.Location = new System.Drawing.Point(582, 286);
+            this.guna2TextBox13.Name = "guna2TextBox13";
+            this.guna2TextBox13.PasswordChar = '\0';
+            this.guna2TextBox13.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox13.PlaceholderText = "";
+            this.guna2TextBox13.SelectedText = "";
+            this.guna2TextBox13.Size = new System.Drawing.Size(254, 25);
+            this.guna2TextBox13.TabIndex = 66;
+            // 
+            // guna2TextBox14
+            // 
+            this.guna2TextBox14.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox14.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox14.DefaultText = "";
+            this.guna2TextBox14.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox14.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox14.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox14.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox14.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox14.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox14.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox14.Location = new System.Drawing.Point(164, 187);
+            this.guna2TextBox14.Name = "guna2TextBox14";
+            this.guna2TextBox14.PasswordChar = '\0';
+            this.guna2TextBox14.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox14.PlaceholderText = "";
+            this.guna2TextBox14.SelectedText = "";
+            this.guna2TextBox14.Size = new System.Drawing.Size(143, 25);
+            this.guna2TextBox14.TabIndex = 67;
+            // 
+            // guna2TextBox15
+            // 
+            this.guna2TextBox15.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox15.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox15.DefaultText = "";
+            this.guna2TextBox15.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox15.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox15.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox15.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox15.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox15.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox15.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox15.Location = new System.Drawing.Point(355, 187);
+            this.guna2TextBox15.Name = "guna2TextBox15";
+            this.guna2TextBox15.PasswordChar = '\0';
+            this.guna2TextBox15.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox15.PlaceholderText = "";
+            this.guna2TextBox15.SelectedText = "";
+            this.guna2TextBox15.Size = new System.Drawing.Size(63, 25);
+            this.guna2TextBox15.TabIndex = 68;
+            // 
+            // guna2TextBox16
+            // 
+            this.guna2TextBox16.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox16.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox16.DefaultText = "";
+            this.guna2TextBox16.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox16.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox16.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox16.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox16.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox16.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox16.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox16.Location = new System.Drawing.Point(582, 126);
+            this.guna2TextBox16.Name = "guna2TextBox16";
+            this.guna2TextBox16.PasswordChar = '\0';
+            this.guna2TextBox16.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox16.PlaceholderText = "";
+            this.guna2TextBox16.SelectedText = "";
+            this.guna2TextBox16.Size = new System.Drawing.Size(73, 25);
+            this.guna2TextBox16.TabIndex = 69;
+            // 
+            // guna2TextBox17
+            // 
+            this.guna2TextBox17.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox17.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox17.DefaultText = "";
+            this.guna2TextBox17.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox17.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox17.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox17.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox17.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox17.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox17.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox17.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox17.Location = new System.Drawing.Point(763, 126);
+            this.guna2TextBox17.Name = "guna2TextBox17";
+            this.guna2TextBox17.PasswordChar = '\0';
+            this.guna2TextBox17.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox17.PlaceholderText = "";
+            this.guna2TextBox17.SelectedText = "";
+            this.guna2TextBox17.Size = new System.Drawing.Size(73, 25);
+            this.guna2TextBox17.TabIndex = 70;
+            // 
+            // guna2TextBox18
+            // 
+            this.guna2TextBox18.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox18.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox18.DefaultText = "";
+            this.guna2TextBox18.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox18.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox18.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox18.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox18.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox18.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox18.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox18.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox18.Location = new System.Drawing.Point(582, 158);
+            this.guna2TextBox18.Name = "guna2TextBox18";
+            this.guna2TextBox18.PasswordChar = '\0';
+            this.guna2TextBox18.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox18.PlaceholderText = "";
+            this.guna2TextBox18.SelectedText = "";
+            this.guna2TextBox18.Size = new System.Drawing.Size(73, 25);
+            this.guna2TextBox18.TabIndex = 71;
+            // 
+            // guna2TextBox19
+            // 
+            this.guna2TextBox19.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox19.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox19.DefaultText = "";
+            this.guna2TextBox19.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox19.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox19.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox19.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox19.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox19.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox19.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox19.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox19.Location = new System.Drawing.Point(763, 158);
+            this.guna2TextBox19.Name = "guna2TextBox19";
+            this.guna2TextBox19.PasswordChar = '\0';
+            this.guna2TextBox19.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox19.PlaceholderText = "";
+            this.guna2TextBox19.SelectedText = "";
+            this.guna2TextBox19.Size = new System.Drawing.Size(73, 25);
+            this.guna2TextBox19.TabIndex = 72;
+            // 
+            // guna2TextBox20
+            // 
+            this.guna2TextBox20.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox20.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox20.DefaultText = "";
+            this.guna2TextBox20.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox20.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox20.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox20.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox20.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox20.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox20.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox20.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox20.Location = new System.Drawing.Point(582, 189);
+            this.guna2TextBox20.Name = "guna2TextBox20";
+            this.guna2TextBox20.PasswordChar = '\0';
+            this.guna2TextBox20.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox20.PlaceholderText = "";
+            this.guna2TextBox20.SelectedText = "";
+            this.guna2TextBox20.Size = new System.Drawing.Size(73, 25);
+            this.guna2TextBox20.TabIndex = 73;
+            // 
+            // guna2TextBox21
+            // 
+            this.guna2TextBox21.BorderColor = System.Drawing.Color.Gray;
+            this.guna2TextBox21.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox21.DefaultText = "";
+            this.guna2TextBox21.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox21.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox21.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox21.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox21.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox21.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2TextBox21.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox21.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox21.Location = new System.Drawing.Point(763, 189);
+            this.guna2TextBox21.Name = "guna2TextBox21";
+            this.guna2TextBox21.PasswordChar = '\0';
+            this.guna2TextBox21.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox21.PlaceholderText = "";
+            this.guna2TextBox21.SelectedText = "";
+            this.guna2TextBox21.Size = new System.Drawing.Size(73, 25);
+            this.guna2TextBox21.TabIndex = 74;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderColor = System.Drawing.Color.White;
+            this.guna2Button1.BorderRadius = 2;
+            this.guna2Button1.BorderThickness = 1;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(472, 12);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(179, 31);
+            this.guna2Button1.TabIndex = 18;
+            this.guna2Button1.Text = "New";
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BorderColor = System.Drawing.Color.White;
+            this.guna2Button2.BorderRadius = 2;
+            this.guna2Button2.BorderThickness = 1;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Red;
+            this.guna2Button2.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Location = new System.Drawing.Point(657, 12);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(179, 31);
+            this.guna2Button2.TabIndex = 75;
+            this.guna2Button2.Text = "Delete";
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.BorderColor = System.Drawing.Color.White;
+            this.guna2Button3.BorderRadius = 2;
+            this.guna2Button3.BorderThickness = 1;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.guna2Button3.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.Location = new System.Drawing.Point(472, 341);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(179, 31);
+            this.guna2Button3.TabIndex = 76;
+            this.guna2Button3.Text = "Update Info";
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.BorderColor = System.Drawing.Color.White;
+            this.guna2Button4.BorderRadius = 2;
+            this.guna2Button4.BorderThickness = 1;
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.Color.LimeGreen;
+            this.guna2Button4.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.Location = new System.Drawing.Point(657, 341);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.Size = new System.Drawing.Size(179, 31);
+            this.guna2Button4.TabIndex = 77;
+            this.guna2Button4.Text = "Save";
+            // 
+            // guna2Button5
+            // 
+            this.guna2Button5.BorderColor = System.Drawing.Color.White;
+            this.guna2Button5.BorderRadius = 2;
+            this.guna2Button5.BorderThickness = 1;
+            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.Location = new System.Drawing.Point(361, 12);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.Size = new System.Drawing.Size(156, 31);
+            this.guna2Button5.TabIndex = 19;
+            this.guna2Button5.Text = "Add Rooms";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.BorderColor = System.Drawing.Color.White;
+            this.guna2Button6.BorderRadius = 2;
+            this.guna2Button6.BorderThickness = 1;
+            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.FillColor = System.Drawing.Color.LimeGreen;
+            this.guna2Button6.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.Location = new System.Drawing.Point(523, 12);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.Size = new System.Drawing.Size(156, 31);
+            this.guna2Button6.TabIndex = 78;
+            this.guna2Button6.Text = "Refresh";
+            // 
+            // guna2Button7
+            // 
+            this.guna2Button7.BorderColor = System.Drawing.Color.Gray;
+            this.guna2Button7.BorderRadius = 2;
+            this.guna2Button7.BorderThickness = 1;
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2Button7.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2Button7.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.guna2Button7.Location = new System.Drawing.Point(782, 13);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.Size = new System.Drawing.Size(134, 35);
+            this.guna2Button7.TabIndex = 79;
+            this.guna2Button7.Text = "Print form";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
+            // 
+            // guna2Button8
+            // 
+            this.guna2Button8.BorderColor = System.Drawing.Color.Gray;
+            this.guna2Button8.BorderRadius = 2;
+            this.guna2Button8.BorderThickness = 1;
+            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button8.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2Button8.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2Button8.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.guna2Button8.Location = new System.Drawing.Point(922, 13);
+            this.guna2Button8.Name = "guna2Button8";
+            this.guna2Button8.Size = new System.Drawing.Size(156, 34);
+            this.guna2Button8.TabIndex = 80;
+            this.guna2Button8.Text = "Print Reciept";
+            // 
+            // guna2Button9
+            // 
+            this.guna2Button9.BorderColor = System.Drawing.Color.Gray;
+            this.guna2Button9.BorderRadius = 2;
+            this.guna2Button9.BorderThickness = 1;
+            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button9.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2Button9.Font = new System.Drawing.Font("Lucida Fax", 9F);
+            this.guna2Button9.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.guna2Button9.Location = new System.Drawing.Point(1084, 14);
+            this.guna2Button9.Name = "guna2Button9";
+            this.guna2Button9.Size = new System.Drawing.Size(268, 34);
+            this.guna2Button9.TabIndex = 81;
+            this.guna2Button9.Text = "Print Admitted Patient List";
+            // 
+            // guna2TextBox22
+            // 
+            this.guna2TextBox22.BorderColor = System.Drawing.Color.Silver;
+            this.guna2TextBox22.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox22.DefaultText = "";
+            this.guna2TextBox22.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox22.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox22.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox22.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox22.FillColor = System.Drawing.Color.LightSteelBlue;
+            this.guna2TextBox22.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox22.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox22.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox22.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox22.IconRight = global::WindowsFormsApp1.Properties.Resources.search_icon_1251651;
+            this.guna2TextBox22.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox22.Location = new System.Drawing.Point(1358, 14);
+            this.guna2TextBox22.Name = "guna2TextBox22";
+            this.guna2TextBox22.PasswordChar = '\0';
+            this.guna2TextBox22.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2TextBox22.PlaceholderText = "Search Here";
+            this.guna2TextBox22.SelectedText = "";
+            this.guna2TextBox22.Size = new System.Drawing.Size(168, 33);
+            this.guna2TextBox22.TabIndex = 82;
+            // 
             // Rooms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -917,8 +1283,6 @@ namespace WindowsFormsApp1
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -930,20 +1294,9 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox21;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox23;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label36;
@@ -953,21 +1306,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label19;
@@ -975,12 +1314,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label28;
@@ -990,5 +1323,36 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label21;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox21;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox20;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox19;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox18;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox17;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox16;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox15;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox14;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox13;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox12;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox11;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox10;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox9;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2Button guna2Button9;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox22;
     }
 }
