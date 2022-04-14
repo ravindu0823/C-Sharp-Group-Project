@@ -264,5 +264,17 @@
   <ItemGroup>
     <None Include="Resources\Vector.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-965546474-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Member Logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-icon-png-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -175,6 +175,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap email_icon_png_5 {
+            get {
+                object obj = ResourceManager.GetObject("email-icon-png-5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gift_card_cion {
             get {
                 object obj = ResourceManager.GetObject("gift-card-cion", resourceCulture);
@@ -275,6 +285,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_965546474_170667a {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-965546474-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kisspng_paypal_computer_icons_logo_paypal_5ac737e8df0e72_9482777915230054169137 {
             get {
                 object obj = ResourceManager.GetObject("kisspng-paypal-computer-icons-logo-paypal-5ac737e8df0e72.9482777915230054169137", resourceCulture);
@@ -298,6 +318,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap Member_Logo {
             get {
                 object obj = ResourceManager.GetObject("Member Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Member_Logo1 {
+            get {
+                object obj = ResourceManager.GetObject("Member Logo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -369,6 +399,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap Vector {
             get {
                 object obj = ResourceManager.GetObject("Vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vector1 {
+            get {
+                object obj = ResourceManager.GetObject("Vector1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
