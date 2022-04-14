@@ -59,3 +59,25 @@ C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\Win
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Appoinment.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Billing.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientHistory.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientRecords.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacy.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Rooms.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm2.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm3.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\dhanu\Desktop\temp2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
