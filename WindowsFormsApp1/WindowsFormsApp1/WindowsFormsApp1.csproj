@@ -231,5 +231,23 @@
   <ItemGroup>
     <None Include="Resources\455-4555037_blue-doctor-icon-png-transparent-png.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library-credit-card-icon-672259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-icon-card+credit+card+debit+card+visa+card+icon-1320184902260183266_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gift-card-cion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-paypal-computer-icons-logo-paypal-5ac737e8df0e72.9482777915230054169137.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13-130474_black-credit-card-pay-card-icon-png-transparent.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

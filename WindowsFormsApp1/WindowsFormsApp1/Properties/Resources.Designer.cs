@@ -63,6 +63,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _13_130474_black_credit_card_pay_card_icon_png_transparent {
+            get {
+                object obj = ResourceManager.GetObject("13-130474_black-credit-card-pay-card-icon-png-transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _360_F_186372280_80FQAz60eaFojyysih6rlaB7GMmRPG7O {
             get {
                 object obj = ResourceManager.GetObject("360_F_186372280_80FQAz60eaFojyysih6rlaB7GMmRPG7O", resourceCulture);
@@ -155,6 +165,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download_icon_card_credit_card_debit_card_visa_card_icon_1320184902260183266_512 {
+            get {
+                object obj = ResourceManager.GetObject("download-icon-card+credit+card+debit+card+visa+card+icon-1320184902260183266_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gift_card_cion {
+            get {
+                object obj = ResourceManager.GetObject("gift-card-cion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hospital_PNG_Transparent_HD_Photo {
             get {
                 object obj = ResourceManager.GetObject("Hospital-PNG-Transparent-HD-Photo", resourceCulture);
@@ -238,6 +268,36 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap istockphoto_1285912397_170667a {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1285912397-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_paypal_computer_icons_logo_paypal_5ac737e8df0e72_9482777915230054169137 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-paypal-computer-icons-logo-paypal-5ac737e8df0e72.9482777915230054169137", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap library_credit_card_icon_672259 {
+            get {
+                object obj = ResourceManager.GetObject("library-credit-card-icon-672259", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paypa {
+            get {
+                object obj = ResourceManager.GetObject("paypa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
