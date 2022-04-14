@@ -295,6 +295,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Member_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Member Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paypa {
             get {
                 object obj = ResourceManager.GetObject("paypa", resourceCulture);
@@ -349,6 +359,27 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap secure_payment_icon_flat_design_vector_10515661 {
             get {
                 object obj = ResourceManager.GetObject("secure-payment-icon-flat-design-vector-10515661", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vector {
+            get {
+                object obj = ResourceManager.GetObject("Vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap young_people_using_mobile_apps_data_analysis_flat_d_character_concept_web_design_172317108 {
+            get {
+                object obj = ResourceManager.GetObject("young-people-using-mobile-apps-data-analysis-flat-d-character-concept-web-design-" +
+                        "172317108", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

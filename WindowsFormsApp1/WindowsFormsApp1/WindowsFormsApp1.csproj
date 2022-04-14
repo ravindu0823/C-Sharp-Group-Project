@@ -255,5 +255,14 @@
   <ItemGroup>
     <None Include="Resources\search_icon_1251651.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\young-people-using-mobile-apps-data-analysis-flat-d-character-concept-web-design-172317108.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Member Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

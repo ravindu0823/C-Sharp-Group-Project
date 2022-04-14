@@ -142,6 +142,9 @@
   <data name="64-641423_blue-phone-logo-png-transparent-blue-phone-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\64-641423_blue-phone-logo-png-transparent-blue-phone-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Member Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Member Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="istockphoto-1133376756-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1133376756-612x6121.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,6 +153,9 @@
   </data>
   <data name="84-841013_bank-png-blue-bank-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\84-841013_bank-png-blue-bank-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_icon_1251651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_icon_1251651.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hospital-PNG-Transparent-HD-Photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hospital-PNG-Transparent-HD-Photo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -162,6 +168,9 @@
   </data>
   <data name="prescription-rx-recipe-line-icon-medicine-drugs-pills-sign-colorful-outline-concept-blue-orange-thin-color-vector-134564603" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\prescription-rx-recipe-line-icon-medicine-drugs-pills-sign-colorful-outline-concept-blue-orange-thin-color-vector-134564603.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="young-people-using-mobile-apps-data-analysis-flat-d-character-concept-web-design-172317108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\young-people-using-mobile-apps-data-analysis-flat-d-character-concept-web-design-172317108.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,20 +190,14 @@
   <data name="istockphoto-1205256331-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1205256331-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="360_F_186372280_80FQAz60eaFojyysih6rlaB7GMmRPG7O" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\360_F_186372280_80FQAz60eaFojyysih6rlaB7GMmRPG7O.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="download-icon-card+credit+card+debit+card+visa+card+icon-1320184902260183266_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download-icon-card+credit+card+debit+card+visa+card+icon-1320184902260183266_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gift-card-cion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gift-card-cion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="search_icon_125165" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_icon_125165.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_186372280_80FQAz60eaFojyysih6rlaB7GMmRPG7O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_186372280_80FQAz60eaFojyysih6rlaB7GMmRPG7O.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Appointment-Reschedule-Request-Icon-Graphics-11757726-2-580x386" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Appointment-Reschedule-Request-Icon-Graphics-11757726-2-580x386.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +205,13 @@
   <data name="istockphoto-1211308388-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1211308388-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search_icon_1251651" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search_icon_1251651.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gift-card-cion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gift-card-cion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
