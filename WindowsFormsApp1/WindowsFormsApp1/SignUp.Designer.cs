@@ -147,6 +147,7 @@ namespace WindowsFormsApp1
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(383, 40);
             this.guna2TextBox2.TabIndex = 19;
+            this.guna2TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // guna2TextBox1
             // 
@@ -175,6 +176,7 @@ namespace WindowsFormsApp1
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(383, 40);
             this.guna2TextBox1.TabIndex = 18;
+            this.guna2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // guna2TextBox3
             // 
@@ -203,6 +205,7 @@ namespace WindowsFormsApp1
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.Size = new System.Drawing.Size(383, 40);
             this.guna2TextBox3.TabIndex = 17;
+            this.guna2TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // guna2PictureBox1
             // 
