@@ -12,9 +12,9 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        private NewForm signup = new NewForm();
-        private NewForm2 home = new NewForm2();
-        private NewForm3 docotorrecords = new NewForm3();
+        private SignUp signup = new SignUp();
+        private Login home = new Login();
+        private DoctorRecords docotorrecords = new DoctorRecords();
         private Appoinment app = new Appoinment();
         private Billing bil = new Billing();
         private PatientHistory ph = new PatientHistory();

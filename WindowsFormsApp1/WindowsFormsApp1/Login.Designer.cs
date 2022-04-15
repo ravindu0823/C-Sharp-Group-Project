@@ -2,7 +2,7 @@
 
 namespace WindowsFormsApp1
 {
-    partial class NewForm2
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -37,6 +37,7 @@ namespace WindowsFormsApp1
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +63,7 @@ namespace WindowsFormsApp1
             this.guna2Button1.Font = new System.Drawing.Font("Segoe Print", 10.2F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.Location = new System.Drawing.Point(92, 262);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(162, 32);
             this.guna2Button1.TabIndex = 11;
@@ -83,12 +84,13 @@ namespace WindowsFormsApp1
             this.guna2GradientButton1.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(92, 314);
-            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(93, 298);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(162, 35);
             this.guna2GradientButton1.TabIndex = 10;
             this.guna2GradientButton1.Text = "Login";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // guna2TextBox3
             // 
@@ -154,27 +156,51 @@ namespace WindowsFormsApp1
             this.guna2PictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.young_people_using_mobile_apps_data_analysis_flat_d_character_concept_web_design_172317108;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(271, -1);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(433, 418);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 7;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // NewForm2
+            // guna2GradientButton2
+            // 
+            this.guna2GradientButton2.Animated = true;
+            this.guna2GradientButton2.AnimatedGIF = true;
+            this.guna2GradientButton2.BorderRadius = 7;
+            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton2.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.BlueViolet;
+            this.guna2GradientButton2.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold);
+            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientButton2.Location = new System.Drawing.Point(92, 353);
+            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2GradientButton2.Name = "guna2GradientButton2";
+            this.guna2GradientButton2.Size = new System.Drawing.Size(162, 35);
+            this.guna2GradientButton2.TabIndex = 13;
+            this.guna2GradientButton2.Text = "Sign Up";
+            this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
+            // 
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(704, 418);
+            this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2TextBox3);
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.guna2PictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "NewForm2";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.NewForm2_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -191,5 +217,6 @@ namespace WindowsFormsApp1
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
     }
 }

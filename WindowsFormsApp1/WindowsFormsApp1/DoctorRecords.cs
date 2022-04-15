@@ -2,9 +2,9 @@
 
 namespace WindowsFormsApp1
 {
-    public partial class NewForm3 : Form
+    public partial class DoctorRecords : Form
     {
-        public NewForm3()
+        public DoctorRecords()
         {
             InitializeComponent();
         }

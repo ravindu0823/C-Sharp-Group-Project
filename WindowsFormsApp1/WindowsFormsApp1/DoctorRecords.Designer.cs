@@ -2,7 +2,7 @@
 
 namespace WindowsFormsApp1
 {
-    partial class NewForm3
+    partial class DoctorRecords
     {
         /// <summary>
         /// Required designer variable.
@@ -261,7 +261,7 @@ namespace WindowsFormsApp1
             this.guna2TextBox5.Size = new System.Drawing.Size(370, 32);
             this.guna2TextBox5.TabIndex = 21;
             // 
-            // NewForm3
+            // DoctorRecords
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -282,7 +282,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "NewForm3";
+            this.Name = "DoctorRecords";
             this.Text = "Doctor Records";
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
