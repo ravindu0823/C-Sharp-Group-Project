@@ -416,6 +416,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_04_16_at_12_15_43_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-04-16 at 12.15.43 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap young_people_using_mobile_apps_data_analysis_flat_d_character_concept_web_design_172317108 {
             get {
                 object obj = ResourceManager.GetObject("young-people-using-mobile-apps-data-analysis-flat-d-character-concept-web-design-" +

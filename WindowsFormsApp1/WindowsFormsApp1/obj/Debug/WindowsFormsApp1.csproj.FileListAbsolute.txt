@@ -50,9 +50,6 @@ C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\Win
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientRecords.resources
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacy.resources
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Rooms.resources
-C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm.resources
-C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm2.resources
-C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NewForm3.resources
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
@@ -103,3 +100,6 @@ C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug
 C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DoctorRecords.resources
 C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
 C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SignUp.resources
+C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SignUp.resources
+C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\Vinuri Disara\Desktop\Github\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DoctorRecords.resources
