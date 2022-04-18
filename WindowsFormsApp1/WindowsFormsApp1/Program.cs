@@ -16,7 +16,11 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Rooms());
+=======
+            Application.Run(new Pharmacy());
+>>>>>>> 224df74b879ac02a35bbf8464f2ec80a91b7b6c2
         }
     }
 }
