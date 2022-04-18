@@ -18,5 +18,41 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void guna2GradientButton5_Click(object sender, System.EventArgs e)
+        {
+            Pharmacy_Office pharmacyOff = new Pharmacy_Office();
+            pharmacyOff.Show();
+        }
+
+        private void guna2GradientButton1_Click(object sender, System.EventArgs e)
+        {
+            Pharmacist1 pharmacist = new Pharmacist1();
+            pharmacist.Show();
+        }
+
+        private void guna2GradientButton2_Click(object sender, System.EventArgs e)
+        {
+            Prescriptions preescrip = new Prescriptions();
+            preescrip.Show();
+        }
+
+        private void guna2GradientButton6_Click(object sender, System.EventArgs e)
+        {
+            surgery SURGERY = new surgery();
+            SURGERY.Show();
+        }
+
+        private void guna2GradientButton4_Click(object sender, System.EventArgs e)
+        {
+            payment pay = new payment();
+            pay.Show();
+        }
+
+        private void guna2GradientButton3_Click(object sender, System.EventArgs e)
+        {
+            help HELP = new help();
+            HELP.Show();
+        }
     }
 }

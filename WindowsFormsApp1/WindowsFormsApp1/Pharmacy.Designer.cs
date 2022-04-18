@@ -61,6 +61,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton4.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton4.TabIndex = 21;
             this.guna2GradientButton4.Text = "Payment";
+            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
             // 
             // guna2GradientButton6
             // 
@@ -81,6 +82,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton6.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton6.TabIndex = 20;
             this.guna2GradientButton6.Text = "Surgery";
+            this.guna2GradientButton6.Click += new System.EventHandler(this.guna2GradientButton6_Click);
             // 
             // guna2GradientButton2
             // 
@@ -101,6 +103,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton2.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton2.TabIndex = 19;
             this.guna2GradientButton2.Text = "Prescriptions";
+            this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
             // guna2GradientButton1
             // 
@@ -121,6 +124,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton1.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton1.TabIndex = 18;
             this.guna2GradientButton1.Text = "Pharmacist";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // guna2GradientButton5
             // 
@@ -141,6 +145,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton5.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton5.TabIndex = 17;
             this.guna2GradientButton5.Text = "Pharmacy Office";
+            this.guna2GradientButton5.Click += new System.EventHandler(this.guna2GradientButton5_Click);
             // 
             // pictureBox1
             // 
@@ -171,6 +176,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton3.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton3.TabIndex = 22;
             this.guna2GradientButton3.Text = "Help";
+            this.guna2GradientButton3.Click += new System.EventHandler(this.guna2GradientButton3_Click);
             // 
             // label1
             // 

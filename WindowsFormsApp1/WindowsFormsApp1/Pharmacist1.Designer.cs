@@ -34,20 +34,22 @@
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(327, 173);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(436, 213);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(24, 15);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(30, 18);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "Test";
             // 
-            // Form3
+            // Pharmacist1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.guna2HtmlLabel1);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Pharmacist1";
+            this.Text = "Pharmacist";
             this.ResumeLayout(false);
             this.PerformLayout();
 
