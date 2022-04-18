@@ -95,9 +95,10 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(464, 31);
+            this.label1.Location = new System.Drawing.Point(309, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(515, 59);
+            this.label1.Size = new System.Drawing.Size(343, 38);
             this.label1.TabIndex = 1;
             this.label1.Text = "Room Management";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -106,9 +107,10 @@ namespace WindowsFormsApp1
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(18, 21);
+            this.label2.Location = new System.Drawing.Point(12, 14);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(239, 25);
+            this.label2.Size = new System.Drawing.Size(162, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Patient Information";
             // 
@@ -116,9 +118,10 @@ namespace WindowsFormsApp1
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(17, 75);
+            this.label3.Location = new System.Drawing.Point(11, 49);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 21);
+            this.label3.Size = new System.Drawing.Size(19, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Id";
             // 
@@ -126,9 +129,10 @@ namespace WindowsFormsApp1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 115);
+            this.label4.Location = new System.Drawing.Point(11, 75);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 21);
+            this.label4.Size = new System.Drawing.Size(42, 15);
             this.label4.TabIndex = 6;
             this.label4.Text = "Name";
             // 
@@ -136,9 +140,10 @@ namespace WindowsFormsApp1
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(17, 155);
+            this.label5.Location = new System.Drawing.Point(11, 101);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 21);
+            this.label5.Size = new System.Drawing.Size(56, 15);
             this.label5.TabIndex = 7;
             this.label5.Text = "Contact";
             // 
@@ -146,9 +151,10 @@ namespace WindowsFormsApp1
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(17, 195);
+            this.label6.Location = new System.Drawing.Point(11, 127);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 21);
+            this.label6.Size = new System.Drawing.Size(51, 15);
             this.label6.TabIndex = 8;
             this.label6.Text = "Gender";
             // 
@@ -156,9 +162,10 @@ namespace WindowsFormsApp1
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(19, 280);
+            this.label7.Location = new System.Drawing.Point(13, 182);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 21);
+            this.label7.Size = new System.Drawing.Size(30, 15);
             this.label7.TabIndex = 9;
             this.label7.Text = "Age";
             // 
@@ -166,9 +173,10 @@ namespace WindowsFormsApp1
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(17, 239);
+            this.label8.Location = new System.Drawing.Point(11, 155);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(159, 21);
+            this.label8.Size = new System.Drawing.Size(106, 15);
             this.label8.TabIndex = 10;
             this.label8.Text = "Father/Husband";
             // 
@@ -176,9 +184,10 @@ namespace WindowsFormsApp1
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(19, 323);
+            this.label9.Location = new System.Drawing.Point(13, 210);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(85, 21);
+            this.label9.Size = new System.Drawing.Size(56, 15);
             this.label9.TabIndex = 11;
             this.label9.Text = "Address";
             // 
@@ -214,10 +223,10 @@ namespace WindowsFormsApp1
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Location = new System.Drawing.Point(1, 110);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(1, 72);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(946, 489);
+            this.panel1.Size = new System.Drawing.Size(631, 318);
             this.panel1.TabIndex = 15;
             // 
             // guna2Button4
@@ -232,10 +241,10 @@ namespace WindowsFormsApp1
             this.guna2Button4.FillColor = System.Drawing.Color.LimeGreen;
             this.guna2Button4.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(739, 426);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button4.Location = new System.Drawing.Point(493, 277);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(201, 39);
+            this.guna2Button4.Size = new System.Drawing.Size(134, 25);
             this.guna2Button4.TabIndex = 77;
             this.guna2Button4.Text = "Save";
             // 
@@ -251,10 +260,10 @@ namespace WindowsFormsApp1
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2Button3.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(531, 426);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button3.Location = new System.Drawing.Point(354, 277);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(201, 39);
+            this.guna2Button3.Size = new System.Drawing.Size(134, 25);
             this.guna2Button3.TabIndex = 76;
             this.guna2Button3.Text = "Update Info";
             // 
@@ -271,14 +280,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox21.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox21.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox21.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox21.Location = new System.Drawing.Point(660, 206);
-            this.guna2TextBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox21.Location = new System.Drawing.Point(440, 134);
+            this.guna2TextBox21.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox21.Name = "guna2TextBox21";
             this.guna2TextBox21.PasswordChar = '\0';
             this.guna2TextBox21.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox21.PlaceholderText = "";
             this.guna2TextBox21.SelectedText = "";
-            this.guna2TextBox21.Size = new System.Drawing.Size(283, 31);
+            this.guna2TextBox21.Size = new System.Drawing.Size(189, 20);
             this.guna2TextBox21.TabIndex = 74;
             // 
             // guna2TextBox18
@@ -294,14 +303,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox18.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox18.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox18.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox18.Location = new System.Drawing.Point(657, 158);
-            this.guna2TextBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox18.Location = new System.Drawing.Point(438, 103);
+            this.guna2TextBox18.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox18.Name = "guna2TextBox18";
             this.guna2TextBox18.PasswordChar = '\0';
             this.guna2TextBox18.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox18.PlaceholderText = "";
             this.guna2TextBox18.SelectedText = "";
-            this.guna2TextBox18.Size = new System.Drawing.Size(283, 31);
+            this.guna2TextBox18.Size = new System.Drawing.Size(189, 20);
             this.guna2TextBox18.TabIndex = 71;
             // 
             // guna2TextBox16
@@ -317,14 +326,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox16.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox16.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox16.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox16.Location = new System.Drawing.Point(657, 115);
-            this.guna2TextBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox16.Location = new System.Drawing.Point(438, 75);
+            this.guna2TextBox16.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox16.Name = "guna2TextBox16";
             this.guna2TextBox16.PasswordChar = '\0';
             this.guna2TextBox16.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox16.PlaceholderText = "";
             this.guna2TextBox16.SelectedText = "";
-            this.guna2TextBox16.Size = new System.Drawing.Size(283, 31);
+            this.guna2TextBox16.Size = new System.Drawing.Size(189, 20);
             this.guna2TextBox16.TabIndex = 69;
             // 
             // guna2TextBox15
@@ -340,15 +349,16 @@ namespace WindowsFormsApp1
             this.guna2TextBox15.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox15.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox15.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox15.Location = new System.Drawing.Point(184, 270);
-            this.guna2TextBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox15.Location = new System.Drawing.Point(123, 176);
+            this.guna2TextBox15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox15.Name = "guna2TextBox15";
             this.guna2TextBox15.PasswordChar = '\0';
             this.guna2TextBox15.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox15.PlaceholderText = "";
             this.guna2TextBox15.SelectedText = "";
-            this.guna2TextBox15.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox15.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox15.TabIndex = 68;
+            this.guna2TextBox15.TextChanged += new System.EventHandler(this.guna2TextBox15_TextChanged);
             // 
             // guna2TextBox14
             // 
@@ -363,14 +373,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox14.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox14.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox14.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox14.Location = new System.Drawing.Point(184, 235);
-            this.guna2TextBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox14.Location = new System.Drawing.Point(123, 153);
+            this.guna2TextBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox14.Name = "guna2TextBox14";
             this.guna2TextBox14.PasswordChar = '\0';
             this.guna2TextBox14.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox14.PlaceholderText = "";
             this.guna2TextBox14.SelectedText = "";
-            this.guna2TextBox14.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox14.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox14.TabIndex = 67;
             // 
             // guna2TextBox13
@@ -386,14 +396,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox13.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox13.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox13.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox13.Location = new System.Drawing.Point(657, 302);
-            this.guna2TextBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox13.Location = new System.Drawing.Point(438, 196);
+            this.guna2TextBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox13.Name = "guna2TextBox13";
             this.guna2TextBox13.PasswordChar = '\0';
             this.guna2TextBox13.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox13.PlaceholderText = "";
             this.guna2TextBox13.SelectedText = "";
-            this.guna2TextBox13.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox13.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox13.TabIndex = 66;
             // 
             // guna2TextBox11
@@ -409,14 +419,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox11.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox11.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox11.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox11.Location = new System.Drawing.Point(657, 253);
-            this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox11.Location = new System.Drawing.Point(438, 164);
+            this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox11.Name = "guna2TextBox11";
             this.guna2TextBox11.PasswordChar = '\0';
             this.guna2TextBox11.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox11.PlaceholderText = "";
             this.guna2TextBox11.SelectedText = "";
-            this.guna2TextBox11.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox11.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox11.TabIndex = 64;
             // 
             // guna2TextBox9
@@ -432,14 +442,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox9.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox9.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox9.Location = new System.Drawing.Point(655, 71);
-            this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox9.Location = new System.Drawing.Point(437, 46);
+            this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox9.Name = "guna2TextBox9";
             this.guna2TextBox9.PasswordChar = '\0';
             this.guna2TextBox9.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox9.PlaceholderText = "";
             this.guna2TextBox9.SelectedText = "";
-            this.guna2TextBox9.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox9.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox9.TabIndex = 62;
             // 
             // guna2TextBox5
@@ -455,14 +465,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox5.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox5.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Location = new System.Drawing.Point(184, 323);
-            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox5.Location = new System.Drawing.Point(123, 210);
+            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox5.Name = "guna2TextBox5";
             this.guna2TextBox5.PasswordChar = '\0';
             this.guna2TextBox5.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox5.PlaceholderText = "";
             this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox5.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox5.TabIndex = 58;
             // 
             // guna2TextBox4
@@ -478,14 +488,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox4.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox4.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(184, 196);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox4.Location = new System.Drawing.Point(123, 127);
+            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox4.Name = "guna2TextBox4";
             this.guna2TextBox4.PasswordChar = '\0';
             this.guna2TextBox4.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox4.PlaceholderText = "";
             this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox4.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox4.TabIndex = 57;
             // 
             // guna2TextBox3
@@ -501,14 +511,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox3.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox3.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(184, 158);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox3.Location = new System.Drawing.Point(123, 103);
+            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
             this.guna2TextBox3.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox3.PlaceholderText = "";
             this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox3.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox3.TabIndex = 56;
             // 
             // guna2TextBox2
@@ -524,14 +534,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox2.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(184, 116);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox2.Location = new System.Drawing.Point(123, 75);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox2.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox2.TabIndex = 55;
             // 
             // guna2TextBox1
@@ -547,23 +557,24 @@ namespace WindowsFormsApp1
             this.guna2TextBox1.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(184, 71);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox1.Location = new System.Drawing.Point(123, 46);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(286, 31);
+            this.guna2TextBox1.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox1.TabIndex = 54;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(488, 206);
+            this.label18.Location = new System.Drawing.Point(325, 134);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(88, 21);
+            this.label18.Size = new System.Drawing.Size(60, 15);
             this.label18.TabIndex = 50;
             this.label18.Text = "Advance";
             // 
@@ -571,9 +582,10 @@ namespace WindowsFormsApp1
             // 
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(488, 302);
+            this.label38.Location = new System.Drawing.Point(325, 196);
+            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(51, 21);
+            this.label38.Size = new System.Drawing.Size(35, 15);
             this.label38.TabIndex = 33;
             this.label38.Text = "Date";
             // 
@@ -581,9 +593,10 @@ namespace WindowsFormsApp1
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(487, 75);
+            this.label36.Location = new System.Drawing.Point(325, 49);
+            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(158, 21);
+            this.label36.Size = new System.Drawing.Size(107, 15);
             this.label36.TabIndex = 25;
             this.label36.Text = "Emergency Num";
             // 
@@ -591,9 +604,10 @@ namespace WindowsFormsApp1
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(488, 253);
+            this.label35.Location = new System.Drawing.Point(325, 164);
+            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(110, 21);
+            this.label35.Size = new System.Drawing.Size(75, 15);
             this.label35.TabIndex = 31;
             this.label35.Text = "Consultant";
             // 
@@ -601,9 +615,10 @@ namespace WindowsFormsApp1
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(488, 116);
+            this.label32.Location = new System.Drawing.Point(325, 75);
+            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(123, 21);
+            this.label32.Size = new System.Drawing.Size(84, 15);
             this.label32.TabIndex = 27;
             this.label32.Text = "Blood Group";
             // 
@@ -611,9 +626,10 @@ namespace WindowsFormsApp1
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(488, 158);
+            this.label20.Location = new System.Drawing.Point(325, 103);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(61, 21);
+            this.label20.Size = new System.Drawing.Size(43, 15);
             this.label20.TabIndex = 28;
             this.label20.Text = "Room";
             // 
@@ -621,9 +637,10 @@ namespace WindowsFormsApp1
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(3, 21);
+            this.label14.Location = new System.Drawing.Point(2, 14);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(239, 25);
+            this.label14.Size = new System.Drawing.Size(162, 17);
             this.label14.TabIndex = 3;
             this.label14.Text = "Patient Information";
             // 
@@ -634,10 +651,10 @@ namespace WindowsFormsApp1
             this.panel2.Controls.Add(this.guna2Button5);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.label14);
-            this.panel2.Location = new System.Drawing.Point(954, 110);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(636, 72);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(785, 489);
+            this.panel2.Size = new System.Drawing.Size(523, 318);
             this.panel2.TabIndex = 16;
             // 
             // guna2Button6
@@ -652,10 +669,10 @@ namespace WindowsFormsApp1
             this.guna2Button6.FillColor = System.Drawing.Color.LimeGreen;
             this.guna2Button6.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(588, 15);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button6.Location = new System.Drawing.Point(392, 10);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(176, 39);
+            this.guna2Button6.Size = new System.Drawing.Size(117, 25);
             this.guna2Button6.TabIndex = 78;
             this.guna2Button6.Text = "Refresh";
             // 
@@ -670,10 +687,10 @@ namespace WindowsFormsApp1
             this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button5.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(406, 15);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button5.Location = new System.Drawing.Point(271, 10);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(176, 39);
+            this.guna2Button5.Size = new System.Drawing.Size(117, 25);
             this.guna2Button5.TabIndex = 19;
             this.guna2Button5.Text = "Add Rooms";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
@@ -684,10 +701,10 @@ namespace WindowsFormsApp1
             this.panel3.Controls.Add(this.label19);
             this.panel3.Controls.Add(this.label17);
             this.panel3.Controls.Add(this.label15);
-            this.panel3.Location = new System.Drawing.Point(3, 71);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel3.Location = new System.Drawing.Point(2, 46);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(763, 32);
+            this.panel3.Size = new System.Drawing.Size(509, 21);
             this.panel3.TabIndex = 8;
             // 
             // label19
@@ -695,9 +712,10 @@ namespace WindowsFormsApp1
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(685, 6);
+            this.label19.Location = new System.Drawing.Point(457, 4);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(54, 21);
+            this.label19.Size = new System.Drawing.Size(37, 15);
             this.label19.TabIndex = 29;
             this.label19.Text = "Price";
             // 
@@ -706,9 +724,10 @@ namespace WindowsFormsApp1
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(353, 6);
+            this.label17.Location = new System.Drawing.Point(235, 4);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(92, 21);
+            this.label17.Size = new System.Drawing.Size(64, 15);
             this.label17.TabIndex = 30;
             this.label17.Text = "Room No";
             // 
@@ -717,9 +736,10 @@ namespace WindowsFormsApp1
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(14, 6);
+            this.label15.Location = new System.Drawing.Point(9, 4);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(55, 21);
+            this.label15.Size = new System.Drawing.Size(37, 15);
             this.label15.TabIndex = 29;
             this.label15.Text = "Type";
             // 
@@ -733,10 +753,10 @@ namespace WindowsFormsApp1
             this.panel4.Controls.Add(this.button13);
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Controls.Add(this.label21);
-            this.panel4.Location = new System.Drawing.Point(1, 606);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel4.Location = new System.Drawing.Point(1, 394);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1738, 582);
+            this.panel4.Size = new System.Drawing.Size(1159, 378);
             this.panel4.TabIndex = 17;
             // 
             // guna2TextBox22
@@ -755,14 +775,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox22.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox22.IconRight = global::WindowsFormsApp1.Properties.Resources.search_icon_1251651;
             this.guna2TextBox22.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox22.Location = new System.Drawing.Point(1528, 18);
-            this.guna2TextBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox22.Location = new System.Drawing.Point(1019, 12);
+            this.guna2TextBox22.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox22.Name = "guna2TextBox22";
             this.guna2TextBox22.PasswordChar = '\0';
             this.guna2TextBox22.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TextBox22.PlaceholderText = "Search Here";
             this.guna2TextBox22.SelectedText = "";
-            this.guna2TextBox22.Size = new System.Drawing.Size(189, 41);
+            this.guna2TextBox22.Size = new System.Drawing.Size(126, 27);
             this.guna2TextBox22.TabIndex = 82;
             // 
             // guna2Button9
@@ -777,10 +797,10 @@ namespace WindowsFormsApp1
             this.guna2Button9.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button9.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2Button9.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.guna2Button9.Location = new System.Drawing.Point(1220, 18);
-            this.guna2Button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button9.Location = new System.Drawing.Point(813, 12);
+            this.guna2Button9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(302, 42);
+            this.guna2Button9.Size = new System.Drawing.Size(201, 27);
             this.guna2Button9.TabIndex = 81;
             this.guna2Button9.Text = "Print Admitted Patient List";
             // 
@@ -796,10 +816,10 @@ namespace WindowsFormsApp1
             this.guna2Button8.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button8.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2Button8.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.guna2Button8.Location = new System.Drawing.Point(1037, 16);
-            this.guna2Button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button8.Location = new System.Drawing.Point(691, 10);
+            this.guna2Button8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(176, 42);
+            this.guna2Button8.Size = new System.Drawing.Size(117, 27);
             this.guna2Button8.TabIndex = 80;
             this.guna2Button8.Text = "Print Reciept";
             // 
@@ -815,10 +835,10 @@ namespace WindowsFormsApp1
             this.guna2Button7.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button7.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2Button7.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.guna2Button7.Location = new System.Drawing.Point(880, 16);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button7.Location = new System.Drawing.Point(587, 10);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(151, 44);
+            this.guna2Button7.Size = new System.Drawing.Size(101, 29);
             this.guna2Button7.TabIndex = 79;
             this.guna2Button7.Text = "Print form";
             this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
@@ -827,10 +847,10 @@ namespace WindowsFormsApp1
             // 
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(2171, -216);
-            this.button13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button13.Location = new System.Drawing.Point(1447, -140);
+            this.button13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(158, 42);
+            this.button13.Size = new System.Drawing.Size(105, 27);
             this.button13.TabIndex = 13;
             this.button13.Text = "Refresh";
             this.button13.UseVisualStyleBackColor = false;
@@ -845,10 +865,10 @@ namespace WindowsFormsApp1
             this.panel5.Controls.Add(this.label22);
             this.panel5.Controls.Add(this.label23);
             this.panel5.Controls.Add(this.label25);
-            this.panel5.Location = new System.Drawing.Point(12, 69);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel5.Location = new System.Drawing.Point(8, 45);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1704, 32);
+            this.panel5.Size = new System.Drawing.Size(1136, 21);
             this.panel5.TabIndex = 9;
             // 
             // label29
@@ -856,9 +876,10 @@ namespace WindowsFormsApp1
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(1566, 6);
+            this.label29.Location = new System.Drawing.Point(1044, 4);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(55, 21);
+            this.label29.Size = new System.Drawing.Size(38, 15);
             this.label29.TabIndex = 34;
             this.label29.Text = "Time";
             // 
@@ -867,9 +888,10 @@ namespace WindowsFormsApp1
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(1383, 6);
+            this.label28.Location = new System.Drawing.Point(922, 4);
+            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(51, 21);
+            this.label28.Size = new System.Drawing.Size(35, 15);
             this.label28.TabIndex = 33;
             this.label28.Text = "Date";
             // 
@@ -878,9 +900,10 @@ namespace WindowsFormsApp1
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(1194, 6);
+            this.label27.Location = new System.Drawing.Point(796, 4);
+            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(92, 21);
+            this.label27.Size = new System.Drawing.Size(64, 15);
             this.label27.TabIndex = 32;
             this.label27.Text = "Room No";
             // 
@@ -889,9 +912,10 @@ namespace WindowsFormsApp1
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(610, 6);
+            this.label26.Location = new System.Drawing.Point(407, 4);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(85, 21);
+            this.label26.Size = new System.Drawing.Size(56, 15);
             this.label26.TabIndex = 31;
             this.label26.Text = "Address";
             // 
@@ -900,9 +924,10 @@ namespace WindowsFormsApp1
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(384, 6);
+            this.label22.Location = new System.Drawing.Point(256, 4);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(80, 21);
+            this.label22.Size = new System.Drawing.Size(56, 15);
             this.label22.TabIndex = 29;
             this.label22.Text = "Contact";
             // 
@@ -911,9 +936,10 @@ namespace WindowsFormsApp1
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(186, 6);
+            this.label23.Location = new System.Drawing.Point(124, 4);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(61, 21);
+            this.label23.Size = new System.Drawing.Size(42, 15);
             this.label23.TabIndex = 30;
             this.label23.Text = "Name";
             // 
@@ -922,9 +948,10 @@ namespace WindowsFormsApp1
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(14, 6);
+            this.label25.Location = new System.Drawing.Point(9, 4);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(30, 21);
+            this.label25.Size = new System.Drawing.Size(20, 15);
             this.label25.TabIndex = 29;
             this.label25.Text = "ID";
             // 
@@ -932,23 +959,23 @@ namespace WindowsFormsApp1
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(10, 24);
+            this.label21.Location = new System.Drawing.Point(7, 16);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(239, 25);
+            this.label21.Size = new System.Drawing.Size(160, 17);
             this.label21.TabIndex = 3;
             this.label21.Text = "Current Patient List";
             // 
             // Rooms
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1756, 1050);
+            this.ClientSize = new System.Drawing.Size(1171, 682);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Rooms";
             this.Text = "Rooms";
             this.panel1.ResumeLayout(false);

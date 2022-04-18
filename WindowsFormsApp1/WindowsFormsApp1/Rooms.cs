@@ -33,5 +33,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void guna2TextBox15_TextChanged(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
