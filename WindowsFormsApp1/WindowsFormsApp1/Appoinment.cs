@@ -61,8 +61,7 @@ namespace WindowsFormsApp1
             string appointmentdate = guna2TextBox5.Text;
             string doctor = guna2TextBox6.Text;
 
-            //SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
 
             string sql = "INSERT INTO appointment (Fullname,Phonenumber,Department,Age,Appointment_date,Doctor) VALUES ('" + fullname + "', '" + phonenumber + "', '" + department + "', '" + age + "', '" + appointmentdate + "', '" + doctor + "')";
 
