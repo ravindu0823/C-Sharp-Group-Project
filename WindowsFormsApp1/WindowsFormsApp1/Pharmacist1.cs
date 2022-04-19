@@ -39,22 +39,50 @@ namespace WindowsFormsApp1
 
             SqlCommand cmd = new SqlCommand(sql, conn);
 
-            try
+            /*if (textID.Text == "" || textNAME.Text == "" || textAFFON.Text == "" || textMFGDATE.Text == "" || textEXPDATE.Text == "" || textQUANTITY.Text == "" || textBOXNO.Text == "" || textPRICE.Text == "" || textSUPPID.Text == "" || textSUPPNAME.Text == "")
             {
-                conn.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("User insertion sucessfully");
+                MessageBox.Show("Fill out all the details");
+            }*/
+            if ( medi_id == null)
+            {
+                MessageBox.Show("Fill out all the details");
             }
+            else
+            {
+                try
+                {
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("User insertion sucessfully");
+                }
 
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
 
-            finally
-            {
-                conn.Close();
+                finally
+                {
+                    conn.Close();
+                }
             }
+        }
+
+        private void Pharmacist1_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'projectDataSet.Pharmacist' table. You can move, or remove it, as needed.
+            this.pharmacistTableAdapter.Fill(this.projectDataSet.Pharmacist);
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void updatebtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
