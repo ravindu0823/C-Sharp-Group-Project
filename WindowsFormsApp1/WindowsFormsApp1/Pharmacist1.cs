@@ -71,7 +71,7 @@ namespace WindowsFormsApp1
         private void Pharmacist1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'projectDataSet.Pharmacist' table. You can move, or remove it, as needed.
-            this.pharmacistTableAdapter.Fill(this.projectDataSet.Pharmacist);
+            //this.pharmacistTableAdapter.Fill(this.projectDataSet.Pharmacist);
 
         }
 

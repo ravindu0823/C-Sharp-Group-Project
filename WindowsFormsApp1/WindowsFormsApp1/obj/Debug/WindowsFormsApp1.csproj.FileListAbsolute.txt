@@ -177,3 +177,4 @@ C:\Users\DELL\OneDrive\Desktop\Github2\C-Sharp-Group-Project\WindowsFormsApp1\Wi
 C:\Users\DELL\OneDrive\Desktop\Github2\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\DELL\OneDrive\Desktop\Github2\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\DELL\OneDrive\Desktop\Github2\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.help.resources
+C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.help.resources
