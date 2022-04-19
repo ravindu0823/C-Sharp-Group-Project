@@ -43,12 +43,12 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Fill out all the details");
             }*/
-            if ( medi_id == null)
+            /*if ( medi_id == null)
             {
                 MessageBox.Show("Fill out all the details");
             }
             else
-            {
+            {*/
                 try
                 {
                     conn.Open();
@@ -65,7 +65,7 @@ namespace WindowsFormsApp1
                 {
                     conn.Close();
                 }
-            }
+            /*}*/
         }
 
         private void Pharmacist1_Load(object sender, EventArgs e)
@@ -83,6 +83,53 @@ namespace WindowsFormsApp1
         private void updatebtn_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void deletebtn_Click(object sender, EventArgs e)
+        {
+            int medi_id = int.Parse(textID.Text);
+            /*string name = textNAME.Text;
+            string affect_on = textAFFON.Text;
+            string mfg = textMFGDATE.Text;
+            string exp = textEXPDATE.Text;
+            int quantity = int.Parse(textQUANTITY.Text);
+            int box_no = int.Parse(textBOXNO.Text);
+            double price = Convert.ToDouble(textPRICE.Text);
+            int supplier_id = int.Parse(textSUPPID.Text);
+            string supplier_name = textSUPPNAME.Text;*/
+
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+
+            string del = "DELETE FROM Pharmacist Where medi_id = '"+medi_id+"'";
+            //string sql = "INSERT INTO DoctorRecord (doctor_id,doctor_Name,profession,emergency_contact,phone) VALUES ('" + 1001 + "', '" + "Vinuri" + "', '" + "Pol gaama" + "', '" + 1919 + "', '" + 0712246569 + "')";
+
+
+            SqlCommand cmd = new SqlCommand(del, conn);
+
+            /*if (textID.Text == "" || textNAME.Text == "" || textAFFON.Text == "" || textMFGDATE.Text == "" || textEXPDATE.Text == "" || textQUANTITY.Text == "" || textBOXNO.Text == "" || textPRICE.Text == "" || textSUPPID.Text == "" || textSUPPNAME.Text == "")
+            {
+                MessageBox.Show("Fill out all the details");
+            }*/
+            
+            /*else
+            {*/
+                try
+                {
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Record deleted sucessfully");
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
+                finally
+                {
+                    conn.Close();
+                }
+            /*}*/
         }
     }
 }
