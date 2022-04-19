@@ -161,6 +161,9 @@
     <EmbeddedResource Include="Billing.resx">
       <DependentUpon>Billing.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pharmacist1.resx">
       <DependentUpon>Pharmacist1.cs</DependentUpon>
     </EmbeddedResource>
