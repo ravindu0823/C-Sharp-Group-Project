@@ -113,6 +113,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _800px_COLOURBOX23876936 {
+            get {
+                object obj = ResourceManager.GetObject("800px_COLOURBOX23876936", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _84_841013_bank_png_blue_bank_icon {
             get {
                 object obj = ResourceManager.GetObject("84-841013_bank-png-blue-bank-icon", resourceCulture);
@@ -195,6 +205,17 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap healthcare_medical_heart_vector_poster_items_medicines_medications_treatments_pills_drugs_pulse_tooth_implant_84192379 {
+            get {
+                object obj = ResourceManager.GetObject("healthcare-medical-heart-vector-poster-items-medicines-medications-treatments-pil" +
+                        "ls-drugs-pulse-tooth-implant-84192379", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hospital_PNG_Transparent_HD_Photo {
             get {
                 object obj = ResourceManager.GetObject("Hospital-PNG-Transparent-HD-Photo", resourceCulture);
@@ -238,6 +259,26 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap images_1 {
             get {
                 object obj = ResourceManager.GetObject("images 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1132087010_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1132087010-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1132087010_612x6121 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1132087010-612x6121", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -389,6 +430,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap secure_payment_icon_flat_design_vector_10515661 {
             get {
                 object obj = ResourceManager.GetObject("secure-payment-icon-flat-design-vector-10515661", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap team_1024x683 {
+            get {
+                object obj = ResourceManager.GetObject("team-1024x683", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

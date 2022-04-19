@@ -321,5 +321,20 @@
   <ItemGroup>
     <None Include="Resources\WhatsApp Image 2022-04-16 at 12.15.43 PM.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1132087010-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team-1024x683.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1132087010-612x6121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800px_COLOURBOX23876936.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthcare-medical-heart-vector-poster-items-medicines-medications-treatments-pills-drugs-pulse-tooth-implant-84192379.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
