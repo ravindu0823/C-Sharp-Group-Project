@@ -16,5 +16,11 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            payment paynow = new payment();
+            paynow.Show();
+        }
     }
 }

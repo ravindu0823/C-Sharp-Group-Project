@@ -164,6 +164,9 @@
     <EmbeddedResource Include="help.resx">
       <DependentUpon>help.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="payment.resx">
+      <DependentUpon>payment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pharmacist1.resx">
       <DependentUpon>Pharmacist1.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pharmacy_Office.resx">
       <DependentUpon>Pharmacy_Office.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prescriptions.resx">
+      <DependentUpon>Prescriptions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rooms.resx">
       <DependentUpon>Rooms.cs</DependentUpon>
@@ -354,6 +360,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\healthcare-medical-heart-vector-poster-items-medicines-medications-treatments-pills-drugs-pulse-tooth-implant-84192379.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health-care-drug-pharmacist-878852718_1x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pillsandthermometerfeatureimage1600x650.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naltima-28naltrexone-29-for-bulk-500x500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naltrexone-500x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51pSARpGOML._SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glycopyrrolate-02mg%401.5x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imodium_ad_caplet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misoprostol-cautelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00000000000000000000000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22222222222222222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31033f89-7407-4fa0-afb8-bb40b833abf0_1.b21c514f1f3942c34f66cf6421f27681.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -15,6 +15,17 @@ namespace WindowsFormsApp1
         public payment()
         {
             InitializeComponent();
+            /*guna2Panel1.BackColor = Color.FromArgb(125, Color.White);*/
+        }
+
+        private void payment_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            /*guna2Panel1.BackColor = Color.FromArgb(125, Color.White);*/
         }
     }
 }

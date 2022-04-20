@@ -31,8 +31,6 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -41,48 +39,6 @@ namespace WindowsFormsApp1
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // guna2GradientButton4
-            // 
-            this.guna2GradientButton4.BorderRadius = 8;
-            this.guna2GradientButton4.BorderThickness = 1;
-            this.guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton4.FillColor = System.Drawing.Color.Indigo;
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.MediumOrchid;
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(51, 449);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.Size = new System.Drawing.Size(373, 37);
-            this.guna2GradientButton4.TabIndex = 21;
-            this.guna2GradientButton4.Text = "Payment";
-            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
-            // 
-            // guna2GradientButton6
-            // 
-            this.guna2GradientButton6.BorderRadius = 8;
-            this.guna2GradientButton6.BorderThickness = 1;
-            this.guna2GradientButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton6.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton6.FillColor = System.Drawing.Color.Indigo;
-            this.guna2GradientButton6.FillColor2 = System.Drawing.Color.MediumOrchid;
-            this.guna2GradientButton6.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton6.Location = new System.Drawing.Point(51, 371);
-            this.guna2GradientButton6.Name = "guna2GradientButton6";
-            this.guna2GradientButton6.Size = new System.Drawing.Size(373, 37);
-            this.guna2GradientButton6.TabIndex = 20;
-            this.guna2GradientButton6.Text = "Surgery";
-            this.guna2GradientButton6.Click += new System.EventHandler(this.guna2GradientButton6_Click);
             // 
             // guna2GradientButton2
             // 
@@ -98,7 +54,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(51, 294);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(51, 385);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton2.TabIndex = 19;
@@ -119,7 +75,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton1.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(51, 220);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(51, 274);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton1.TabIndex = 18;
@@ -140,7 +96,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton5.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton5.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton5.Location = new System.Drawing.Point(51, 147);
+            this.guna2GradientButton5.Location = new System.Drawing.Point(51, 156);
             this.guna2GradientButton5.Name = "guna2GradientButton5";
             this.guna2GradientButton5.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton5.TabIndex = 17;
@@ -171,7 +127,7 @@ namespace WindowsFormsApp1
             this.guna2GradientButton3.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(51, 523);
+            this.guna2GradientButton3.Location = new System.Drawing.Point(51, 505);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
             this.guna2GradientButton3.Size = new System.Drawing.Size(373, 37);
             this.guna2GradientButton3.TabIndex = 22;
@@ -199,8 +155,6 @@ namespace WindowsFormsApp1
             this.ClientSize = new System.Drawing.Size(1142, 624);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2GradientButton3);
-            this.Controls.Add(this.guna2GradientButton4);
-            this.Controls.Add(this.guna2GradientButton6);
             this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2GradientButton5);
@@ -216,8 +170,6 @@ namespace WindowsFormsApp1
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton6;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton5;
