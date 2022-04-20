@@ -12,7 +12,7 @@ namespace WindowsFormsApp1.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.0.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.1.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -31,6 +31,18 @@ namespace WindowsFormsApp1.Properties {
         public string ProjectConnectionString {
             get {
                 return ((string)(this["ProjectConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\Coding\\NSBM\\Year 01\\Semes" +
+            "ter 02\\C#\\DATABASE Servers\\Project.mdf\";Integrated Security=True;Connect Timeout" +
+            "=30")]
+        public string ProjectConnectionString1_Ravindu {
+            get {
+                return ((string)(this["ProjectConnectionString1_Ravindu"]));
             }
         }
     }

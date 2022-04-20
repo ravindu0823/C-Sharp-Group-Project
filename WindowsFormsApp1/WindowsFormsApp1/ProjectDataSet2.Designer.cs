@@ -1057,7 +1057,7 @@ SELECT Id, medi_id, name, affect_on, mfg, exp, quantity, box_no, price, supplier
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.ProjectConnectionString;
+            this._connection.ConnectionString = global::WindowsFormsApp1.Properties.Settings.Default.ProjectConnectionString1_Ravindu;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

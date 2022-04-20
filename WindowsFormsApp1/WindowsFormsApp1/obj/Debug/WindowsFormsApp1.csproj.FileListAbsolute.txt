@@ -180,3 +180,8 @@ C:\Users\DELL\OneDrive\Desktop\Github2\C-Sharp-Group-Project\WindowsFormsApp1\Wi
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.help.resources
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Prescriptions.resources
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.payment.resources
+C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.help.resources
+C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.payment.resources
+C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacist1.resources
+C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacy_Office.resources
+C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Prescriptions.resources
