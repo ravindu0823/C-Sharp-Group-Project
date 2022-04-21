@@ -29,69 +29,85 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtTot = new Guna.UI2.WinForms.Guna2TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtTot1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label26 = new System.Windows.Forms.Label();
-            this.guna2ComboBox5 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtTot2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.guna2ComboBox4 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtTot5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.guna2ComboBox6 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtTot3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.guna2ComboBox7 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtTot4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtTot6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.guna2ComboBox8 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.label20 = new System.Windows.Forms.Label();
+            this.guna2TextBox13 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label21 = new System.Windows.Forms.Label();
+            this.guna2TextBox14 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2TextBox15 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.guna2TextBox16 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label22 = new System.Windows.Forms.Label();
+            this.txtTot7 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblSodium = new System.Windows.Forms.Label();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
             this.PAYNOWBTN = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.lblSodiumBicarb = new System.Windows.Forms.Label();
+            this.lblRepaglinide = new System.Windows.Forms.Label();
+            this.lblGlycopyrrolate = new System.Windows.Forms.Label();
+            this.lblNurtec = new System.Windows.Forms.Label();
+            this.lblMisoprostol = new System.Windows.Forms.Label();
+            this.lblImodium = new System.Windows.Forms.Label();
+            this.lblBiotin = new System.Windows.Forms.Label();
+            this.lblNaltrexone = new System.Windows.Forms.Label();
+            this.btnTOTAL = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.txtTOTAL = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -115,64 +131,47 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label25);
-            this.panel1.Controls.Add(this.guna2ComboBox1);
+            this.panel1.Controls.Add(this.txtTot);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.guna2Button1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.guna2PictureBox2);
-            this.panel1.Location = new System.Drawing.Point(12, 213);
+            this.panel1.Location = new System.Drawing.Point(12, 156);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(247, 248);
             this.panel1.TabIndex = 0;
             // 
-            // label25
+            // txtTot
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(131, 133);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(92, 34);
-            this.label25.TabIndex = 16;
-            this.label25.Text = "Rs. 474.00\r\nper box\r\n";
-            // 
-            // guna2ComboBox1
-            // 
-            this.guna2ComboBox1.AutoRoundedCorners = true;
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox1.BorderRadius = 17;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
-            "1 Card",
-            "2 Cards ",
-            "3 Cards",
-            "4 Cards",
-            "1 Box",
-            "2 Boxes",
-            "3 Boxes",
-            "4 Boxes",
-            "5 Boxes"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(-1, 170);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(247, 36);
-            this.guna2ComboBox1.TabIndex = 15;
-            this.guna2ComboBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2ComboBox1.UseWaitCursor = true;
+            this.txtTot.BorderRadius = 10;
+            this.txtTot.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTot.DefaultText = "";
+            this.txtTot.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTot.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTot.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtTot.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTot.ForeColor = System.Drawing.Color.Black;
+            this.txtTot.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot.Location = new System.Drawing.Point(-1, 173);
+            this.txtTot.Name = "txtTot";
+            this.txtTot.PasswordChar = '\0';
+            this.txtTot.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtTot.PlaceholderText = "Enter the quantity";
+            this.txtTot.SelectedText = "";
+            this.txtTot.Size = new System.Drawing.Size(247, 33);
+            this.txtTot.TabIndex = 17;
+            this.txtTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Firebrick;
-            this.label11.Location = new System.Drawing.Point(56, 5);
+            this.label11.Location = new System.Drawing.Point(65, 5);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(114, 21);
             this.label11.TabIndex = 5;
@@ -198,7 +197,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 133);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(78, 128);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 34);
             this.label2.TabIndex = 2;
@@ -208,6 +208,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(119, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(117, 80);
@@ -228,47 +229,40 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.guna2ComboBox2);
+            this.panel2.Controls.Add(this.txtTot1);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.guna2Button2);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.guna2PictureBox3);
-            this.panel2.Location = new System.Drawing.Point(274, 213);
+            this.panel2.Location = new System.Drawing.Point(274, 156);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(247, 248);
             this.panel2.TabIndex = 1;
             // 
-            // guna2ComboBox2
+            // txtTot1
             // 
-            this.guna2ComboBox2.AutoRoundedCorners = true;
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox2.BorderRadius = 17;
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Items.AddRange(new object[] {
-            "1 Bottle",
-            "2 Bottels",
-            "3 Bottles",
-            "4 Bottels",
-            "5 Bottels",
-            "6 Bottles",
-            "7 Bottels",
-            "8 Bottels",
-            "9 Bottles",
-            "10 Bottels"});
-            this.guna2ComboBox2.Location = new System.Drawing.Point(-1, 170);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(247, 36);
-            this.guna2ComboBox2.TabIndex = 16;
-            this.guna2ComboBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2ComboBox2.UseWaitCursor = true;
+            this.txtTot1.BorderRadius = 10;
+            this.txtTot1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTot1.DefaultText = "";
+            this.txtTot1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTot1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTot1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot1.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtTot1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot1.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTot1.ForeColor = System.Drawing.Color.Black;
+            this.txtTot1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot1.Location = new System.Drawing.Point(-1, 173);
+            this.txtTot1.Name = "txtTot1";
+            this.txtTot1.PasswordChar = '\0';
+            this.txtTot1.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtTot1.PlaceholderText = "Enter the quantity";
+            this.txtTot1.SelectedText = "";
+            this.txtTot1.Size = new System.Drawing.Size(247, 33);
+            this.txtTot1.TabIndex = 18;
+            this.txtTot1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
             // 
@@ -295,11 +289,13 @@
             this.guna2Button2.Size = new System.Drawing.Size(247, 38);
             this.guna2Button2.TabIndex = 4;
             this.guna2Button2.Text = "BUY NOW";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(104, 132);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 34);
@@ -310,6 +306,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Blue;
             this.label4.Location = new System.Drawing.Point(104, 36);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(127, 96);
@@ -331,62 +328,40 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label26);
-            this.panel3.Controls.Add(this.guna2ComboBox5);
+            this.panel3.Controls.Add(this.txtTot2);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.guna2Button3);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.guna2PictureBox4);
-            this.panel3.Location = new System.Drawing.Point(537, 213);
+            this.panel3.Location = new System.Drawing.Point(537, 156);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(247, 248);
             this.panel3.TabIndex = 4;
             // 
-            // label26
+            // txtTot2
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(134, 133);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(92, 34);
-            this.label26.TabIndex = 17;
-            this.label26.Text = "Rs. 550.25\r\nper box\r\n";
-            // 
-            // guna2ComboBox5
-            // 
-            this.guna2ComboBox5.AutoRoundedCorners = true;
-            this.guna2ComboBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox5.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox5.BorderRadius = 17;
-            this.guna2ComboBox5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox5.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox5.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2ComboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ComboBox5.ItemHeight = 30;
-            this.guna2ComboBox5.Items.AddRange(new object[] {
-            "1 Card",
-            "2 Cards ",
-            "3 Cards",
-            "4 Cards",
-            "1 Box",
-            "2 Boxes",
-            "3 Boxes",
-            "4 Boxes",
-            "5 Boxes",
-            "6 Boxes",
-            "7 Boxes",
-            "8 Boxes",
-            "9 Boxes",
-            "10 Boxes"});
-            this.guna2ComboBox5.Location = new System.Drawing.Point(-1, 170);
-            this.guna2ComboBox5.Name = "guna2ComboBox5";
-            this.guna2ComboBox5.Size = new System.Drawing.Size(247, 36);
-            this.guna2ComboBox5.TabIndex = 16;
-            this.guna2ComboBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2ComboBox5.UseWaitCursor = true;
+            this.txtTot2.BorderRadius = 10;
+            this.txtTot2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTot2.DefaultText = "";
+            this.txtTot2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTot2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTot2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot2.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtTot2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot2.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTot2.ForeColor = System.Drawing.Color.Black;
+            this.txtTot2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot2.Location = new System.Drawing.Point(-1, 170);
+            this.txtTot2.Name = "txtTot2";
+            this.txtTot2.PasswordChar = '\0';
+            this.txtTot2.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtTot2.PlaceholderText = "Enter the quantity";
+            this.txtTot2.SelectedText = "";
+            this.txtTot2.Size = new System.Drawing.Size(247, 33);
+            this.txtTot2.TabIndex = 19;
+            this.txtTot2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label12
             // 
@@ -413,12 +388,14 @@
             this.guna2Button3.Size = new System.Drawing.Size(247, 38);
             this.guna2Button3.TabIndex = 4;
             this.guna2Button3.Text = "BUY NOW";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 133);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(67, 127);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 34);
             this.label5.TabIndex = 2;
@@ -428,6 +405,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Lucida Fax", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Blue;
             this.label6.Location = new System.Drawing.Point(98, 36);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(144, 80);
@@ -449,47 +427,40 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.guna2ComboBox4);
+            this.panel8.Controls.Add(this.txtTot5);
             this.panel8.Controls.Add(this.label8);
             this.panel8.Controls.Add(this.guna2Button4);
             this.panel8.Controls.Add(this.label9);
             this.panel8.Controls.Add(this.label10);
             this.panel8.Controls.Add(this.guna2PictureBox5);
-            this.panel8.Location = new System.Drawing.Point(274, 467);
+            this.panel8.Location = new System.Drawing.Point(274, 410);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(247, 247);
             this.panel8.TabIndex = 10;
             // 
-            // guna2ComboBox4
+            // txtTot5
             // 
-            this.guna2ComboBox4.AutoRoundedCorners = true;
-            this.guna2ComboBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox4.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox4.BorderRadius = 17;
-            this.guna2ComboBox4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox4.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox4.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2ComboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ComboBox4.ItemHeight = 30;
-            this.guna2ComboBox4.Items.AddRange(new object[] {
-            "1 Bottle",
-            "2 Bottels",
-            "3 Bottles",
-            "4 Bottels",
-            "5 Bottels",
-            "6 Bottles",
-            "7 Bottels",
-            "8 Bottels",
-            "9 Bottles",
-            "10 Bottels"});
-            this.guna2ComboBox4.Location = new System.Drawing.Point(-1, 169);
-            this.guna2ComboBox4.Name = "guna2ComboBox4";
-            this.guna2ComboBox4.Size = new System.Drawing.Size(247, 36);
-            this.guna2ComboBox4.TabIndex = 17;
-            this.guna2ComboBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2ComboBox4.UseWaitCursor = true;
+            this.txtTot5.BorderRadius = 10;
+            this.txtTot5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTot5.DefaultText = "";
+            this.txtTot5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTot5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTot5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot5.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtTot5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot5.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTot5.ForeColor = System.Drawing.Color.Black;
+            this.txtTot5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot5.Location = new System.Drawing.Point(-1, 172);
+            this.txtTot5.Name = "txtTot5";
+            this.txtTot5.PasswordChar = '\0';
+            this.txtTot5.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtTot5.PlaceholderText = "Enter the quantity";
+            this.txtTot5.SelectedText = "";
+            this.txtTot5.Size = new System.Drawing.Size(247, 33);
+            this.txtTot5.TabIndex = 19;
+            this.txtTot5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label8
             // 
@@ -516,11 +487,13 @@
             this.guna2Button4.Size = new System.Drawing.Size(247, 38);
             this.guna2Button4.TabIndex = 3;
             this.guna2Button4.Text = "BUY NOW";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(104, 127);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(117, 34);
@@ -531,6 +504,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Lucida Fax", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Blue;
             this.label10.Location = new System.Drawing.Point(104, 36);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(142, 80);
@@ -552,47 +526,40 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.guna2ComboBox6);
+            this.panel4.Controls.Add(this.txtTot3);
             this.panel4.Controls.Add(this.label13);
             this.panel4.Controls.Add(this.guna2Button5);
             this.panel4.Controls.Add(this.label14);
             this.panel4.Controls.Add(this.label15);
             this.panel4.Controls.Add(this.guna2PictureBox6);
-            this.panel4.Location = new System.Drawing.Point(799, 213);
+            this.panel4.Location = new System.Drawing.Point(799, 155);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(247, 248);
             this.panel4.TabIndex = 11;
             // 
-            // guna2ComboBox6
+            // txtTot3
             // 
-            this.guna2ComboBox6.AutoRoundedCorners = true;
-            this.guna2ComboBox6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox6.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox6.BorderRadius = 17;
-            this.guna2ComboBox6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox6.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox6.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2ComboBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ComboBox6.ItemHeight = 30;
-            this.guna2ComboBox6.Items.AddRange(new object[] {
-            "1 Box",
-            "2 Boxes",
-            "3 Boxes",
-            "4 Boxes",
-            "5 Boxes",
-            "6 Boxes",
-            "7 Boxes",
-            "8 Boxes",
-            "9 Boxes",
-            "10 Boxes"});
-            this.guna2ComboBox6.Location = new System.Drawing.Point(0, 170);
-            this.guna2ComboBox6.Name = "guna2ComboBox6";
-            this.guna2ComboBox6.Size = new System.Drawing.Size(247, 36);
-            this.guna2ComboBox6.TabIndex = 16;
-            this.guna2ComboBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2ComboBox6.UseWaitCursor = true;
+            this.txtTot3.BorderRadius = 10;
+            this.txtTot3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTot3.DefaultText = "";
+            this.txtTot3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTot3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTot3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot3.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtTot3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot3.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTot3.ForeColor = System.Drawing.Color.Black;
+            this.txtTot3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot3.Location = new System.Drawing.Point(-1, 167);
+            this.txtTot3.Name = "txtTot3";
+            this.txtTot3.PasswordChar = '\0';
+            this.txtTot3.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtTot3.PlaceholderText = "Enter the quantity";
+            this.txtTot3.SelectedText = "";
+            this.txtTot3.Size = new System.Drawing.Size(247, 33);
+            this.txtTot3.TabIndex = 19;
+            this.txtTot3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label13
             // 
@@ -619,12 +586,14 @@
             this.guna2Button5.Size = new System.Drawing.Size(247, 38);
             this.guna2Button5.TabIndex = 4;
             this.guna2Button5.Text = "BUY NOW";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(104, 127);
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(104, 130);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(92, 34);
             this.label14.TabIndex = 2;
@@ -634,6 +603,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Lucida Fax", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Blue;
             this.label15.Location = new System.Drawing.Point(99, 36);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(131, 80);
@@ -655,47 +625,40 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.guna2ComboBox7);
+            this.panel7.Controls.Add(this.txtTot4);
             this.panel7.Controls.Add(this.label16);
             this.panel7.Controls.Add(this.guna2Button6);
             this.panel7.Controls.Add(this.label17);
             this.panel7.Controls.Add(this.label18);
             this.panel7.Controls.Add(this.guna2PictureBox7);
-            this.panel7.Location = new System.Drawing.Point(12, 467);
+            this.panel7.Location = new System.Drawing.Point(12, 410);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(247, 247);
             this.panel7.TabIndex = 12;
             // 
-            // guna2ComboBox7
+            // txtTot4
             // 
-            this.guna2ComboBox7.AutoRoundedCorners = true;
-            this.guna2ComboBox7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox7.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox7.BorderRadius = 17;
-            this.guna2ComboBox7.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox7.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox7.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2ComboBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ComboBox7.ItemHeight = 30;
-            this.guna2ComboBox7.Items.AddRange(new object[] {
-            "1 Box",
-            "2 Boxes",
-            "3 Boxes",
-            "4 Boxes",
-            "5 Boxes",
-            "6 Boxes",
-            "7 Boxes",
-            "8 Boxes",
-            "9 Boxes",
-            "10 Boxes"});
-            this.guna2ComboBox7.Location = new System.Drawing.Point(-1, 166);
-            this.guna2ComboBox7.Name = "guna2ComboBox7";
-            this.guna2ComboBox7.Size = new System.Drawing.Size(247, 36);
-            this.guna2ComboBox7.TabIndex = 16;
-            this.guna2ComboBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2ComboBox7.UseWaitCursor = true;
+            this.txtTot4.BorderRadius = 10;
+            this.txtTot4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTot4.DefaultText = "";
+            this.txtTot4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTot4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTot4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot4.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtTot4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot4.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTot4.ForeColor = System.Drawing.Color.Black;
+            this.txtTot4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot4.Location = new System.Drawing.Point(-1, 172);
+            this.txtTot4.Name = "txtTot4";
+            this.txtTot4.PasswordChar = '\0';
+            this.txtTot4.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtTot4.PlaceholderText = "Enter the quantity";
+            this.txtTot4.SelectedText = "";
+            this.txtTot4.Size = new System.Drawing.Size(247, 33);
+            this.txtTot4.TabIndex = 19;
+            this.txtTot4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label16
             // 
@@ -722,11 +685,13 @@
             this.guna2Button6.Size = new System.Drawing.Size(247, 38);
             this.guna2Button6.TabIndex = 3;
             this.guna2Button6.Text = "BUY NOW";
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(119, 127);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(87, 51);
@@ -737,6 +702,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Lucida Fax", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Blue;
             this.label18.Location = new System.Drawing.Point(119, 36);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(124, 80);
@@ -758,62 +724,67 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.guna2Panel1);
+            this.panel6.Controls.Add(this.txtTot6);
             this.panel6.Controls.Add(this.label27);
-            this.panel6.Controls.Add(this.guna2ComboBox8);
             this.panel6.Controls.Add(this.label19);
             this.panel6.Controls.Add(this.guna2Button7);
-            this.panel6.Controls.Add(this.label20);
+            this.panel6.Controls.Add(this.guna2TextBox13);
             this.panel6.Controls.Add(this.label21);
+            this.panel6.Controls.Add(this.guna2TextBox14);
             this.panel6.Controls.Add(this.guna2PictureBox8);
-            this.panel6.Location = new System.Drawing.Point(537, 467);
+            this.panel6.Controls.Add(this.guna2TextBox15);
+            this.panel6.Controls.Add(this.label40);
+            this.panel6.Controls.Add(this.guna2TextBox16);
+            this.panel6.Controls.Add(this.label39);
+            this.panel6.Controls.Add(this.label38);
+            this.panel6.Controls.Add(this.label37);
+            this.panel6.Location = new System.Drawing.Point(537, 409);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(247, 247);
             this.panel6.TabIndex = 13;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.Location = new System.Drawing.Point(-524, 254);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1030, 153);
+            this.guna2Panel1.TabIndex = 66;
+            // 
+            // txtTot6
+            // 
+            this.txtTot6.BorderRadius = 10;
+            this.txtTot6.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTot6.DefaultText = "";
+            this.txtTot6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTot6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTot6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot6.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtTot6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot6.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTot6.ForeColor = System.Drawing.Color.Black;
+            this.txtTot6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot6.Location = new System.Drawing.Point(-1, 169);
+            this.txtTot6.Name = "txtTot6";
+            this.txtTot6.PasswordChar = '\0';
+            this.txtTot6.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtTot6.PlaceholderText = "Enter the quantity";
+            this.txtTot6.SelectedText = "";
+            this.txtTot6.Size = new System.Drawing.Size(247, 33);
+            this.txtTot6.TabIndex = 19;
+            this.txtTot6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(12, 127);
+            this.label27.ForeColor = System.Drawing.Color.Black;
+            this.label27.Location = new System.Drawing.Point(67, 127);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(92, 34);
             this.label27.TabIndex = 17;
             this.label27.Text = "Rs. 174.00\r\nper card\r\n";
-            // 
-            // guna2ComboBox8
-            // 
-            this.guna2ComboBox8.AutoRoundedCorners = true;
-            this.guna2ComboBox8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox8.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox8.BorderRadius = 17;
-            this.guna2ComboBox8.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox8.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox8.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2ComboBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ComboBox8.ItemHeight = 30;
-            this.guna2ComboBox8.Items.AddRange(new object[] {
-            "1 Card",
-            "2 Cards ",
-            "3 Cards",
-            "4 Cards",
-            "1 Box",
-            "2 Boxes",
-            "3 Boxes",
-            "4 Boxes",
-            "5 Boxes",
-            "6 Boxes",
-            "7 Boxes",
-            "8 Boxes",
-            "9 Boxes",
-            "10 Boxes"});
-            this.guna2ComboBox8.Location = new System.Drawing.Point(-1, 169);
-            this.guna2ComboBox8.Name = "guna2ComboBox8";
-            this.guna2ComboBox8.Size = new System.Drawing.Size(247, 36);
-            this.guna2ComboBox8.TabIndex = 16;
-            this.guna2ComboBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2ComboBox8.UseWaitCursor = true;
             // 
             // label19
             // 
@@ -840,21 +811,34 @@
             this.guna2Button7.Size = new System.Drawing.Size(247, 38);
             this.guna2Button7.TabIndex = 3;
             this.guna2Button7.Text = "BUY NOW";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
-            // label20
+            // guna2TextBox13
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(134, 127);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(87, 68);
-            this.label20.TabIndex = 2;
-            this.label20.Text = "Rs.621.00\r\nper box\r\n\r\n\r\n";
+            this.guna2TextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox13.DefaultText = "";
+            this.guna2TextBox13.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox13.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox13.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2TextBox13.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox13.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox13.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox13.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox13.Location = new System.Drawing.Point(-369, 152);
+            this.guna2TextBox13.Name = "guna2TextBox13";
+            this.guna2TextBox13.PasswordChar = '\0';
+            this.guna2TextBox13.PlaceholderText = "";
+            this.guna2TextBox13.SelectedText = "";
+            this.guna2TextBox13.Size = new System.Drawing.Size(314, 21);
+            this.guna2TextBox13.TabIndex = 61;
             // 
             // label21
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Lucida Fax", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Blue;
             this.label21.Location = new System.Drawing.Point(104, 36);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(159, 80);
@@ -862,72 +846,183 @@
             this.label21.Text = "Imprint: C 745,\r\n1 mg, Color: Yellow,\r\nRounded, Prescription \r\nonly, Drug Class:\r" +
     "\nMeglitinides";
             // 
+            // guna2TextBox14
+            // 
+            this.guna2TextBox14.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox14.DefaultText = "";
+            this.guna2TextBox14.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox14.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox14.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox14.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2TextBox14.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox14.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox14.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox14.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox14.Location = new System.Drawing.Point(-369, 119);
+            this.guna2TextBox14.Name = "guna2TextBox14";
+            this.guna2TextBox14.PasswordChar = '\0';
+            this.guna2TextBox14.PlaceholderText = "";
+            this.guna2TextBox14.SelectedText = "";
+            this.guna2TextBox14.Size = new System.Drawing.Size(314, 21);
+            this.guna2TextBox14.TabIndex = 60;
+            // 
             // guna2PictureBox8
             // 
             this.guna2PictureBox8.Image = global::WindowsFormsApp1.Properties.Resources._22222222222222222;
             this.guna2PictureBox8.ImageRotate = 0F;
-            this.guna2PictureBox8.Location = new System.Drawing.Point(3, 36);
+            this.guna2PictureBox8.Location = new System.Drawing.Point(3, 37);
             this.guna2PictureBox8.Name = "guna2PictureBox8";
             this.guna2PictureBox8.Size = new System.Drawing.Size(89, 80);
             this.guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox8.TabIndex = 0;
             this.guna2PictureBox8.TabStop = false;
             // 
+            // guna2TextBox15
+            // 
+            this.guna2TextBox15.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox15.DefaultText = "";
+            this.guna2TextBox15.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox15.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox15.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox15.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2TextBox15.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox15.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox15.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox15.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox15.Location = new System.Drawing.Point(-369, 86);
+            this.guna2TextBox15.Name = "guna2TextBox15";
+            this.guna2TextBox15.PasswordChar = '\0';
+            this.guna2TextBox15.PlaceholderText = "";
+            this.guna2TextBox15.SelectedText = "";
+            this.guna2TextBox15.Size = new System.Drawing.Size(314, 21);
+            this.guna2TextBox15.TabIndex = 59;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.Firebrick;
+            this.label40.Location = new System.Drawing.Point(-511, 54);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(114, 21);
+            this.label40.TabIndex = 50;
+            this.label40.Text = "Naltrexone";
+            // 
+            // guna2TextBox16
+            // 
+            this.guna2TextBox16.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox16.DefaultText = "";
+            this.guna2TextBox16.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox16.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox16.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox16.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2TextBox16.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox16.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox16.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox16.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox16.Location = new System.Drawing.Point(-369, 54);
+            this.guna2TextBox16.Name = "guna2TextBox16";
+            this.guna2TextBox16.PasswordChar = '\0';
+            this.guna2TextBox16.PlaceholderText = "";
+            this.guna2TextBox16.SelectedText = "";
+            this.guna2TextBox16.Size = new System.Drawing.Size(314, 21);
+            this.guna2TextBox16.TabIndex = 58;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.Firebrick;
+            this.label39.Location = new System.Drawing.Point(-511, 86);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(66, 21);
+            this.label39.TabIndex = 51;
+            this.label39.Text = "Biotin";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.Firebrick;
+            this.label38.Location = new System.Drawing.Point(-511, 119);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(136, 21);
+            this.label38.TabIndex = 52;
+            this.label38.Text = "Imodium A-D";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.Firebrick;
+            this.label37.Location = new System.Drawing.Point(-511, 152);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(124, 21);
+            this.label37.TabIndex = 53;
+            this.label37.Text = "Misoprostol";
+            // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.guna2ComboBox3);
             this.panel5.Controls.Add(this.label22);
+            this.panel5.Controls.Add(this.txtTot7);
+            this.panel5.Controls.Add(this.lblSodium);
             this.panel5.Controls.Add(this.guna2Button8);
             this.panel5.Controls.Add(this.label23);
             this.panel5.Controls.Add(this.label24);
             this.panel5.Controls.Add(this.guna2PictureBox9);
-            this.panel5.Location = new System.Drawing.Point(799, 467);
+            this.panel5.Location = new System.Drawing.Point(799, 410);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(247, 247);
             this.panel5.TabIndex = 14;
-            // 
-            // guna2ComboBox3
-            // 
-            this.guna2ComboBox3.AutoRoundedCorners = true;
-            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox3.BorderColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox3.BorderRadius = 17;
-            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ComboBox3.ItemHeight = 30;
-            this.guna2ComboBox3.Items.AddRange(new object[] {
-            "1 Bottle",
-            "2 Bottels",
-            "3 Bottles",
-            "4 Bottels",
-            "5 Bottels",
-            "6 Bottles",
-            "7 Bottels",
-            "8 Bottels",
-            "9 Bottles",
-            "10 Bottels"});
-            this.guna2ComboBox3.Location = new System.Drawing.Point(-1, 169);
-            this.guna2ComboBox3.Name = "guna2ComboBox3";
-            this.guna2ComboBox3.Size = new System.Drawing.Size(247, 36);
-            this.guna2ComboBox3.TabIndex = 17;
-            this.guna2ComboBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2ComboBox3.UseWaitCursor = true;
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Firebrick;
-            this.label22.Location = new System.Drawing.Point(20, 5);
+            this.label22.Location = new System.Drawing.Point(26, 4);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(201, 21);
-            this.label22.TabIndex = 4;
+            this.label22.TabIndex = 20;
             this.label22.Text = "Sodium Bicarbonate";
+            // 
+            // txtTot7
+            // 
+            this.txtTot7.BorderRadius = 10;
+            this.txtTot7.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTot7.DefaultText = "";
+            this.txtTot7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTot7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTot7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTot7.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtTot7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot7.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTot7.ForeColor = System.Drawing.Color.Black;
+            this.txtTot7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTot7.Location = new System.Drawing.Point(0, 172);
+            this.txtTot7.Name = "txtTot7";
+            this.txtTot7.PasswordChar = '\0';
+            this.txtTot7.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtTot7.PlaceholderText = "Enter the quantity";
+            this.txtTot7.SelectedText = "";
+            this.txtTot7.Size = new System.Drawing.Size(247, 33);
+            this.txtTot7.TabIndex = 19;
+            this.txtTot7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblSodium
+            // 
+            this.lblSodium.AutoSize = true;
+            this.lblSodium.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSodium.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblSodium.Location = new System.Drawing.Point(20, 5);
+            this.lblSodium.Name = "lblSodium";
+            this.lblSodium.Size = new System.Drawing.Size(0, 21);
+            this.lblSodium.TabIndex = 4;
             // 
             // guna2Button8
             // 
@@ -943,11 +1038,13 @@
             this.guna2Button8.Size = new System.Drawing.Size(247, 38);
             this.guna2Button8.TabIndex = 3;
             this.guna2Button8.Text = "BUY NOW";
+            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
             // label23
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Black;
             this.label23.Location = new System.Drawing.Point(104, 127);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(92, 51);
@@ -958,6 +1055,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Lucida Fax", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.Blue;
             this.label24.Location = new System.Drawing.Point(104, 36);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(136, 80);
@@ -976,28 +1074,6 @@
             this.guna2PictureBox9.TabIndex = 0;
             this.guna2PictureBox9.TabStop = false;
             // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.Red;
-            this.label28.Location = new System.Drawing.Point(22, 77);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(167, 26);
-            this.label28.TabIndex = 15;
-            this.label28.Text = "Total Price : ";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.Navy;
-            this.label29.Location = new System.Drawing.Point(235, 81);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(80, 21);
-            this.label29.TabIndex = 16;
-            this.label29.Text = "label29";
-            // 
             // PAYNOWBTN
             // 
             this.PAYNOWBTN.BorderRadius = 10;
@@ -1011,7 +1087,7 @@
             this.PAYNOWBTN.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold);
             this.PAYNOWBTN.ForeColor = System.Drawing.Color.White;
             this.PAYNOWBTN.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.PAYNOWBTN.Location = new System.Drawing.Point(586, 774);
+            this.PAYNOWBTN.Location = new System.Drawing.Point(836, 827);
             this.PAYNOWBTN.Name = "PAYNOWBTN";
             this.PAYNOWBTN.Size = new System.Drawing.Size(194, 49);
             this.PAYNOWBTN.TabIndex = 17;
@@ -1025,26 +1101,166 @@
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(12, 12);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1034, 195);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(1034, 138);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 2;
             this.guna2PictureBox1.TabStop = false;
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.label28);
-            this.panel9.Controls.Add(this.label29);
-            this.panel9.Location = new System.Drawing.Point(12, 720);
+            this.panel9.Controls.Add(this.lblSodiumBicarb);
+            this.panel9.Controls.Add(this.lblRepaglinide);
+            this.panel9.Controls.Add(this.lblGlycopyrrolate);
+            this.panel9.Controls.Add(this.lblNurtec);
+            this.panel9.Controls.Add(this.lblMisoprostol);
+            this.panel9.Controls.Add(this.lblImodium);
+            this.panel9.Controls.Add(this.lblBiotin);
+            this.panel9.Controls.Add(this.lblNaltrexone);
+            this.panel9.Location = new System.Drawing.Point(12, 667);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(429, 127);
-            this.panel9.TabIndex = 18;
+            this.panel9.Size = new System.Drawing.Size(1034, 154);
+            this.panel9.TabIndex = 20;
+            // 
+            // lblSodiumBicarb
+            // 
+            this.lblSodiumBicarb.AutoSize = true;
+            this.lblSodiumBicarb.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSodiumBicarb.Location = new System.Drawing.Point(499, 129);
+            this.lblSodiumBicarb.Name = "lblSodiumBicarb";
+            this.lblSodiumBicarb.Size = new System.Drawing.Size(0, 21);
+            this.lblSodiumBicarb.TabIndex = 13;
+            // 
+            // lblRepaglinide
+            // 
+            this.lblRepaglinide.AutoSize = true;
+            this.lblRepaglinide.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRepaglinide.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblRepaglinide.Location = new System.Drawing.Point(499, 82);
+            this.lblRepaglinide.Name = "lblRepaglinide";
+            this.lblRepaglinide.Size = new System.Drawing.Size(0, 21);
+            this.lblRepaglinide.TabIndex = 12;
+            // 
+            // lblGlycopyrrolate
+            // 
+            this.lblGlycopyrrolate.AutoSize = true;
+            this.lblGlycopyrrolate.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGlycopyrrolate.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblGlycopyrrolate.Location = new System.Drawing.Point(497, 50);
+            this.lblGlycopyrrolate.Name = "lblGlycopyrrolate";
+            this.lblGlycopyrrolate.Size = new System.Drawing.Size(0, 21);
+            this.lblGlycopyrrolate.TabIndex = 11;
+            // 
+            // lblNurtec
+            // 
+            this.lblNurtec.AutoSize = true;
+            this.lblNurtec.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNurtec.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblNurtec.Location = new System.Drawing.Point(497, 13);
+            this.lblNurtec.Name = "lblNurtec";
+            this.lblNurtec.Size = new System.Drawing.Size(0, 21);
+            this.lblNurtec.TabIndex = 10;
+            // 
+            // lblMisoprostol
+            // 
+            this.lblMisoprostol.AutoSize = true;
+            this.lblMisoprostol.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMisoprostol.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblMisoprostol.Location = new System.Drawing.Point(16, 114);
+            this.lblMisoprostol.Name = "lblMisoprostol";
+            this.lblMisoprostol.Size = new System.Drawing.Size(0, 21);
+            this.lblMisoprostol.TabIndex = 9;
+            // 
+            // lblImodium
+            // 
+            this.lblImodium.AutoSize = true;
+            this.lblImodium.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImodium.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblImodium.Location = new System.Drawing.Point(16, 82);
+            this.lblImodium.Name = "lblImodium";
+            this.lblImodium.Size = new System.Drawing.Size(0, 21);
+            this.lblImodium.TabIndex = 8;
+            // 
+            // lblBiotin
+            // 
+            this.lblBiotin.AutoSize = true;
+            this.lblBiotin.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBiotin.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblBiotin.Location = new System.Drawing.Point(16, 50);
+            this.lblBiotin.Name = "lblBiotin";
+            this.lblBiotin.Size = new System.Drawing.Size(0, 21);
+            this.lblBiotin.TabIndex = 7;
+            // 
+            // lblNaltrexone
+            // 
+            this.lblNaltrexone.AutoSize = true;
+            this.lblNaltrexone.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNaltrexone.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblNaltrexone.Location = new System.Drawing.Point(16, 13);
+            this.lblNaltrexone.Name = "lblNaltrexone";
+            this.lblNaltrexone.Size = new System.Drawing.Size(0, 21);
+            this.lblNaltrexone.TabIndex = 6;
+            // 
+            // btnTOTAL
+            // 
+            this.btnTOTAL.BorderRadius = 10;
+            this.btnTOTAL.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTOTAL.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTOTAL.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTOTAL.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTOTAL.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTOTAL.FillColor = System.Drawing.Color.Blue;
+            this.btnTOTAL.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnTOTAL.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btnTOTAL.ForeColor = System.Drawing.Color.White;
+            this.btnTOTAL.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnTOTAL.Location = new System.Drawing.Point(608, 827);
+            this.btnTOTAL.Name = "btnTOTAL";
+            this.btnTOTAL.Size = new System.Drawing.Size(194, 49);
+            this.btnTOTAL.TabIndex = 21;
+            this.btnTOTAL.Text = "TOTAL";
+            this.btnTOTAL.Click += new System.EventHandler(this.btnTOTAL_Click);
+            // 
+            // txtTOTAL
+            // 
+            this.txtTOTAL.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTOTAL.DefaultText = "";
+            this.txtTOTAL.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTOTAL.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTOTAL.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTOTAL.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTOTAL.FillColor = System.Drawing.Color.Wheat;
+            this.txtTOTAL.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTOTAL.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtTOTAL.ForeColor = System.Drawing.Color.Black;
+            this.txtTOTAL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTOTAL.Location = new System.Drawing.Point(246, 836);
+            this.txtTOTAL.Name = "txtTOTAL";
+            this.txtTOTAL.PasswordChar = '\0';
+            this.txtTOTAL.PlaceholderText = "";
+            this.txtTOTAL.ReadOnly = true;
+            this.txtTOTAL.SelectedText = "";
+            this.txtTOTAL.Size = new System.Drawing.Size(322, 31);
+            this.txtTOTAL.TabIndex = 22;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(12, 844);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(216, 23);
+            this.label20.TabIndex = 23;
+            this.label20.Text = "Your Total Amount";
             // 
             // Prescriptions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1060, 942);
+            this.ClientSize = new System.Drawing.Size(1060, 1055);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.txtTOTAL);
+            this.Controls.Add(this.btnTOTAL);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.PAYNOWBTN);
             this.Controls.Add(this.panel5);
@@ -1056,8 +1272,10 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Name = "Prescriptions";
             this.Text = "Prescriptions";
+            this.Load += new System.EventHandler(this.Prescriptions_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
@@ -1086,6 +1304,7 @@
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1131,29 +1350,45 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label19;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox8;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label lblSodium;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox9;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
-        private System.Windows.Forms.Label label25;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
-        private System.Windows.Forms.Label label26;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox5;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox4;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox6;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox7;
         private System.Windows.Forms.Label label27;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox8;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
         private Guna.UI2.WinForms.Guna2GradientButton PAYNOWBTN;
+        private Guna.UI2.WinForms.Guna2TextBox txtTot;
+        private Guna.UI2.WinForms.Guna2TextBox txtTot1;
+        private Guna.UI2.WinForms.Guna2TextBox txtTot2;
+        private Guna.UI2.WinForms.Guna2TextBox txtTot5;
+        private Guna.UI2.WinForms.Guna2TextBox txtTot3;
+        private Guna.UI2.WinForms.Guna2TextBox txtTot4;
+        private Guna.UI2.WinForms.Guna2TextBox txtTot6;
+        private Guna.UI2.WinForms.Guna2TextBox txtTot7;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox13;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox14;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox15;
+        private System.Windows.Forms.Label label40;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox16;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label lblRepaglinide;
+        private System.Windows.Forms.Label lblGlycopyrrolate;
+        private System.Windows.Forms.Label lblNurtec;
+        private System.Windows.Forms.Label lblMisoprostol;
+        private System.Windows.Forms.Label lblImodium;
+        private System.Windows.Forms.Label lblBiotin;
+        private System.Windows.Forms.Label lblNaltrexone;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label lblSodiumBicarb;
+        private Guna.UI2.WinForms.Guna2GradientButton btnTOTAL;
+        private Guna.UI2.WinForms.Guna2TextBox txtTOTAL;
+        private System.Windows.Forms.Label label20;
     }
 }
