@@ -22,5 +22,14 @@ namespace WindowsFormsApp1
             payment paynow = new payment();
             paynow.Show();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            int x = 120;
+            int z = 2;
+            int tot1 = x * z;
+
+
+        }
     }
 }
