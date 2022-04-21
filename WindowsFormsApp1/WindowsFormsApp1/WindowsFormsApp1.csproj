@@ -76,11 +76,11 @@
     <Compile Include="payment.Designer.cs">
       <DependentUpon>payment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pharmacist1.cs">
+    <Compile Include="Medi_Information.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pharmacist1.Designer.cs">
-      <DependentUpon>Pharmacist1.cs</DependentUpon>
+    <Compile Include="Medi_Information.Designer.cs">
+      <DependentUpon>Medi_Information.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -167,8 +167,8 @@
     <EmbeddedResource Include="payment.resx">
       <DependentUpon>payment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pharmacist1.resx">
-      <DependentUpon>Pharmacist1.cs</DependentUpon>
+    <EmbeddedResource Include="Medi_Information.resx">
+      <DependentUpon>Medi_Information.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

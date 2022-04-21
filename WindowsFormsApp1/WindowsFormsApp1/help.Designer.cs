@@ -275,9 +275,9 @@
             this.label20.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(16, 11);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(308, 20);
+            this.label20.Size = new System.Drawing.Size(298, 20);
             this.label20.TabIndex = 12;
-            this.label20.Text = "Medical Laboratory Teechnicians";
+            this.label20.Text = "Medical Laboratory Technicians";
             // 
             // label21
             // 

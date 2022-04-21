@@ -135,7 +135,6 @@ C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Appoinment.resources
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Billing.resources
-C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacist1.resources
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientHistory.resources
 C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientRecords.resources
@@ -185,3 +184,4 @@ C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug
 C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacist1.resources
 C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacy_Office.resources
 C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Prescriptions.resources
+C:\Users\Vinuri Disara\Desktop\New C-Sharp\C-Sharp-Group-Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Medi_Information.resources

@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Pharmacist1
+    partial class Medi_Information
     {
         /// <summary>
         /// Required designer variable.

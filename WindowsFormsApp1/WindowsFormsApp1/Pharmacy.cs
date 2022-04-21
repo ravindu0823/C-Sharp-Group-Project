@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
 
         private void guna2GradientButton1_Click(object sender, System.EventArgs e)
         {
-            Pharmacist1 pharmacist = new Pharmacist1();
+            Medi_Information pharmacist = new Medi_Information();
             pharmacist.Show();
         }
 

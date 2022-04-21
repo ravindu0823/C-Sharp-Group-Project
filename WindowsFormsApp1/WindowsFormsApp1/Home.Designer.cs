@@ -70,7 +70,7 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(862, 480);
+            this.button7.Location = new System.Drawing.Point(650, 728);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(262, 39);
@@ -94,7 +94,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(237, 739);
+            this.button5.Location = new System.Drawing.Point(862, 479);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(262, 39);
@@ -118,7 +118,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(651, 739);
+            this.button2.Location = new System.Drawing.Point(287, 728);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(262, 38);
@@ -153,7 +153,7 @@
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.RoyalBlue;
             this.pictureBox9.Image = global::WindowsFormsApp1.Properties.Resources.secure_payment_icon_flat_design_vector_10515661;
-            this.pictureBox9.Location = new System.Drawing.Point(651, 555);
+            this.pictureBox9.Location = new System.Drawing.Point(287, 543);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(262, 179);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -163,7 +163,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::WindowsFormsApp1.Properties.Resources.istockphoto_1285912397_170667a;
-            this.pictureBox8.Location = new System.Drawing.Point(237, 555);
+            this.pictureBox8.Location = new System.Drawing.Point(862, 295);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(262, 179);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -173,7 +173,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::WindowsFormsApp1.Properties.Resources.prescription_rx_recipe_line_icon_medicine_drugs_pills_sign_colorful_outline_concept_blue_orange_thin_color_vector_134564603;
-            this.pictureBox6.Location = new System.Drawing.Point(862, 295);
+            this.pictureBox6.Location = new System.Drawing.Point(650, 543);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(262, 180);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

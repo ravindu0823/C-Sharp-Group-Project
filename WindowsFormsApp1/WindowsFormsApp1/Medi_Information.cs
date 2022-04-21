@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
-    public partial class Pharmacist1 : Form
+    public partial class Medi_Information : Form
     {
-        public Pharmacist1()
+        public Medi_Information()
         {
             InitializeComponent();
         }
@@ -38,7 +38,7 @@ namespace WindowsFormsApp1
             //string sql = "INSERT INTO DoctorRecord (doctor_id,doctor_Name,profession,emergency_contact,phone) VALUES ('" + 1001 + "', '" + "Vinuri" + "', '" + "Pol gaama" + "', '" + 1919 + "', '" + 0712246569 + "')";
 
 
-            SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+            SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
 
             /*if (textID.Text == "" || textNAME.Text == "" || textAFFON.Text == "" || textMFGDATE.Text == "" || textEXPDATE.Text == "" || textQUANTITY.Text == "" || textBOXNO.Text == "" || textPRICE.Text == "" || textSUPPID.Text == "" || textSUPPNAME.Text == "")
             {
@@ -52,7 +52,7 @@ namespace WindowsFormsApp1
             {*/
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("User insertion sucessfully");
                 }
@@ -64,7 +64,7 @@ namespace WindowsFormsApp1
 
                 finally
                 {
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                 }
             /*}*/
         }
@@ -98,11 +98,11 @@ namespace WindowsFormsApp1
 
             string update = "UPDATE Pharmacist SET name = '" + name + "', affect_on = '" + affect_on + "', mfg = '" + mfg + "', exp = '" + exp + "', quantity = '" + quantity + "', box_no = '" + box_no + "', price = '" + price + "', supplier_id = '" + supplier_id + "', supplier_name = '" + supplier_name + "' WHERE medi_id = '" + medi_id + "'";
             // string update = "UPDATE Pharmacist SET name = '"+ "Dhanushka" + "', affect_on = '"+ "ggggggg" + "', mfg = '"+ "2001-08-23" + "', exp = '"+ "2001-08-30" + "', quantity = '"+ 5 + "', box_no = '"+ 100 + "', price = '"+ 5000 + "', supplier_id = '"+ 789 + "', supplier_name = '"+ "Vinuri" + "' WHERE medi_id = '"+ 101 +"'";
-            SqlCommand cmd = new SqlCommand(update, conn_ravindu);
+            SqlCommand cmd = new SqlCommand(update, conn_vinuri);
 
             try
             {
-                conn_ravindu.Open();
+                conn_vinuri.Open();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Record Updated Successfully");
             }
@@ -112,7 +112,7 @@ namespace WindowsFormsApp1
             }
             finally
             {
-                conn_ravindu.Close();
+                conn_vinuri.Close();
             }
         }
 
@@ -136,7 +136,7 @@ namespace WindowsFormsApp1
             //string sql = "INSERT INTO DoctorRecord (doctor_id,doctor_Name,profession,emergency_contact,phone) VALUES ('" + 1001 + "', '" + "Vinuri" + "', '" + "Pol gaama" + "', '" + 1919 + "', '" + 0712246569 + "')";
 
 
-            SqlCommand cmd = new SqlCommand(del, conn_ravindu);
+            SqlCommand cmd = new SqlCommand(del, conn_vinuri);
 
             /*if (textID.Text == "" || textNAME.Text == "" || textAFFON.Text == "" || textMFGDATE.Text == "" || textEXPDATE.Text == "" || textQUANTITY.Text == "" || textBOXNO.Text == "" || textPRICE.Text == "" || textSUPPID.Text == "" || textSUPPNAME.Text == "")
             {
@@ -147,7 +147,7 @@ namespace WindowsFormsApp1
             {*/
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Record deleted sucessfully");
                 }
@@ -159,7 +159,7 @@ namespace WindowsFormsApp1
 
                 finally
                 {
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                 }
             /*}*/
         }
