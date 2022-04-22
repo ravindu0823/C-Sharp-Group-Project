@@ -13,9 +13,10 @@ namespace WindowsFormsApp1
 {
     public partial class payment : Form
     {
-        public payment()
+        public payment(string Str_Value)
         {
             InitializeComponent();
+            txtTOTAL.Text = Str_Value;
             /*guna2Panel1.BackColor = Color.FromArgb(125, Color.White);*/
         }
 
@@ -62,5 +63,15 @@ namespace WindowsFormsApp1
                 conn_vinuri.Close();
             }
         }
+
+        private void txtTOTAL_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        /* private void txtDisplayTOT_TextChanged(object sender, EventArgs e)
+         {
+
+         }*/
     }
 }

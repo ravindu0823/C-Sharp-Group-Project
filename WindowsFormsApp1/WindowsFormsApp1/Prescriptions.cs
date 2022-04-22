@@ -19,17 +19,19 @@ namespace WindowsFormsApp1
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            payment paynow = new payment();
+            payment paynow = new payment(txtTOTAL.Text);
             paynow.Show();
+
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            double a = 120;
+            double a = 120.00;
             double b = Convert.ToDouble(txtTot.Text);
             double tot = a * b;
 
-            lblNaltrexone.Text = "Total Price of Naltrexone" + " " +tot;
+            /* lblNaltrexone.Text = "Total Price of Naltrexone" + " " +tot;*/
+            lblNaltrexone.Text = tot.ToString();
         }
 
        /* private void txtTot1_TextChanged(object sender, EventArgs e)
@@ -106,7 +108,8 @@ namespace WindowsFormsApp1
             double d = Convert.ToDouble(txtTot1.Text);
             double tot1 = c * d;
 
-            lblBiotin.Text = "Total Price of Biotin" + " " + tot1;
+            /*lblBiotin.Text = "Total Price of Biotin" + " " + tot1;*/
+            lblBiotin.Text = tot1.ToString();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
@@ -115,7 +118,8 @@ namespace WindowsFormsApp1
             double g = Convert.ToDouble(txtTot2.Text);
             double tot2 = f * g;
 
-            lblImodium.Text = "Total Price of Imodium A-D" + " " + tot2;
+            /*lblImodium.Text = "Total Price of Imodium A-D" + " " + tot2;*/
+            lblImodium.Text = tot2.ToString();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
@@ -124,7 +128,8 @@ namespace WindowsFormsApp1
             double i = Convert.ToDouble(txtTot3.Text);
             double tot3 = h * i;
 
-            lblMisoprostol.Text = "Total Price of Misoprostol" + " " + tot3;
+            /*lblMisoprostol.Text = "Total Price of Misoprostol" + " " + tot3;*/
+            lblMisoprostol.Text = tot3.ToString();
         }
 
         private void guna2Button6_Click(object sender, EventArgs e)
@@ -133,7 +138,8 @@ namespace WindowsFormsApp1
             double m = Convert.ToDouble(txtTot4.Text);
             double tot4 = l * m;
 
-            lblNurtec.Text = "Total Price of Nurtec ODT" + " " + tot4;
+            /*lblNurtec.Text = "Total Price of Nurtec ODT" + " " + tot4;*/
+            lblNurtec.Text = tot4.ToString();
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -142,7 +148,8 @@ namespace WindowsFormsApp1
             double m = Convert.ToDouble(txtTot5.Text);
             double tot5 = l * m;
 
-            lblGlycopyrrolate.Text = "Total Price of Glycopyrrolate" + " " + tot5;
+            /*lblGlycopyrrolate.Text = "Total Price of Glycopyrrolate" + " " + tot5;*/
+            lblGlycopyrrolate.Text = tot5.ToString();
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)
@@ -151,7 +158,8 @@ namespace WindowsFormsApp1
             double p = Convert.ToDouble(txtTot6.Text);
             double tot6 = n * p;
 
-            lblRepaglinide.Text = "Total Price of Repaglinide" + " " + tot6;
+            /*lblRepaglinide.Text = "Total Price of Repaglinide" + " " + tot6;*/
+            lblRepaglinide.Text = tot6.ToString();
         }
 
         private void guna2Button8_Click(object sender, EventArgs e)
@@ -160,11 +168,14 @@ namespace WindowsFormsApp1
             double r = Convert.ToDouble(txtTot7.Text);
             double tot7 = q * r;
 
-            lblSodiumBicarb.Text = "Total Price of Sodium Bicarbonate" + " " + tot7;
+            /*lblSodiumBicarb.Text = "Total Price of Sodium Bicarbonate" + " " + tot7;*/
+            lblSodiumBicarb.Text = tot7.ToString();
         }
 
         private void btnTOTAL_Click(object sender, EventArgs e)
         {
+            
+
             double Naltrexone = Convert.ToDouble(lblNaltrexone.Text);
             double Biotin = Convert.ToDouble(lblBiotin.Text);
             double Imodium = Convert.ToDouble(lblImodium.Text);
@@ -174,13 +185,25 @@ namespace WindowsFormsApp1
             double Repaglinide = Convert.ToDouble(lblRepaglinide.Text);
             double SodiumBicarb = Convert.ToDouble(lblSodiumBicarb.Text);
 
-            double TOTAL = ( Naltrexone + Biotin + Imodium + Misoprostol + Nurtec + Glycopyrrolate + Repaglinide + SodiumBicarb );
+            /* if (Naltrexone != null || Biotin != null || Imodium != null || Misoprostol != null || Nurtec != null || Glycopyrrolate != null || Repaglinide!= null || SodiumBicarb != null)*/
+            /*if (lblNaltrexone.Text == null)
+            {
+                double TOTAL = (Naltrexone + Biotin + Imodium + Misoprostol + Nurtec + Glycopyrrolate + Repaglinide + SodiumBicarb);
+
+                txtTOTAL.Text = TOTAL.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error!!!");
+            }*/
+            double TOTAL = (Naltrexone + Biotin + Imodium + Misoprostol + Nurtec + Glycopyrrolate + Repaglinide + SodiumBicarb);
 
             txtTOTAL.Text = TOTAL.ToString();
         }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
-    /*}
-    }
-    }
-    }*/
 }

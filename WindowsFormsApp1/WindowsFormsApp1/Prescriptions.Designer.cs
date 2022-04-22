@@ -102,12 +102,21 @@
             this.lblGlycopyrrolate = new System.Windows.Forms.Label();
             this.lblNurtec = new System.Windows.Forms.Label();
             this.lblMisoprostol = new System.Windows.Forms.Label();
-            this.lblImodium = new System.Windows.Forms.Label();
             this.lblBiotin = new System.Windows.Forms.Label();
             this.lblNaltrexone = new System.Windows.Forms.Label();
             this.btnTOTAL = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtTOTAL = new Guna.UI2.WinForms.Guna2TextBox();
             this.label20 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.lblImodium = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -126,6 +135,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panel9.SuspendLayout();
+            this.panel10.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -1082,14 +1092,14 @@
             this.PAYNOWBTN.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.PAYNOWBTN.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.PAYNOWBTN.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.PAYNOWBTN.FillColor = System.Drawing.Color.Blue;
-            this.PAYNOWBTN.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.PAYNOWBTN.FillColor = System.Drawing.Color.Green;
+            this.PAYNOWBTN.FillColor2 = System.Drawing.Color.Lime;
             this.PAYNOWBTN.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold);
             this.PAYNOWBTN.ForeColor = System.Drawing.Color.White;
             this.PAYNOWBTN.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.PAYNOWBTN.Location = new System.Drawing.Point(836, 827);
+            this.PAYNOWBTN.Location = new System.Drawing.Point(364, 919);
             this.PAYNOWBTN.Name = "PAYNOWBTN";
-            this.PAYNOWBTN.Size = new System.Drawing.Size(194, 49);
+            this.PAYNOWBTN.Size = new System.Drawing.Size(380, 49);
             this.PAYNOWBTN.TabIndex = 17;
             this.PAYNOWBTN.Text = "PAY NOW";
             this.PAYNOWBTN.Click += new System.EventHandler(this.guna2GradientButton1_Click);
@@ -1108,6 +1118,14 @@
             // 
             // panel9
             // 
+            this.panel9.Controls.Add(this.label33);
+            this.panel9.Controls.Add(this.label32);
+            this.panel9.Controls.Add(this.label31);
+            this.panel9.Controls.Add(this.label30);
+            this.panel9.Controls.Add(this.label29);
+            this.panel9.Controls.Add(this.label28);
+            this.panel9.Controls.Add(this.label26);
+            this.panel9.Controls.Add(this.label25);
             this.panel9.Controls.Add(this.lblSodiumBicarb);
             this.panel9.Controls.Add(this.lblRepaglinide);
             this.panel9.Controls.Add(this.lblGlycopyrrolate);
@@ -1118,86 +1136,77 @@
             this.panel9.Controls.Add(this.lblNaltrexone);
             this.panel9.Location = new System.Drawing.Point(12, 667);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1034, 154);
+            this.panel9.Size = new System.Drawing.Size(1034, 147);
             this.panel9.TabIndex = 20;
+            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // lblSodiumBicarb
             // 
             this.lblSodiumBicarb.AutoSize = true;
-            this.lblSodiumBicarb.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSodiumBicarb.Location = new System.Drawing.Point(499, 129);
+            this.lblSodiumBicarb.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSodiumBicarb.Location = new System.Drawing.Point(757, 114);
             this.lblSodiumBicarb.Name = "lblSodiumBicarb";
-            this.lblSodiumBicarb.Size = new System.Drawing.Size(0, 21);
+            this.lblSodiumBicarb.Size = new System.Drawing.Size(0, 20);
             this.lblSodiumBicarb.TabIndex = 13;
             // 
             // lblRepaglinide
             // 
             this.lblRepaglinide.AutoSize = true;
-            this.lblRepaglinide.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRepaglinide.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRepaglinide.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblRepaglinide.Location = new System.Drawing.Point(499, 82);
+            this.lblRepaglinide.Location = new System.Drawing.Point(757, 82);
             this.lblRepaglinide.Name = "lblRepaglinide";
-            this.lblRepaglinide.Size = new System.Drawing.Size(0, 21);
+            this.lblRepaglinide.Size = new System.Drawing.Size(0, 20);
             this.lblRepaglinide.TabIndex = 12;
             // 
             // lblGlycopyrrolate
             // 
             this.lblGlycopyrrolate.AutoSize = true;
-            this.lblGlycopyrrolate.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGlycopyrrolate.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGlycopyrrolate.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblGlycopyrrolate.Location = new System.Drawing.Point(497, 50);
+            this.lblGlycopyrrolate.Location = new System.Drawing.Point(757, 50);
             this.lblGlycopyrrolate.Name = "lblGlycopyrrolate";
-            this.lblGlycopyrrolate.Size = new System.Drawing.Size(0, 21);
+            this.lblGlycopyrrolate.Size = new System.Drawing.Size(0, 20);
             this.lblGlycopyrrolate.TabIndex = 11;
             // 
             // lblNurtec
             // 
             this.lblNurtec.AutoSize = true;
-            this.lblNurtec.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNurtec.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNurtec.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblNurtec.Location = new System.Drawing.Point(497, 13);
+            this.lblNurtec.Location = new System.Drawing.Point(757, 13);
             this.lblNurtec.Name = "lblNurtec";
-            this.lblNurtec.Size = new System.Drawing.Size(0, 21);
+            this.lblNurtec.Size = new System.Drawing.Size(0, 20);
             this.lblNurtec.TabIndex = 10;
             // 
             // lblMisoprostol
             // 
             this.lblMisoprostol.AutoSize = true;
-            this.lblMisoprostol.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMisoprostol.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMisoprostol.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblMisoprostol.Location = new System.Drawing.Point(16, 114);
+            this.lblMisoprostol.Location = new System.Drawing.Point(225, 114);
             this.lblMisoprostol.Name = "lblMisoprostol";
-            this.lblMisoprostol.Size = new System.Drawing.Size(0, 21);
+            this.lblMisoprostol.Size = new System.Drawing.Size(0, 20);
             this.lblMisoprostol.TabIndex = 9;
-            // 
-            // lblImodium
-            // 
-            this.lblImodium.AutoSize = true;
-            this.lblImodium.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblImodium.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblImodium.Location = new System.Drawing.Point(16, 82);
-            this.lblImodium.Name = "lblImodium";
-            this.lblImodium.Size = new System.Drawing.Size(0, 21);
-            this.lblImodium.TabIndex = 8;
             // 
             // lblBiotin
             // 
             this.lblBiotin.AutoSize = true;
-            this.lblBiotin.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBiotin.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBiotin.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblBiotin.Location = new System.Drawing.Point(16, 50);
+            this.lblBiotin.Location = new System.Drawing.Point(225, 50);
             this.lblBiotin.Name = "lblBiotin";
-            this.lblBiotin.Size = new System.Drawing.Size(0, 21);
+            this.lblBiotin.Size = new System.Drawing.Size(0, 20);
             this.lblBiotin.TabIndex = 7;
             // 
             // lblNaltrexone
             // 
             this.lblNaltrexone.AutoSize = true;
-            this.lblNaltrexone.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNaltrexone.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNaltrexone.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblNaltrexone.Location = new System.Drawing.Point(16, 13);
+            this.lblNaltrexone.Location = new System.Drawing.Point(225, 13);
             this.lblNaltrexone.Name = "lblNaltrexone";
-            this.lblNaltrexone.Size = new System.Drawing.Size(0, 21);
+            this.lblNaltrexone.Size = new System.Drawing.Size(0, 20);
             this.lblNaltrexone.TabIndex = 6;
             // 
             // btnTOTAL
@@ -1213,7 +1222,7 @@
             this.btnTOTAL.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnTOTAL.ForeColor = System.Drawing.Color.White;
             this.btnTOTAL.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnTOTAL.Location = new System.Drawing.Point(608, 827);
+            this.btnTOTAL.Location = new System.Drawing.Point(812, 18);
             this.btnTOTAL.Name = "btnTOTAL";
             this.btnTOTAL.Size = new System.Drawing.Size(194, 49);
             this.btnTOTAL.TabIndex = 21;
@@ -1228,29 +1237,141 @@
             this.txtTOTAL.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtTOTAL.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTOTAL.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtTOTAL.FillColor = System.Drawing.Color.Wheat;
+            this.txtTOTAL.FillColor = System.Drawing.Color.AntiqueWhite;
             this.txtTOTAL.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTOTAL.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.txtTOTAL.ForeColor = System.Drawing.Color.Black;
             this.txtTOTAL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTOTAL.Location = new System.Drawing.Point(246, 836);
+            this.txtTOTAL.Location = new System.Drawing.Point(277, 27);
+            this.txtTOTAL.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtTOTAL.Name = "txtTOTAL";
             this.txtTOTAL.PasswordChar = '\0';
             this.txtTOTAL.PlaceholderText = "";
             this.txtTOTAL.ReadOnly = true;
             this.txtTOTAL.SelectedText = "";
-            this.txtTOTAL.Size = new System.Drawing.Size(322, 31);
+            this.txtTOTAL.Size = new System.Drawing.Size(491, 31);
             this.txtTOTAL.TabIndex = 22;
+            this.txtTOTAL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(12, 844);
+            this.label20.ForeColor = System.Drawing.Color.Red;
+            this.label20.Location = new System.Drawing.Point(31, 27);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(216, 23);
             this.label20.TabIndex = 23;
             this.label20.Text = "Your Total Amount";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label25.Location = new System.Drawing.Point(31, 13);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(158, 20);
+            this.label25.TabIndex = 14;
+            this.label25.Text = "Naltrexone    Rs.";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label26.Location = new System.Drawing.Point(73, 50);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(120, 20);
+            this.label26.TabIndex = 15;
+            this.label26.Text = "Biotin     Rs.";
+            // 
+            // lblImodium
+            // 
+            this.lblImodium.AutoSize = true;
+            this.lblImodium.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImodium.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblImodium.Location = new System.Drawing.Point(225, 82);
+            this.lblImodium.Name = "lblImodium";
+            this.lblImodium.Size = new System.Drawing.Size(0, 20);
+            this.lblImodium.TabIndex = 8;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label28.Location = new System.Drawing.Point(3, 82);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(187, 20);
+            this.label28.TabIndex = 16;
+            this.label28.Text = "Imodium A-D     Rs.";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label29.Location = new System.Drawing.Point(15, 114);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(175, 20);
+            this.label29.TabIndex = 17;
+            this.label29.Text = "Misoprostol     Rs.";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label30.Location = new System.Drawing.Point(546, 13);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(173, 20);
+            this.label30.TabIndex = 18;
+            this.label30.Text = "Nurtec ODT     Rs.";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label31.Location = new System.Drawing.Point(517, 50);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(201, 20);
+            this.label31.TabIndex = 19;
+            this.label31.Text = "Glycopyrrolate     Rs.";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label32.Location = new System.Drawing.Point(546, 82);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(174, 20);
+            this.label32.TabIndex = 20;
+            this.label32.Text = "Repaglinide     Rs.";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label33.Location = new System.Drawing.Point(470, 114);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(247, 20);
+            this.label33.TabIndex = 21;
+            this.label33.Text = "Sodium Bicarbonate     Rs.";
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panel10.Controls.Add(this.txtTOTAL);
+            this.panel10.Controls.Add(this.btnTOTAL);
+            this.panel10.Controls.Add(this.label20);
+            this.panel10.Location = new System.Drawing.Point(11, 820);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1035, 93);
+            this.panel10.TabIndex = 22;
             // 
             // Prescriptions
             // 
@@ -1258,9 +1379,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1060, 1055);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.txtTOTAL);
-            this.Controls.Add(this.btnTOTAL);
+            this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.PAYNOWBTN);
             this.Controls.Add(this.panel5);
@@ -1303,8 +1422,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1382,7 +1502,6 @@
         private System.Windows.Forms.Label lblGlycopyrrolate;
         private System.Windows.Forms.Label lblNurtec;
         private System.Windows.Forms.Label lblMisoprostol;
-        private System.Windows.Forms.Label lblImodium;
         private System.Windows.Forms.Label lblBiotin;
         private System.Windows.Forms.Label lblNaltrexone;
         private System.Windows.Forms.Label label22;
@@ -1390,5 +1509,15 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnTOTAL;
         private Guna.UI2.WinForms.Guna2TextBox txtTOTAL;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label lblImodium;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Panel panel10;
     }
 }
