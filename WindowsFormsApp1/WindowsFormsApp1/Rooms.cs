@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
@@ -10,6 +17,25 @@ namespace WindowsFormsApp1
         public Rooms()
         {
             InitializeComponent();
+            ShowRooms();
+        }
+
+        SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+
+        private void ShowRooms()
+        {
+            conn_ravindu.Open();
+
+            string get = "SELECT * FROM Rooms WHERE Booked = 'Available'";
+
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlCommandBuilder builder = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            guna2DataGridView1.DataSource = ds.Tables[0];
+
+            conn_ravindu.Close();
         }
 
         private void label37_Click(object sender, System.EventArgs e)
@@ -44,7 +70,7 @@ namespace WindowsFormsApp1
 
         private void guna2Button4_Click(object sender, System.EventArgs e)
         {
-            int room_num = int.Parse(guna2TextBox4.Text);
+            /*int room_num = int.Parse(guna2TextBox4.Text);
             int id = int.Parse(guna2TextBox1.Text); 
             string name = guna2TextBox2.Text;
             int contact = int.Parse(guna2TextBox3.Text); 
@@ -82,7 +108,29 @@ namespace WindowsFormsApp1
             finally
             {
                 conn.Close();
-            }
+            }*/
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            guna2TextBox4.Text = guna2DataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            guna2TextBox7.Text = guna2DataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+            guna2TextBox18.Text = guna2DataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

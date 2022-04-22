@@ -64,14 +64,39 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void txtTOTAL_TextChanged(object sender, EventArgs e)
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-
+            /*guna2Panel1.BackColor = Color.FromArgb(125, Color.White);*/
         }
 
-        /* private void txtDisplayTOT_TextChanged(object sender, EventArgs e)
-         {
+        private void guna2GradientButton1_Click_1(object sender, EventArgs e)
+        {
+            int card_number = int.Parse(txtCardNum.Text);
+            string expiry_date = txtEXP.Text;
+            int cvv = int.Parse(txtCVV.Text);
 
-         }*/
+            SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+
+            string sql = "INSERT INTO Payment (card_name,expiry_date,cvv) VALUES ('" + card_number + "', '" + expiry_date + "', '" + cvv + "')";
+
+            SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
+
+            try
+            {
+                conn_vinuri.Open();
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Data inserted sucessfully");
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            finally
+            {
+                conn_vinuri.Close();
+            }
+        }
     }
 }

@@ -11,9 +11,12 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+
         private void Appoinment_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -53,26 +56,48 @@ namespace WindowsFormsApp1
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-           
-            string fullname = guna2TextBox1.Text;
-            string phonenumber = guna2TextBox2.Text;
-            string department = guna2TextBox3.Text;
-            string age = guna2TextBox4.Text;
-            string appointmentdate = guna2TextBox5.Text;
-            string doctor = guna2TextBox6.Text;
 
-            //SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
-
-            string sql = "INSERT INTO appointment (Fullname,Phonenumber,Department,Age,Appointment_date,Doctor) VALUES ('" + fullname + "', '" + phonenumber + "', '" + department + "', '" + age + "', '" + appointmentdate + "', '" + doctor + "')";
-
-            SqlCommand cmd = new SqlCommand(sql, conn);
-
-            try
+            if (guna2TextBox1.Text == "" || guna2TextBox2.Text == "" || guna2TextBox3.Text == "" || guna2TextBox4.Text == "" || guna2TextBox5.Text == "" || guna2TextBox6.Text == "")
             {
-                conn.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("User insertion sucessfully");
+                MessageBox.Show("Please Fill All the Fields");
+            }
+            else
+            {
+                string fullname = guna2TextBox1.Text;
+                int phonenumber = Convert.ToInt32(guna2TextBox2.Text);
+                string department = guna2TextBox3.Text;
+                int age = Convert.ToInt32(guna2TextBox4.Text);
+                string appointmentdate = guna2TextBox5.Text;
+                string doctor = guna2TextBox6.Text;
+
+                try
+                {
+                    conn_ravindu.Open();
+
+                    string sql = "INSERT INTO appointment (Fullname,Phonenumber,Department,Age,Appointment_date,Doctor) VALUES ('" + fullname + "', '" + phonenumber + "', '" + department + "', '" + age + "', '" + appointmentdate + "', '" + doctor + "')";
+                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Appoinment Placed Successfully");
+
+                    conn_ravindu.Close();
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
+
+            }
+
+            
+
+            
+
+            /*try
+            {
+                
+                
             }
 
             catch (Exception ex)
@@ -82,8 +107,8 @@ namespace WindowsFormsApp1
 
             finally
             {
-                conn.Close();
-            }
+                conn_ravindu.Close();
+            }*/
         }
     }
 }
