@@ -64,7 +64,7 @@ namespace WindowsFormsApp1
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 22F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(172, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(326, 43);
+            this.label1.Size = new System.Drawing.Size(268, 36);
             this.label1.TabIndex = 64;
             this.label1.Text = "Patient Records";
             // 
@@ -116,7 +116,7 @@ namespace WindowsFormsApp1
             "O+",
             "O-"});
             this.guna2ComboBox2.Location = new System.Drawing.Point(243, 636);
-            this.guna2ComboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ComboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.Size = new System.Drawing.Size(371, 36);
             this.guna2ComboBox2.TabIndex = 83;
@@ -176,7 +176,7 @@ namespace WindowsFormsApp1
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(21, 582);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 21);
+            this.label4.Size = new System.Drawing.Size(107, 17);
             this.label4.TabIndex = 79;
             this.label4.Text = "Emg Number";
             // 
@@ -194,7 +194,7 @@ namespace WindowsFormsApp1
             "Male",
             "Female"});
             this.guna2ComboBox1.Location = new System.Drawing.Point(243, 394);
-            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(371, 36);
             this.guna2ComboBox1.TabIndex = 78;
@@ -205,7 +205,7 @@ namespace WindowsFormsApp1
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(21, 345);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 21);
+            this.label3.Size = new System.Drawing.Size(132, 17);
             this.label3.TabIndex = 77;
             this.label3.Text = "Contact Number";
             // 
@@ -215,7 +215,7 @@ namespace WindowsFormsApp1
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(21, 263);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 21);
+            this.label2.Size = new System.Drawing.Size(84, 17);
             this.label2.TabIndex = 76;
             this.label2.Text = "Birth Date";
             this.label2.Click += new System.EventHandler(this.label2_Click_1);
@@ -229,7 +229,7 @@ namespace WindowsFormsApp1
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.guna2DateTimePicker1.Location = new System.Drawing.Point(243, 240);
-            this.guna2DateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2DateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
@@ -369,7 +369,7 @@ namespace WindowsFormsApp1
             this.label25.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(21, 655);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(123, 21);
+            this.label25.Size = new System.Drawing.Size(102, 17);
             this.label25.TabIndex = 61;
             this.label25.Text = "Blood Group";
             this.label25.Click += new System.EventHandler(this.label25_Click);
@@ -380,7 +380,7 @@ namespace WindowsFormsApp1
             this.label26.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(21, 503);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(85, 21);
+            this.label26.Size = new System.Drawing.Size(70, 17);
             this.label26.TabIndex = 60;
             this.label26.Text = "Address";
             // 
@@ -390,7 +390,7 @@ namespace WindowsFormsApp1
             this.label27.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(21, 417);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(75, 21);
+            this.label27.Size = new System.Drawing.Size(62, 17);
             this.label27.TabIndex = 59;
             this.label27.Text = "Gender";
             // 
@@ -400,7 +400,7 @@ namespace WindowsFormsApp1
             this.label32.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(21, 105);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(129, 21);
+            this.label32.Size = new System.Drawing.Size(106, 17);
             this.label32.TabIndex = 46;
             this.label32.Text = "Middle Name";
             // 
@@ -410,7 +410,7 @@ namespace WindowsFormsApp1
             this.label33.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(21, 177);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(104, 21);
+            this.label33.Size = new System.Drawing.Size(86, 17);
             this.label33.TabIndex = 45;
             this.label33.Text = "Last Name";
             // 
@@ -420,7 +420,7 @@ namespace WindowsFormsApp1
             this.label34.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(21, 57);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(108, 21);
+            this.label34.Size = new System.Drawing.Size(89, 17);
             this.label34.TabIndex = 44;
             this.label34.Text = "First Name";
             // 
@@ -445,9 +445,10 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PatientRecords";
             this.Text = "PatientRecords";
+            this.Load += new System.EventHandler(this.PatientRecords_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -145,7 +145,7 @@
             this.label16.ForeColor = System.Drawing.Color.Firebrick;
             this.label16.Location = new System.Drawing.Point(56, 5);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(123, 21);
+            this.label16.Size = new System.Drawing.Size(101, 17);
             this.label16.TabIndex = 5;
             this.label16.Text = "Nurtec ODT";
             // 
@@ -179,7 +179,7 @@
             this.label33.ForeColor = System.Drawing.Color.DarkOrange;
             this.label33.Location = new System.Drawing.Point(470, 114);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(247, 20);
+            this.label33.Size = new System.Drawing.Size(202, 16);
             this.label33.TabIndex = 21;
             this.label33.Text = "Sodium Bicarbonate     Rs.";
             // 
@@ -190,7 +190,7 @@
             this.label32.ForeColor = System.Drawing.Color.DarkOrange;
             this.label32.Location = new System.Drawing.Point(546, 82);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(174, 20);
+            this.label32.Size = new System.Drawing.Size(140, 16);
             this.label32.TabIndex = 20;
             this.label32.Text = "Repaglinide     Rs.";
             // 
@@ -201,7 +201,7 @@
             this.label31.ForeColor = System.Drawing.Color.DarkOrange;
             this.label31.Location = new System.Drawing.Point(517, 50);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(201, 20);
+            this.label31.Size = new System.Drawing.Size(163, 16);
             this.label31.TabIndex = 19;
             this.label31.Text = "Glycopyrrolate     Rs.";
             // 
@@ -212,7 +212,7 @@
             this.label30.ForeColor = System.Drawing.Color.DarkOrange;
             this.label30.Location = new System.Drawing.Point(546, 13);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(173, 20);
+            this.label30.Size = new System.Drawing.Size(141, 16);
             this.label30.TabIndex = 18;
             this.label30.Text = "Nurtec ODT     Rs.";
             // 
@@ -221,9 +221,9 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label29.Location = new System.Drawing.Point(15, 114);
+            this.label29.Location = new System.Drawing.Point(26, 114);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(175, 20);
+            this.label29.Size = new System.Drawing.Size(143, 16);
             this.label29.TabIndex = 17;
             this.label29.Text = "Misoprostol     Rs.";
             // 
@@ -232,9 +232,9 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label28.Location = new System.Drawing.Point(3, 82);
+            this.label28.Location = new System.Drawing.Point(15, 82);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(187, 20);
+            this.label28.Size = new System.Drawing.Size(154, 16);
             this.label28.TabIndex = 16;
             this.label28.Text = "Imodium A-D     Rs.";
             // 
@@ -243,9 +243,9 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label26.Location = new System.Drawing.Point(73, 50);
+            this.label26.Location = new System.Drawing.Point(71, 50);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(120, 20);
+            this.label26.Size = new System.Drawing.Size(98, 16);
             this.label26.TabIndex = 15;
             this.label26.Text = "Biotin     Rs.";
             // 
@@ -254,9 +254,9 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label25.Location = new System.Drawing.Point(31, 13);
+            this.label25.Location = new System.Drawing.Point(40, 13);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(158, 20);
+            this.label25.Size = new System.Drawing.Size(129, 16);
             this.label25.TabIndex = 14;
             this.label25.Text = "Naltrexone    Rs.";
             // 
@@ -266,7 +266,7 @@
             this.lblSodiumBicarb.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSodiumBicarb.Location = new System.Drawing.Point(757, 114);
             this.lblSodiumBicarb.Name = "lblSodiumBicarb";
-            this.lblSodiumBicarb.Size = new System.Drawing.Size(0, 20);
+            this.lblSodiumBicarb.Size = new System.Drawing.Size(0, 16);
             this.lblSodiumBicarb.TabIndex = 13;
             // 
             // lblRepaglinide
@@ -276,7 +276,7 @@
             this.lblRepaglinide.ForeColor = System.Drawing.Color.Firebrick;
             this.lblRepaglinide.Location = new System.Drawing.Point(757, 82);
             this.lblRepaglinide.Name = "lblRepaglinide";
-            this.lblRepaglinide.Size = new System.Drawing.Size(0, 20);
+            this.lblRepaglinide.Size = new System.Drawing.Size(0, 16);
             this.lblRepaglinide.TabIndex = 12;
             // 
             // lblGlycopyrrolate
@@ -286,7 +286,7 @@
             this.lblGlycopyrrolate.ForeColor = System.Drawing.Color.Firebrick;
             this.lblGlycopyrrolate.Location = new System.Drawing.Point(757, 50);
             this.lblGlycopyrrolate.Name = "lblGlycopyrrolate";
-            this.lblGlycopyrrolate.Size = new System.Drawing.Size(0, 20);
+            this.lblGlycopyrrolate.Size = new System.Drawing.Size(0, 16);
             this.lblGlycopyrrolate.TabIndex = 11;
             // 
             // lblNurtec
@@ -296,7 +296,7 @@
             this.lblNurtec.ForeColor = System.Drawing.Color.Firebrick;
             this.lblNurtec.Location = new System.Drawing.Point(757, 13);
             this.lblNurtec.Name = "lblNurtec";
-            this.lblNurtec.Size = new System.Drawing.Size(0, 20);
+            this.lblNurtec.Size = new System.Drawing.Size(0, 16);
             this.lblNurtec.TabIndex = 10;
             // 
             // lblMisoprostol
@@ -306,7 +306,7 @@
             this.lblMisoprostol.ForeColor = System.Drawing.Color.Firebrick;
             this.lblMisoprostol.Location = new System.Drawing.Point(225, 114);
             this.lblMisoprostol.Name = "lblMisoprostol";
-            this.lblMisoprostol.Size = new System.Drawing.Size(0, 20);
+            this.lblMisoprostol.Size = new System.Drawing.Size(0, 16);
             this.lblMisoprostol.TabIndex = 9;
             // 
             // lblImodium
@@ -316,7 +316,7 @@
             this.lblImodium.ForeColor = System.Drawing.Color.Firebrick;
             this.lblImodium.Location = new System.Drawing.Point(225, 82);
             this.lblImodium.Name = "lblImodium";
-            this.lblImodium.Size = new System.Drawing.Size(0, 20);
+            this.lblImodium.Size = new System.Drawing.Size(0, 16);
             this.lblImodium.TabIndex = 8;
             // 
             // lblBiotin
@@ -326,7 +326,7 @@
             this.lblBiotin.ForeColor = System.Drawing.Color.Firebrick;
             this.lblBiotin.Location = new System.Drawing.Point(225, 50);
             this.lblBiotin.Name = "lblBiotin";
-            this.lblBiotin.Size = new System.Drawing.Size(0, 20);
+            this.lblBiotin.Size = new System.Drawing.Size(0, 16);
             this.lblBiotin.TabIndex = 7;
             // 
             // lblNaltrexone
@@ -336,7 +336,7 @@
             this.lblNaltrexone.ForeColor = System.Drawing.Color.Firebrick;
             this.lblNaltrexone.Location = new System.Drawing.Point(225, 13);
             this.lblNaltrexone.Name = "lblNaltrexone";
-            this.lblNaltrexone.Size = new System.Drawing.Size(0, 20);
+            this.lblNaltrexone.Size = new System.Drawing.Size(0, 16);
             this.lblNaltrexone.TabIndex = 6;
             // 
             // PAYNOWBTN
@@ -381,7 +381,7 @@
             this.label22.ForeColor = System.Drawing.Color.Firebrick;
             this.label22.Location = new System.Drawing.Point(26, 4);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(201, 21);
+            this.label22.Size = new System.Drawing.Size(166, 17);
             this.label22.TabIndex = 20;
             this.label22.Text = "Sodium Bicarbonate";
             // 
@@ -408,6 +408,7 @@
             this.txtTot7.Size = new System.Drawing.Size(247, 33);
             this.txtTot7.TabIndex = 19;
             this.txtTot7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTot7.TextChanged += new System.EventHandler(this.txtTot7_TextChanged);
             // 
             // lblSodium
             // 
@@ -416,7 +417,7 @@
             this.lblSodium.ForeColor = System.Drawing.Color.Firebrick;
             this.lblSodium.Location = new System.Drawing.Point(20, 5);
             this.lblSodium.Name = "lblSodium";
-            this.lblSodium.Size = new System.Drawing.Size(0, 21);
+            this.lblSodium.Size = new System.Drawing.Size(0, 17);
             this.lblSodium.TabIndex = 4;
             // 
             // guna2Button8
@@ -442,7 +443,7 @@
             this.label23.ForeColor = System.Drawing.Color.Black;
             this.label23.Location = new System.Drawing.Point(104, 127);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(92, 51);
+            this.label23.Size = new System.Drawing.Size(75, 45);
             this.label23.TabIndex = 2;
             this.label23.Text = "Rs. 720.45\r\nper bottle\r\n\r\n";
             // 
@@ -453,7 +454,7 @@
             this.label24.ForeColor = System.Drawing.Color.Blue;
             this.label24.Location = new System.Drawing.Point(104, 36);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(136, 80);
+            this.label24.Size = new System.Drawing.Size(114, 70);
             this.label24.TabIndex = 1;
             this.label24.Text = "Imprint: CL 205,\r\nStrength: 10 grain \r\n(650 mg), Rounded,\r\nAvailability: Rx and\r\n" +
     "/or OTC\r\n";
@@ -476,7 +477,7 @@
             this.label20.ForeColor = System.Drawing.Color.Red;
             this.label20.Location = new System.Drawing.Point(31, 27);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(216, 23);
+            this.label20.Size = new System.Drawing.Size(169, 18);
             this.label20.TabIndex = 23;
             this.label20.Text = "Your Total Amount";
             // 
@@ -487,7 +488,7 @@
             this.label17.ForeColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(119, 127);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(87, 51);
+            this.label17.Size = new System.Drawing.Size(71, 45);
             this.label17.TabIndex = 2;
             this.label17.Text = "Rs.112.00\r\nper box\r\n\r\n";
             // 
@@ -498,7 +499,7 @@
             this.label18.ForeColor = System.Drawing.Color.Blue;
             this.label18.Location = new System.Drawing.Point(119, 36);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(124, 80);
+            this.label18.Size = new System.Drawing.Size(105, 70);
             this.label18.TabIndex = 1;
             this.label18.Text = "Generic Name: \r\nrimegepant, 75 \r\nmg, Color: White, \r\nRoundeed, \r\nPrescription onl" +
     "y";
@@ -583,6 +584,7 @@
             this.txtTot6.Size = new System.Drawing.Size(247, 33);
             this.txtTot6.TabIndex = 19;
             this.txtTot6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTot6.TextChanged += new System.EventHandler(this.txtTot6_TextChanged);
             // 
             // label27
             // 
@@ -591,7 +593,7 @@
             this.label27.ForeColor = System.Drawing.Color.Black;
             this.label27.Location = new System.Drawing.Point(67, 127);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(92, 34);
+            this.label27.Size = new System.Drawing.Size(75, 30);
             this.label27.TabIndex = 17;
             this.label27.Text = "Rs. 174.00\r\nper card\r\n";
             // 
@@ -602,7 +604,7 @@
             this.label19.ForeColor = System.Drawing.Color.Firebrick;
             this.label19.Location = new System.Drawing.Point(55, 5);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(121, 21);
+            this.label19.Size = new System.Drawing.Size(101, 17);
             this.label19.TabIndex = 4;
             this.label19.Text = "Repaglinide";
             // 
@@ -650,7 +652,7 @@
             this.label21.ForeColor = System.Drawing.Color.Blue;
             this.label21.Location = new System.Drawing.Point(104, 36);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(159, 80);
+            this.label21.Size = new System.Drawing.Size(131, 70);
             this.label21.TabIndex = 1;
             this.label21.Text = "Imprint: C 745,\r\n1 mg, Color: Yellow,\r\nRounded, Prescription \r\nonly, Drug Class:\r" +
     "\nMeglitinides";
@@ -715,7 +717,7 @@
             this.label40.ForeColor = System.Drawing.Color.Firebrick;
             this.label40.Location = new System.Drawing.Point(-511, 54);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(114, 21);
+            this.label40.Size = new System.Drawing.Size(94, 17);
             this.label40.TabIndex = 50;
             this.label40.Text = "Naltrexone";
             // 
@@ -747,7 +749,7 @@
             this.label39.ForeColor = System.Drawing.Color.Firebrick;
             this.label39.Location = new System.Drawing.Point(-511, 86);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(66, 21);
+            this.label39.Size = new System.Drawing.Size(54, 17);
             this.label39.TabIndex = 51;
             this.label39.Text = "Biotin";
             // 
@@ -758,7 +760,7 @@
             this.label38.ForeColor = System.Drawing.Color.Firebrick;
             this.label38.Location = new System.Drawing.Point(-511, 119);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(136, 21);
+            this.label38.Size = new System.Drawing.Size(112, 17);
             this.label38.TabIndex = 52;
             this.label38.Text = "Imodium A-D";
             // 
@@ -769,7 +771,7 @@
             this.label37.ForeColor = System.Drawing.Color.Firebrick;
             this.label37.Location = new System.Drawing.Point(-511, 152);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(124, 21);
+            this.label37.Size = new System.Drawing.Size(101, 17);
             this.label37.TabIndex = 53;
             this.label37.Text = "Misoprostol";
             // 
@@ -796,6 +798,7 @@
             this.txtTot4.Size = new System.Drawing.Size(247, 33);
             this.txtTot4.TabIndex = 19;
             this.txtTot4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTot4.TextChanged += new System.EventHandler(this.txtTot4_TextChanged);
             // 
             // panel10
             // 
@@ -903,6 +906,7 @@
             this.txtTot5.Size = new System.Drawing.Size(247, 33);
             this.txtTot5.TabIndex = 19;
             this.txtTot5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTot5.TextChanged += new System.EventHandler(this.txtTot5_TextChanged);
             // 
             // label8
             // 
@@ -911,7 +915,7 @@
             this.label8.ForeColor = System.Drawing.Color.Firebrick;
             this.label8.Location = new System.Drawing.Point(45, 5);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(152, 21);
+            this.label8.Size = new System.Drawing.Size(125, 17);
             this.label8.TabIndex = 4;
             this.label8.Text = "Glycopyrrolate";
             // 
@@ -938,7 +942,7 @@
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(104, 127);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(117, 34);
+            this.label9.Size = new System.Drawing.Size(95, 30);
             this.label9.TabIndex = 2;
             this.label9.Text = "Rs. 415.12.00\r\nper injection\r\n";
             // 
@@ -949,7 +953,7 @@
             this.label10.ForeColor = System.Drawing.Color.Blue;
             this.label10.Location = new System.Drawing.Point(104, 36);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 80);
+            this.label10.Size = new System.Drawing.Size(120, 70);
             this.label10.TabIndex = 1;
             this.label10.Text = "used to reduce \r\nsaliva, nasal, and \r\nstomach secretions, \r\nInjectable solution -" +
     " \r\n0.2mg/mL";
@@ -1011,6 +1015,7 @@
             this.txtTot2.Size = new System.Drawing.Size(247, 33);
             this.txtTot2.TabIndex = 19;
             this.txtTot2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTot2.TextChanged += new System.EventHandler(this.txtTot2_TextChanged);
             // 
             // label12
             // 
@@ -1019,7 +1024,7 @@
             this.label12.ForeColor = System.Drawing.Color.Firebrick;
             this.label12.Location = new System.Drawing.Point(55, 5);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(136, 21);
+            this.label12.Size = new System.Drawing.Size(112, 17);
             this.label12.TabIndex = 6;
             this.label12.Text = "Imodium A-D";
             // 
@@ -1046,7 +1051,7 @@
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(67, 127);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 34);
+            this.label5.Size = new System.Drawing.Size(75, 30);
             this.label5.TabIndex = 2;
             this.label5.Text = "Rs. 143.22\r\nper card\r\n";
             // 
@@ -1071,7 +1076,7 @@
             this.label6.ForeColor = System.Drawing.Color.Blue;
             this.label6.Location = new System.Drawing.Point(98, 36);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(144, 80);
+            this.label6.Size = new System.Drawing.Size(120, 70);
             this.label6.TabIndex = 1;
             this.label6.Text = "Strength: 2 mg,\r\nPill Imprint: \r\nIMODIUM AD 2 MG, \r\nColor: Green, Shape: \r\nEllipt" +
     "ical /Oval";
@@ -1099,6 +1104,7 @@
             this.txtTot1.Size = new System.Drawing.Size(247, 33);
             this.txtTot1.TabIndex = 18;
             this.txtTot1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTot1.TextChanged += new System.EventHandler(this.txtTot1_TextChanged);
             // 
             // label7
             // 
@@ -1107,7 +1113,7 @@
             this.label7.ForeColor = System.Drawing.Color.Firebrick;
             this.label7.Location = new System.Drawing.Point(85, 5);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 21);
+            this.label7.Size = new System.Drawing.Size(54, 17);
             this.label7.TabIndex = 5;
             this.label7.Text = "Biotin";
             // 
@@ -1134,7 +1140,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(104, 132);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 34);
+            this.label3.Size = new System.Drawing.Size(80, 30);
             this.label3.TabIndex = 2;
             this.label3.Text = "Rs. 245.25 \r\nper a bottle\r\n";
             // 
@@ -1145,7 +1151,7 @@
             this.label4.ForeColor = System.Drawing.Color.Blue;
             this.label4.Location = new System.Drawing.Point(104, 36);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 96);
+            this.label4.Size = new System.Drawing.Size(110, 84);
             this.label4.TabIndex = 1;
             this.label4.Text = "Brittle nails,\r\nDiabetes, Multiple \r\nsclerosis (MS),\r\nPeripheral \r\nneuropathy\r\n\r\n" +
     "";
@@ -1207,7 +1213,7 @@
             this.label11.ForeColor = System.Drawing.Color.Firebrick;
             this.label11.Location = new System.Drawing.Point(65, 5);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(114, 21);
+            this.label11.Size = new System.Drawing.Size(94, 17);
             this.label11.TabIndex = 5;
             this.label11.Text = "Naltrexone";
             // 
@@ -1234,7 +1240,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(78, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 34);
+            this.label2.Size = new System.Drawing.Size(75, 30);
             this.label2.TabIndex = 2;
             this.label2.Text = "Rs. 120.00\r\nper card\r\n";
             // 
@@ -1245,7 +1251,7 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(119, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 80);
+            this.label1.Size = new System.Drawing.Size(100, 70);
             this.label1.TabIndex = 1;
             this.label1.Text = "This is a yellow, \r\noval, scored, \r\nfilm-coated, \r\ntablet imprinted \r\nwith \"50\".";
             // 
@@ -1297,6 +1303,7 @@
             this.txtTot3.Size = new System.Drawing.Size(247, 33);
             this.txtTot3.TabIndex = 19;
             this.txtTot3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTot3.TextChanged += new System.EventHandler(this.txtTot3_TextChanged);
             // 
             // label13
             // 
@@ -1305,7 +1312,7 @@
             this.label13.ForeColor = System.Drawing.Color.Firebrick;
             this.label13.Location = new System.Drawing.Point(57, 5);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(124, 21);
+            this.label13.Size = new System.Drawing.Size(101, 17);
             this.label13.TabIndex = 6;
             this.label13.Text = "Misoprostol";
             // 
@@ -1332,7 +1339,7 @@
             this.label14.ForeColor = System.Drawing.Color.Black;
             this.label14.Location = new System.Drawing.Point(104, 130);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(92, 34);
+            this.label14.Size = new System.Drawing.Size(75, 30);
             this.label14.TabIndex = 2;
             this.label14.Text = "Rs. 441.00\r\nper Box";
             // 
@@ -1343,7 +1350,7 @@
             this.label15.ForeColor = System.Drawing.Color.Blue;
             this.label15.Location = new System.Drawing.Point(99, 36);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(131, 80);
+            this.label15.Size = new System.Drawing.Size(110, 70);
             this.label15.TabIndex = 1;
             this.label15.Text = "Strength: 100 mcg,\r\nPill Imprint: Logo \r\n100 4430, Color: \r\nWhite, Shape: \r\nRound" +
     "";
@@ -1393,6 +1400,7 @@
             this.Controls.Add(this.panel4);
             this.Name = "Prescriptions";
             this.Text = "Prescriptions";
+            this.Load += new System.EventHandler(this.Prescriptions_Load);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel5.ResumeLayout(false);

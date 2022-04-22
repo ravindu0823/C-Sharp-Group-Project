@@ -20,6 +20,9 @@ namespace WindowsFormsApp1
             /*guna2Panel1.BackColor = Color.FromArgb(125, Color.White);*/
         }
 
+        SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+
         private void payment_Load(object sender, EventArgs e)
         {
             var posi = this.PointToScreen(guna2Panel1.Location);
@@ -36,32 +39,7 @@ namespace WindowsFormsApp1
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            int card_number = int.Parse(txtCardNum.Text);
-            string expiry_date = txtEXP.Text;
-            int cvv = int.Parse(txtCVV.Text);
-
-            SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
             
-            string sql = "INSERT INTO Payment (card_name,expiry_date,cvv) VALUES ('" + card_number + "', '" + expiry_date + "', '" + cvv + "')";
-
-            SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
-
-            try
-            {
-                conn_vinuri.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Data inserted sucessfully");
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                conn_vinuri.Close();
-            }
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
@@ -71,19 +49,17 @@ namespace WindowsFormsApp1
 
         private void guna2GradientButton1_Click_1(object sender, EventArgs e)
         {
-            int card_number = int.Parse(txtCardNum.Text);
+            long card_number = Convert.ToInt64(txtCardNum.Text);
             string expiry_date = txtEXP.Text;
             int cvv = int.Parse(txtCVV.Text);
 
-            SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+            string sql = "INSERT INTO Payment (CardNumber, ExpDate, CvvCode) VALUES ('" + card_number + "', '" + expiry_date + "', '" + cvv + "')";
 
-            string sql = "INSERT INTO Payment (card_name,expiry_date,cvv) VALUES ('" + card_number + "', '" + expiry_date + "', '" + cvv + "')";
-
-            SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
+            SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
 
             try
             {
-                conn_vinuri.Open();
+                conn_ravindu.Open();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Data inserted sucessfully");
             }
@@ -95,7 +71,7 @@ namespace WindowsFormsApp1
 
             finally
             {
-                conn_vinuri.Close();
+                conn_ravindu.Close();
             }
         }
     }

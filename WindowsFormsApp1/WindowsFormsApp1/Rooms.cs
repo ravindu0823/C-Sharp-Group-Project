@@ -18,6 +18,8 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             ShowRooms();
+            ShowPatients();
+            ShowRecords();
         }
 
         SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
@@ -34,6 +36,37 @@ namespace WindowsFormsApp1
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView1.DataSource = ds.Tables[0];
+
+            conn_ravindu.Close();
+        }
+
+        private void ShowPatients()
+        {
+            conn_ravindu.Open();
+
+            string get = "SELECT PatientId, CONCAT(FirstName, ' ', MiddleName, ' ', LastName) AS 'Full Name', ContactNumber, Gender, DATEDIFF (YY, BirthDate, GETDATE()) AS Age, Address, EmgNumber, BloodGroup FROM PatientRecords";
+            // string get = "SELECT DATEDIFF (YY, BirthDate, GETDATE()) AS Age FROM PatientRecords";
+
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlCommandBuilder builder = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            guna2DataGridView2.DataSource = ds.Tables[0];
+
+            conn_ravindu.Close();
+        }
+
+        private void ShowRecords()
+        {
+            conn_ravindu.Open();
+
+            string get = "SELECT * FROM RoomManagemenet";
+
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlCommandBuilder builder = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            guna2DataGridView3.DataSource = ds.Tables[0];
 
             conn_ravindu.Close();
         }
@@ -70,6 +103,63 @@ namespace WindowsFormsApp1
 
         private void guna2Button4_Click(object sender, System.EventArgs e)
         {
+            if (guna2TextBox21.Text == "" || guna2TextBox11.Text == "")
+            {
+                MessageBox.Show("Please Fill these Fields");
+            }
+            else
+            {
+                int patient_id = int.Parse(guna2TextBox1.Text);
+                string full_name = guna2TextBox2.Text;
+                int contact = int.Parse(guna2TextBox3.Text);
+                string gender = guna2TextBox6.Text;
+                int age = int.Parse(guna2TextBox15.Text);
+                string address = guna2TextBox5.Text;
+                int emg_num = int.Parse(guna2TextBox9.Text);
+                string blood_group = guna2TextBox16.Text;
+                int room_num = int.Parse(guna2TextBox7.Text);
+                string room_type = guna2TextBox4.Text;
+                int price = int.Parse(guna2TextBox18.Text);
+                int advance = int.Parse(guna2TextBox21.Text);
+                int outstanding = price - advance;
+                // MessageBox.Show(outstanding.ToString());
+                string consultant = guna2TextBox11.Text;
+                string date = DateTime.Now.ToString("yyyy-MM-dd");
+
+                try
+                {
+                    conn_ravindu.Open();
+
+                    string sql1 = "INSERT INTO RoomManagemenet (RoomNum, Id, Name, Contact, Gender, Age, Address, EmgNum, BloodGroup, Advance, Outstanding, Consultant, Date) VALUES ('" + room_num + "', '" + patient_id + "', '" + full_name + "', '" + contact + "', '" + gender + "', '" + age + "', '" + address + "', '" + emg_num + "', '" + blood_group + "', '" + advance + "', '" + outstanding + "', '" + consultant + "', '" + date + "')";
+                    SqlCommand cmd1 = new SqlCommand(sql1, conn_ravindu);
+                    cmd1.ExecuteNonQuery();
+                    MessageBox.Show("Inserted to Room Management table");
+
+                    conn_ravindu.Close();
+
+                    conn_ravindu.Open();
+
+                    string update = "UPDATE Rooms SET Booked = 'Booked' WHERE RoomID = '" + room_num + "'";
+                    SqlCommand cmd2 = new SqlCommand(update, conn_ravindu);
+                    cmd2.ExecuteNonQuery();
+                    MessageBox.Show("Updated Rooms table");
+
+                    conn_ravindu.Close();
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
+                finally
+                {
+                    ShowRooms();
+                    ShowPatients();
+                    ShowRecords();
+                }
+            }
+            
             /*int room_num = int.Parse(guna2TextBox4.Text);
             int id = int.Parse(guna2TextBox1.Text); 
             string name = guna2TextBox2.Text;
@@ -109,6 +199,9 @@ namespace WindowsFormsApp1
             {
                 conn.Close();
             }*/
+
+            
+            // MessageBox.Show(date);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -123,12 +216,34 @@ namespace WindowsFormsApp1
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            guna2TextBox4.Text = guna2DataGridView1.SelectedRows[0].Cells[0].Value.ToString();
-            guna2TextBox7.Text = guna2DataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+            guna2TextBox7.Text = guna2DataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            guna2TextBox4.Text = guna2DataGridView1.SelectedRows[0].Cells[1].Value.ToString();
             guna2TextBox18.Text = guna2DataGridView1.SelectedRows[0].Cells[2].Value.ToString();
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2DataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            guna2TextBox1.Text = guna2DataGridView2.SelectedRows[0].Cells[0].Value.ToString();
+            guna2TextBox2.Text = guna2DataGridView2.SelectedRows[0].Cells[1].Value.ToString();
+            guna2TextBox3.Text = guna2DataGridView2.SelectedRows[0].Cells[2].Value.ToString();
+            guna2TextBox6.Text = guna2DataGridView2.SelectedRows[0].Cells[3].Value.ToString();
+            guna2TextBox15.Text = guna2DataGridView2.SelectedRows[0].Cells[4].Value.ToString();
+            guna2TextBox5.Text = guna2DataGridView2.SelectedRows[0].Cells[5].Value.ToString();
+            guna2TextBox9.Text = guna2DataGridView2.SelectedRows[0].Cells[6].Value.ToString();
+            guna2TextBox16.Text = guna2DataGridView2.SelectedRows[0].Cells[7].Value.ToString();
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2DataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

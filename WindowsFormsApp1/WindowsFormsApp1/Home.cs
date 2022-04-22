@@ -18,7 +18,6 @@ namespace WindowsFormsApp1
         private Appoinment app = new Appoinment();
         private Billing bil = new Billing();
         private PatientHistory ph = new PatientHistory();
-        private PatientRecords pr = new PatientRecords();
         private Pharmacy pharmacy = new Pharmacy();
         private Rooms rooms = new Rooms();
 
@@ -54,7 +53,8 @@ namespace WindowsFormsApp1
 
         private void button6_Click(object sender, EventArgs e)
         {
-            pr.Show();
+            PatientRecords patient = new PatientRecords();
+            patient.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
