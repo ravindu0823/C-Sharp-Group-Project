@@ -96,9 +96,10 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(665, 11);
+            this.label1.Location = new System.Drawing.Point(499, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(457, 47);
+            this.label1.Size = new System.Drawing.Size(343, 38);
             this.label1.TabIndex = 1;
             this.label1.Text = "Room Management";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -109,9 +110,10 @@ namespace WindowsFormsApp1
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(105, 11);
+            this.label2.Location = new System.Drawing.Point(79, 9);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(188, 30);
+            this.label2.Size = new System.Drawing.Size(151, 23);
             this.label2.TabIndex = 2;
             this.label2.Text = "Place a Room";
             // 
@@ -119,9 +121,10 @@ namespace WindowsFormsApp1
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(67, 65);
+            this.label3.Location = new System.Drawing.Point(50, 53);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 17);
+            this.label3.Size = new System.Drawing.Size(66, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Patient Id";
             // 
@@ -129,9 +132,10 @@ namespace WindowsFormsApp1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(64, 110);
+            this.label4.Location = new System.Drawing.Point(48, 89);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 17);
+            this.label4.Size = new System.Drawing.Size(69, 15);
             this.label4.TabIndex = 6;
             this.label4.Text = "Full Name";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -140,9 +144,10 @@ namespace WindowsFormsApp1
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(81, 158);
+            this.label5.Location = new System.Drawing.Point(61, 128);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 17);
+            this.label5.Size = new System.Drawing.Size(56, 15);
             this.label5.TabIndex = 7;
             this.label5.Text = "Contact";
             // 
@@ -150,9 +155,10 @@ namespace WindowsFormsApp1
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(85, 206);
+            this.label6.Location = new System.Drawing.Point(64, 167);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 17);
+            this.label6.Size = new System.Drawing.Size(51, 15);
             this.label6.TabIndex = 8;
             this.label6.Text = "Gender";
             // 
@@ -160,9 +166,10 @@ namespace WindowsFormsApp1
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(111, 249);
+            this.label7.Location = new System.Drawing.Point(83, 202);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 17);
+            this.label7.Size = new System.Drawing.Size(30, 15);
             this.label7.TabIndex = 9;
             this.label7.Text = "Age";
             // 
@@ -170,9 +177,10 @@ namespace WindowsFormsApp1
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(77, 287);
+            this.label9.Location = new System.Drawing.Point(58, 233);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 17);
+            this.label9.Size = new System.Drawing.Size(56, 15);
             this.label9.TabIndex = 11;
             this.label9.Text = "Address";
             // 
@@ -209,10 +217,10 @@ namespace WindowsFormsApp1
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Location = new System.Drawing.Point(15, 62);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(11, 50);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(436, 763);
+            this.panel1.Size = new System.Drawing.Size(327, 620);
             this.panel1.TabIndex = 15;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -229,12 +237,13 @@ namespace WindowsFormsApp1
             this.guna2Button2.FillColor = System.Drawing.Color.Crimson;
             this.guna2Button2.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(286, 677);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button2.Location = new System.Drawing.Point(214, 550);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(147, 48);
+            this.guna2Button2.Size = new System.Drawing.Size(110, 39);
             this.guna2Button2.TabIndex = 88;
             this.guna2Button2.Text = "Delete";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -249,12 +258,13 @@ namespace WindowsFormsApp1
             this.guna2Button1.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2Button1.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(144, 677);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button1.Location = new System.Drawing.Point(108, 550);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(136, 48);
+            this.guna2Button1.Size = new System.Drawing.Size(102, 39);
             this.guna2Button1.TabIndex = 87;
             this.guna2Button1.Text = "Update";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2TextBox7
             // 
@@ -270,15 +280,15 @@ namespace WindowsFormsApp1
             this.guna2TextBox7.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox7.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.Location = new System.Drawing.Point(164, 409);
-            this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox7.Location = new System.Drawing.Point(123, 332);
+            this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox7.Name = "guna2TextBox7";
             this.guna2TextBox7.PasswordChar = '\0';
             this.guna2TextBox7.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox7.PlaceholderText = "";
             this.guna2TextBox7.ReadOnly = true;
             this.guna2TextBox7.SelectedText = "";
-            this.guna2TextBox7.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox7.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox7.TabIndex = 86;
             // 
             // guna2TextBox6
@@ -295,24 +305,25 @@ namespace WindowsFormsApp1
             this.guna2TextBox6.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox6.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Location = new System.Drawing.Point(164, 198);
-            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox6.Location = new System.Drawing.Point(123, 161);
+            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox6.Name = "guna2TextBox6";
             this.guna2TextBox6.PasswordChar = '\0';
             this.guna2TextBox6.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox6.PlaceholderText = "";
             this.guna2TextBox6.ReadOnly = true;
             this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox6.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox6.TabIndex = 85;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(25, 509);
+            this.label11.Location = new System.Drawing.Point(19, 414);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(122, 17);
+            this.label11.Size = new System.Drawing.Size(99, 15);
             this.label11.TabIndex = 84;
             this.label11.Text = "Price( per day )";
             // 
@@ -330,24 +341,25 @@ namespace WindowsFormsApp1
             this.guna2TextBox4.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox4.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(164, 453);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox4.Location = new System.Drawing.Point(123, 368);
+            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox4.Name = "guna2TextBox4";
             this.guna2TextBox4.PasswordChar = '\0';
             this.guna2TextBox4.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox4.PlaceholderText = "";
             this.guna2TextBox4.ReadOnly = true;
             this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox4.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox4.TabIndex = 82;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(55, 417);
+            this.label10.Location = new System.Drawing.Point(41, 339);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(92, 17);
+            this.label10.Size = new System.Drawing.Size(76, 15);
             this.label10.TabIndex = 81;
             this.label10.Text = "Room Num";
             // 
@@ -364,10 +376,10 @@ namespace WindowsFormsApp1
             this.guna2Button4.FillColor = System.Drawing.Color.LimeGreen;
             this.guna2Button4.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(8, 677);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button4.Location = new System.Drawing.Point(6, 550);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(133, 48);
+            this.guna2Button4.Size = new System.Drawing.Size(100, 39);
             this.guna2Button4.TabIndex = 77;
             this.guna2Button4.Text = "Place";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
@@ -386,14 +398,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox21.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox21.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox21.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox21.Location = new System.Drawing.Point(164, 551);
-            this.guna2TextBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox21.Location = new System.Drawing.Point(123, 448);
+            this.guna2TextBox21.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox21.Name = "guna2TextBox21";
             this.guna2TextBox21.PasswordChar = '\0';
             this.guna2TextBox21.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox21.PlaceholderText = "";
             this.guna2TextBox21.SelectedText = "";
-            this.guna2TextBox21.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox21.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox21.TabIndex = 74;
             // 
             // guna2TextBox18
@@ -410,15 +422,15 @@ namespace WindowsFormsApp1
             this.guna2TextBox18.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox18.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox18.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox18.Location = new System.Drawing.Point(164, 501);
-            this.guna2TextBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox18.Location = new System.Drawing.Point(123, 407);
+            this.guna2TextBox18.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox18.Name = "guna2TextBox18";
             this.guna2TextBox18.PasswordChar = '\0';
             this.guna2TextBox18.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox18.PlaceholderText = "";
             this.guna2TextBox18.ReadOnly = true;
             this.guna2TextBox18.SelectedText = "";
-            this.guna2TextBox18.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox18.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox18.TabIndex = 71;
             // 
             // guna2TextBox16
@@ -435,15 +447,15 @@ namespace WindowsFormsApp1
             this.guna2TextBox16.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox16.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox16.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox16.Location = new System.Drawing.Point(164, 363);
-            this.guna2TextBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox16.Location = new System.Drawing.Point(123, 295);
+            this.guna2TextBox16.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox16.Name = "guna2TextBox16";
             this.guna2TextBox16.PasswordChar = '\0';
             this.guna2TextBox16.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox16.PlaceholderText = "";
             this.guna2TextBox16.ReadOnly = true;
             this.guna2TextBox16.SelectedText = "";
-            this.guna2TextBox16.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox16.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox16.TabIndex = 69;
             // 
             // guna2TextBox15
@@ -460,15 +472,15 @@ namespace WindowsFormsApp1
             this.guna2TextBox15.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox15.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox15.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox15.Location = new System.Drawing.Point(164, 241);
-            this.guna2TextBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox15.Location = new System.Drawing.Point(123, 196);
+            this.guna2TextBox15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox15.Name = "guna2TextBox15";
             this.guna2TextBox15.PasswordChar = '\0';
             this.guna2TextBox15.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox15.PlaceholderText = "";
             this.guna2TextBox15.ReadOnly = true;
             this.guna2TextBox15.SelectedText = "";
-            this.guna2TextBox15.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox15.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox15.TabIndex = 68;
             this.guna2TextBox15.TextChanged += new System.EventHandler(this.guna2TextBox15_TextChanged);
             // 
@@ -486,14 +498,14 @@ namespace WindowsFormsApp1
             this.guna2TextBox11.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox11.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox11.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox11.Location = new System.Drawing.Point(164, 603);
-            this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox11.Location = new System.Drawing.Point(123, 490);
+            this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox11.Name = "guna2TextBox11";
             this.guna2TextBox11.PasswordChar = '\0';
             this.guna2TextBox11.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox11.PlaceholderText = "";
             this.guna2TextBox11.SelectedText = "";
-            this.guna2TextBox11.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox11.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox11.TabIndex = 64;
             // 
             // guna2TextBox9
@@ -510,15 +522,15 @@ namespace WindowsFormsApp1
             this.guna2TextBox9.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox9.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox9.Location = new System.Drawing.Point(164, 322);
-            this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox9.Location = new System.Drawing.Point(123, 262);
+            this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox9.Name = "guna2TextBox9";
             this.guna2TextBox9.PasswordChar = '\0';
             this.guna2TextBox9.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox9.PlaceholderText = "";
             this.guna2TextBox9.ReadOnly = true;
             this.guna2TextBox9.SelectedText = "";
-            this.guna2TextBox9.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox9.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox9.TabIndex = 62;
             // 
             // guna2TextBox5
@@ -535,15 +547,15 @@ namespace WindowsFormsApp1
             this.guna2TextBox5.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox5.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Location = new System.Drawing.Point(164, 279);
-            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox5.Location = new System.Drawing.Point(123, 227);
+            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox5.Name = "guna2TextBox5";
             this.guna2TextBox5.PasswordChar = '\0';
             this.guna2TextBox5.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox5.PlaceholderText = "";
             this.guna2TextBox5.ReadOnly = true;
             this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox5.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox5.TabIndex = 58;
             // 
             // guna2TextBox3
@@ -560,15 +572,15 @@ namespace WindowsFormsApp1
             this.guna2TextBox3.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox3.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(164, 150);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox3.Location = new System.Drawing.Point(123, 122);
+            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
             this.guna2TextBox3.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox3.PlaceholderText = "";
             this.guna2TextBox3.ReadOnly = true;
             this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox3.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox3.TabIndex = 56;
             // 
             // guna2TextBox2
@@ -585,15 +597,15 @@ namespace WindowsFormsApp1
             this.guna2TextBox2.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(164, 102);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox2.Location = new System.Drawing.Point(123, 83);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.ReadOnly = true;
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox2.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox2.TabIndex = 55;
             // 
             // guna2TextBox1
@@ -610,24 +622,25 @@ namespace WindowsFormsApp1
             this.guna2TextBox1.Font = new System.Drawing.Font("Lucida Fax", 9F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(164, 57);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox1.Location = new System.Drawing.Point(123, 46);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.ReadOnly = true;
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(255, 25);
+            this.guna2TextBox1.Size = new System.Drawing.Size(191, 20);
             this.guna2TextBox1.TabIndex = 54;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(75, 559);
+            this.label18.Location = new System.Drawing.Point(56, 454);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(72, 17);
+            this.label18.Size = new System.Drawing.Size(60, 15);
             this.label18.TabIndex = 50;
             this.label18.Text = "Advance";
             // 
@@ -635,9 +648,10 @@ namespace WindowsFormsApp1
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(15, 327);
+            this.label36.Location = new System.Drawing.Point(11, 266);
+            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(132, 17);
+            this.label36.Size = new System.Drawing.Size(107, 15);
             this.label36.TabIndex = 25;
             this.label36.Text = "Emergency Num";
             // 
@@ -645,9 +659,10 @@ namespace WindowsFormsApp1
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(56, 611);
+            this.label35.Location = new System.Drawing.Point(42, 496);
+            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(91, 17);
+            this.label35.Size = new System.Drawing.Size(75, 15);
             this.label35.TabIndex = 31;
             this.label35.Text = "Consultant";
             // 
@@ -655,9 +670,10 @@ namespace WindowsFormsApp1
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(45, 371);
+            this.label32.Location = new System.Drawing.Point(34, 301);
+            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(102, 17);
+            this.label32.Size = new System.Drawing.Size(84, 15);
             this.label32.TabIndex = 27;
             this.label32.Text = "Blood Group";
             // 
@@ -665,9 +681,10 @@ namespace WindowsFormsApp1
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(49, 461);
+            this.label20.Location = new System.Drawing.Point(37, 375);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(98, 17);
+            this.label20.Size = new System.Drawing.Size(81, 15);
             this.label20.TabIndex = 28;
             this.label20.Text = "Room Type ";
             // 
@@ -676,10 +693,9 @@ namespace WindowsFormsApp1
             this.guna2Panel1.BackColor = System.Drawing.Color.Aquamarine;
             this.guna2Panel1.Controls.Add(this.label12);
             this.guna2Panel1.Controls.Add(this.guna2DataGridView1);
-            this.guna2Panel1.Location = new System.Drawing.Point(1310, 62);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Panel1.Location = new System.Drawing.Point(1051, 50);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(537, 347);
+            this.guna2Panel1.Size = new System.Drawing.Size(599, 282);
             this.guna2Panel1.TabIndex = 16;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
@@ -688,9 +704,10 @@ namespace WindowsFormsApp1
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Lucida Fax", 15F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.Navy;
-            this.label12.Location = new System.Drawing.Point(24, 8);
+            this.label12.Location = new System.Drawing.Point(80, 6);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(486, 30);
+            this.label12.Size = new System.Drawing.Size(390, 23);
             this.label12.TabIndex = 87;
             this.label12.Text = "Room Informations and Availability";
             // 
@@ -729,8 +746,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.Aquamarine;
-            this.guna2DataGridView1.Location = new System.Drawing.Point(4, 42);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(3, 34);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -746,7 +762,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView1.RowHeadersWidth = 51;
             this.guna2DataGridView1.RowTemplate.Height = 24;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(529, 302);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(593, 245);
             this.guna2DataGridView1.TabIndex = 0;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -776,10 +792,9 @@ namespace WindowsFormsApp1
             this.guna2Panel2.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.guna2Panel2.Controls.Add(this.label13);
             this.guna2Panel2.Controls.Add(this.guna2DataGridView2);
-            this.guna2Panel2.Location = new System.Drawing.Point(458, 62);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Panel2.Location = new System.Drawing.Point(344, 50);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(848, 347);
+            this.guna2Panel2.Size = new System.Drawing.Size(701, 282);
             this.guna2Panel2.TabIndex = 88;
             // 
             // label13
@@ -787,9 +802,10 @@ namespace WindowsFormsApp1
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Lucida Fax", 15F, System.Drawing.FontStyle.Bold);
             this.label13.ForeColor = System.Drawing.Color.Navy;
-            this.label13.Location = new System.Drawing.Point(314, 8);
+            this.label13.Location = new System.Drawing.Point(236, 6);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(208, 30);
+            this.label13.Size = new System.Drawing.Size(167, 23);
             this.label13.TabIndex = 87;
             this.label13.Text = "Patient Details";
             // 
@@ -828,8 +844,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridView2.EnableHeadersVisualStyles = false;
             this.guna2DataGridView2.GridColor = System.Drawing.SystemColors.InactiveCaption;
-            this.guna2DataGridView2.Location = new System.Drawing.Point(4, 42);
-            this.guna2DataGridView2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2DataGridView2.Location = new System.Drawing.Point(3, 34);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.ReadOnly = true;
             this.guna2DataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -845,7 +860,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView2.RowHeadersWidth = 51;
             this.guna2DataGridView2.RowTemplate.Height = 24;
             this.guna2DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(840, 302);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(695, 245);
             this.guna2DataGridView2.TabIndex = 0;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -875,9 +890,10 @@ namespace WindowsFormsApp1
             this.guna2Panel3.BackColor = System.Drawing.Color.Pink;
             this.guna2Panel3.Controls.Add(this.label8);
             this.guna2Panel3.Controls.Add(this.guna2DataGridView3);
-            this.guna2Panel3.Location = new System.Drawing.Point(458, 416);
+            this.guna2Panel3.Location = new System.Drawing.Point(344, 338);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1390, 409);
+            this.guna2Panel3.Size = new System.Drawing.Size(1307, 332);
             this.guna2Panel3.TabIndex = 89;
             // 
             // label8
@@ -885,14 +901,17 @@ namespace WindowsFormsApp1
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Lucida Fax", 15F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.Navy;
-            this.label8.Location = new System.Drawing.Point(555, 9);
+            this.label8.Location = new System.Drawing.Point(547, 7);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(293, 30);
+            this.label8.Size = new System.Drawing.Size(236, 23);
             this.label8.TabIndex = 88;
             this.label8.Text = "Booked Room Details";
             // 
             // guna2DataGridView3
             // 
+            this.guna2DataGridView3.AllowUserToAddRows = false;
+            this.guna2DataGridView3.AllowUserToDeleteRows = false;
             this.guna2DataGridView3.AllowUserToResizeRows = false;
             dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -924,8 +943,10 @@ namespace WindowsFormsApp1
             this.guna2DataGridView3.DefaultCellStyle = dataGridViewCellStyle11;
             this.guna2DataGridView3.EnableHeadersVisualStyles = false;
             this.guna2DataGridView3.GridColor = System.Drawing.Color.Pink;
-            this.guna2DataGridView3.Location = new System.Drawing.Point(4, 45);
+            this.guna2DataGridView3.Location = new System.Drawing.Point(3, 37);
+            this.guna2DataGridView3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2DataGridView3.Name = "guna2DataGridView3";
+            this.guna2DataGridView3.ReadOnly = true;
             this.guna2DataGridView3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
@@ -939,7 +960,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView3.RowHeadersWidth = 51;
             this.guna2DataGridView3.RowTemplate.Height = 24;
             this.guna2DataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView3.Size = new System.Drawing.Size(1383, 361);
+            this.guna2DataGridView3.Size = new System.Drawing.Size(1300, 293);
             this.guna2DataGridView3.TabIndex = 0;
             this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -954,7 +975,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView3.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.guna2DataGridView3.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridView3.ThemeStyle.HeaderStyle.Height = 28;
-            this.guna2DataGridView3.ThemeStyle.ReadOnly = false;
+            this.guna2DataGridView3.ThemeStyle.ReadOnly = true;
             this.guna2DataGridView3.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView3.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.guna2DataGridView3.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -966,18 +987,18 @@ namespace WindowsFormsApp1
             // 
             // Rooms
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1860, 839);
+            this.ClientSize = new System.Drawing.Size(1662, 682);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Rooms";
             this.Text = "Rooms";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Rooms_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);

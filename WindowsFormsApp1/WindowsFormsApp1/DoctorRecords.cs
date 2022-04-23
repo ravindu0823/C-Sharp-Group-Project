@@ -24,17 +24,17 @@ namespace WindowsFormsApp1
 
         private void ShowRecords()
         {
-            conn_vinuri.Open();
+            conn_ravindu.Open();
 
-            string get = "SELECT * FROM DoctorRecord";
+            string get = "SELECT doctor_id AS 'Doctor Id', doctor_name AS 'Doctor Name', profession AS Profession, emergency_contact AS 'Contact Number (EMG)', phone AS 'Contact Number' FROM DoctorRecord";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView1.DataSource = ds.Tables[0];
 
-            conn_vinuri.Close();
+            conn_ravindu.Close();
         }
 
         private void label3_Click(object sender, System.EventArgs e)
@@ -46,7 +46,7 @@ namespace WindowsFormsApp1
         {
             if (txtDocId.Text == "" || txtDocName.Text == "" || txtProf.Text == "" || txtEmgcyCont.Text == "" || txtPhn.Text == "")
             {
-                MessageBox.Show("Please Fill All the Fields");
+                MessageBox.Show("Please Fill All the Fields", "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -54,24 +54,33 @@ namespace WindowsFormsApp1
                 string doctor_name = txtDocName.Text;
                 string profession = txtProf.Text;
                 int emergency_contact = int.Parse(txtEmgcyCont.Text);
-                int phone = int.Parse(txtPhn.Text);
+                long phone = Convert.ToInt64(txtPhn.Text);
 
                 try
                 {
-                    conn_vinuri.Open();
+                    conn_ravindu.Open();
 
                     string sql = "INSERT INTO DoctorRecord (doctor_id,doctor_Name,profession,emergency_contact,phone) VALUES ('" + doctor_id + "', '" + doctor_name + "', '" + profession + "', '" + emergency_contact + "', '" + phone + "')";
-                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
+                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Doctor Inserted sucessfully");
+                    MessageBox.Show("Doctor Inserted sucessfully", "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    conn_vinuri.Close();
+                    conn_ravindu.Close();
                     ShowRecords();
                 }
 
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                finally
+                {
+                    txtDocId.Text = "";
+                    txtDocName.Text = "";
+                    txtProf.Text = "";
+                    txtEmgcyCont.Text = "";
+                    txtPhn.Text = "";
                 }
 
             }
@@ -82,7 +91,7 @@ namespace WindowsFormsApp1
         {
             if (txtDocId.Text == "" || txtDocName.Text == "" || txtProf.Text == "" || txtEmgcyCont.Text == "" || txtPhn.Text == "")
             {
-                MessageBox.Show("Please Fill All the Fields");
+                MessageBox.Show("Please Fill All the Fields", "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -94,20 +103,29 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_vinuri.Open();
+                    conn_ravindu.Open();
 
                     string sql = "UPDATE DoctorRecord SET doctor_name = '" + doctor_name + "', profession = '" + profession + "', emergency_contact = '" + emergency_contact + "', phone = '" + phone + "' WHERE doctor_id = '" + doctor_id + "'";
-                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
+                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Doctor Updated sucessfully");
+                    MessageBox.Show("Doctor Updated sucessfully", "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    conn_vinuri.Close();
+                    conn_ravindu.Close();
                     ShowRecords();
                 }
 
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                finally
+                {
+                    txtDocId.Text = "";
+                    txtDocName.Text = "";
+                    txtProf.Text = "";
+                    txtEmgcyCont.Text = "";
+                    txtPhn.Text = "";
                 }
             }
         }
@@ -116,39 +134,65 @@ namespace WindowsFormsApp1
         {
             if (txtDocId.Text == "")
             {
-                MessageBox.Show("Please Enter the Doctor Id");
+                MessageBox.Show("Please Enter the Doctor Id", "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                int doctor_id = int.Parse(txtDocId.Text);
-
-                try
+                if (MessageBox.Show("Are you sure to Delete this Record?", "Doctor Records", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
-                    conn_vinuri.Open();
+                    int doctor_id = int.Parse(txtDocId.Text);
 
-                    string sql = "DELETE FROM DoctorRecord WHERE doctor_id = '" + doctor_id + "'";
-                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Doctor Updated sucessfully");
+                    try
+                    {
+                        conn_ravindu.Open();
 
-                    conn_vinuri.Close();
-                    ShowRecords();
+                        string sql = "DELETE FROM DoctorRecord WHERE doctor_id = '" + doctor_id + "'";
+                        SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("Doctor Deleted sucessfully", "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        conn_ravindu.Close();
+                        ShowRecords();
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message, "Doctor Records", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                    finally
+                    {
+                        txtDocId.Text = "";
+                        txtDocName.Text = "";
+                        txtProf.Text = "";
+                        txtEmgcyCont.Text = "";
+                        txtPhn.Text = "";
+                    }
                 }
-
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
+                
             }
         }
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtDocId.Text = guna2DataGridView1.SelectedRows[0].Cells[1].Value.ToString();
-            txtDocName.Text = guna2DataGridView1.SelectedRows[0].Cells[2].Value.ToString();
-            txtProf.Text = guna2DataGridView1.SelectedRows[0].Cells[3].Value.ToString();
-            txtEmgcyCont.Text = guna2DataGridView1.SelectedRows[0].Cells[4].Value.ToString();
-            txtPhn.Text = guna2DataGridView1.SelectedRows[0].Cells[5].Value.ToString();
+            txtDocId.Text = guna2DataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            txtDocName.Text = guna2DataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+            txtProf.Text = guna2DataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+            txtEmgcyCont.Text = guna2DataGridView1.SelectedRows[0].Cells[3].Value.ToString();
+            txtPhn.Text = guna2DataGridView1.SelectedRows[0].Cells[4].Value.ToString();
+        }
+
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void DoctorRecords_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form1 form1_home = new Form1();
+
+            this.Hide();
+            form1_home.Show();
         }
     }
 }

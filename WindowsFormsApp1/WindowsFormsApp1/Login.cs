@@ -18,8 +18,9 @@ namespace WindowsFormsApp1
             guna2TextBox3.PasswordChar = '*';
         }
 
-        
-        
+        SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+
         private void pictureBox1_Click(object sender, System.EventArgs e)
         {
 
@@ -32,7 +33,7 @@ namespace WindowsFormsApp1
 
         private void NewForm2_Load(object sender, System.EventArgs e)
         {
-            
+
         }
 
         private void textBox1_TextChanged(object sender, System.EventArgs e)
@@ -42,72 +43,71 @@ namespace WindowsFormsApp1
 
         private void textBox1_Enter(object sender, System.EventArgs e)
         {
-            
+
         }
 
         private void textBox1_Leave(object sender, System.EventArgs e)
         {
-            
+
         }
 
         private void textBox2_Enter(object sender, System.EventArgs e)
         {
-            
+
         }
 
         private void textBox2_Leave(object sender, System.EventArgs e)
         {
-            
+
         }
 
         private void NewForm2_Load_1(object sender, System.EventArgs e)
         {
-            
+
         }
 
         private void guna2GradientButton1_Click(object sender, System.EventArgs e)
         {
             Form1 guna1 = new Form1();
 
-            string uname = guna2TextBox2.Text.Trim();
-            string password = guna2TextBox3.Text.Trim();
-
-            //SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
-            SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
-            SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
-
-            try
+            if (guna2TextBox2.Text == "" || guna2TextBox3.Text == "")
             {
+                MessageBox.Show("Please Enter your Username and Password", "Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                string uname = guna2TextBox2.Text.Trim();
+                string password = guna2TextBox3.Text.Trim();
 
-                string sql = "SELECT * FROM Users WHERE Name = '" + uname + "' AND Password = '" + password + "'";
-                // string sql = "SELECT * FROM Users WHERE Name = '" + "dhanu" + "' AND Password = '" + "dhanu1234" + "'";
-
-                SqlDataAdapter sda = new SqlDataAdapter(sql, conn_vinuri);
-
-                DataTable dtbl = new DataTable();
-                sda.Fill(dtbl);
-
-                if (dtbl.Rows.Count > 0)
+                try
                 {
-                    guna1.Show();
-                    this.Hide();
+
+                    string sql = "SELECT * FROM Users WHERE Name = '" + uname + "' AND Password = '" + password + "'";
+
+                    SqlDataAdapter sda = new SqlDataAdapter(sql, conn_ravindu);
+
+                    DataTable dtbl = new DataTable();
+                    sda.Fill(dtbl);
+
+                    if (dtbl.Rows.Count > 0)
+                    {
+                        guna1.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid Login Details", "Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Invalid Login Details", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    conn_ravindu.Close();
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error");
-            }
-            finally
-            {
-                conn_vinuri.Close();
-            }
-
-
-
 
         }
 
@@ -115,7 +115,21 @@ namespace WindowsFormsApp1
         {
             SignUp signup = new SignUp();
 
+            this.Hide();
             signup.Show();
+        }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            ForgotPassword forgotPassword = new ForgotPassword();
+
+            this.Hide();
+            forgotPassword.Show();
         }
     }
 }

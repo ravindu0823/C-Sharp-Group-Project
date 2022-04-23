@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
             if (guna2TextBox1.Text == "" || guna2TextBox2.Text == "" || guna2TextBox3.Text == "" || guna2TextBox4.Text == "" || guna2TextBox5.Text == "" || guna2TextBox6.Text == "" || guna2TextBox7.Text == "" || guna2TextBox8.Text == "")
             {
-                MessageBox.Show("Fill out all the details");
+                MessageBox.Show("Fill out all the details", "Billing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -35,20 +35,40 @@ namespace WindowsFormsApp1
                 try
                 {
                     string qry = "INSERT INTO BillingInfo (CardNumber, FullName, Address1, Address2, NameOnCard, CvvNumber, ExpMonth, ExpDay) VALUES ('" + cardnumber + "', '" + fullname + "', '" + address1 + "', '" + address2 + "', '" + nameoncard + "', '" + cvvnumber + "', '" + expmonth + "', '" + expday + "')";
-                    SqlCommand cmd = new SqlCommand(qry, conn_vinuri);
+                    SqlCommand cmd = new SqlCommand(qry, conn_ravindu);
 
-                    conn_vinuri.Open();
+                    conn_ravindu.Open();
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Data Inserted Successfully");
+                    MessageBox.Show("Data Inserted Successfully", "Billing", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    conn_vinuri.Close();
+                    conn_ravindu.Close();
                 }
+
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Billing", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
+                finally
+                {
+                    guna2TextBox1.Text = "";
+                    guna2TextBox2.Text = "";
+                    guna2TextBox3.Text = "";
+                    guna2TextBox4.Text = "";
+                    guna2TextBox5.Text = "";
+                    guna2TextBox6.Text = "";
+                    guna2TextBox7.Text = "";
+                    guna2TextBox8.Text = "";
+                }
             }
+        }
+
+        private void Billing_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form1 form1_home = new Form1();
+
+            this.Hide();
+            form1_home.Show();
         }
     }
 }

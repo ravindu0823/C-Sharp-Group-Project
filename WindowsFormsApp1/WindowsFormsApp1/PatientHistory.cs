@@ -24,17 +24,17 @@ namespace WindowsFormsApp1
 
         private void ShowPatients()
         {
-            conn_vinuri.Open();
+            conn_ravindu.Open();
 
-            string get = "SELECT * FROM PatientRecords";
+            string get = "SELECT PatientId AS 'Patient Id', FirstName AS 'First Name', MiddleName AS 'Middle Name', LastName AS 'Last Name', BirthDate AS 'Birth Date', ContactNumber AS 'Contact Number', Gender, Address, EmgNumber AS 'Number(EMG)', BloodGroup AS 'Blood Group' FROM PatientRecords";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView1.DataSource = ds.Tables[0];
 
-            conn_vinuri.Close();
+            conn_ravindu.Close();
         }
 
         private void PatientHistory_Load(object sender, EventArgs e)
@@ -125,7 +125,7 @@ namespace WindowsFormsApp1
         {
             if (guna2TextBox9.Text == "" || guna2TextBox8.Text == "" || guna2TextBox7.Text == "" || guna2TextBox14.Text == "" || guna2TextBox11.Text == "" || guna2ComboBox2.Text == "" || guna2TextBox2.Text == "" || guna2TextBox3.Text == "" || guna2ComboBox1.Text == "")
             {
-                MessageBox.Show("Please Fill all the Fields");
+                MessageBox.Show("Please Fill all the Fields", "Patient History", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -141,52 +141,92 @@ namespace WindowsFormsApp1
                 string blood_group = guna2ComboBox1.Text;
 
                 string update = "UPDATE PatientRecords SET FirstName = '" + first_name + "', MiddleName = '" + middle_name + "', LastName = '" + last_name + "', BirthDate = '" + birth_date + "', ContactNumber = '" + contact_number + "', Gender = '" + gender + "', Address = '" + address + "', EmgNumber = '" + emg_num + "', BloodGroup = '" + blood_group + "' WHERE PatientId = '" + patient_id + "'";
-                SqlCommand cmd = new SqlCommand(update, conn_vinuri);
+                SqlCommand cmd = new SqlCommand(update, conn_ravindu);
 
                 try
                 {
-                    conn_vinuri.Open();
+                    conn_ravindu.Open();
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Patient Updated Successfully");
+                    MessageBox.Show("Patient Updated Successfully", "Patient History", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Patient History", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
                 finally
                 {
-                    conn_vinuri.Close();
+                    conn_ravindu.Close();
                     ShowPatients();
+
+                    guna2TextBox1.Text = "";
+                    guna2TextBox2.Text = "";
+                    guna2TextBox3.Text = "";
+                    guna2TextBox9.Text = "";
+                    guna2TextBox8.Text = "";
+                    guna2TextBox7.Text = "";
+                    guna2TextBox14.Text = "";
+                    guna2TextBox11.Text = "";
+                    guna2ComboBox2.Text = "";
+                    guna2ComboBox1.Text = "";
                 }
             }
         }
 
         private void guna2GradientButton2_Click(object sender, EventArgs e)
         {
-            int patient_id = int.Parse(guna2TextBox1.Text);
-
-            string del = "DELETE FROM PatientRecords WHERE PatientId = '" + patient_id + "'";
-            SqlCommand cmd = new SqlCommand(del, conn_vinuri);
-
-            try
+            if (guna2TextBox1.Text == "")
             {
-                conn_vinuri.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Patient Deleted Successfully");
+                MessageBox.Show("Please Select a Record", "Patient History", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message);
-            }
+                if (MessageBox.Show("Are you sure to Delete this Record?", "Medicine Information", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                {
+                    int patient_id = int.Parse(guna2TextBox1.Text);
 
-            finally
-            {
-                conn_vinuri.Close();
-                ShowPatients();
+                    string del = "DELETE FROM PatientRecords WHERE PatientId = '" + patient_id + "'";
+                    SqlCommand cmd = new SqlCommand(del, conn_ravindu);
+
+                    try
+                    {
+                        conn_ravindu.Open();
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("Patient Deleted Successfully", "Patient History", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message, "Patient History", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                    finally
+                    {
+                        conn_ravindu.Close();
+                        ShowPatients();
+
+                        guna2TextBox1.Text = "";
+                        guna2TextBox2.Text = "";
+                        guna2TextBox3.Text = "";
+                        guna2TextBox9.Text = "";
+                        guna2TextBox8.Text = "";
+                        guna2TextBox7.Text = "";
+                        guna2TextBox14.Text = "";
+                        guna2TextBox11.Text = "";
+                        guna2ComboBox2.Text = "";
+                        guna2ComboBox1.Text = "";
+                    }
+                }
             }
+        }
+
+        private void PatientHistory_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form1 form1_home = new Form1();
+
+            this.Hide();
+            form1_home.Show();
         }
     }
 }

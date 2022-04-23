@@ -9,8 +9,13 @@ namespace WindowsFormsApp1
         public SignUp()
         {
             InitializeComponent();
+            guna2TextBox2.PasswordChar = '*';
         }
 
+        SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+
+        private Login login = new Login();
 
         private void NewForm_Load(object sender, EventArgs e)
         {
@@ -75,48 +80,56 @@ namespace WindowsFormsApp1
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            /*if (guna2TextBox3.Text == "")
+
+            if (guna2TextBox3.Text == "" || guna2TextBox1.Text == "" || guna2TextBox2.Text == "" || !guna2CheckBox1.Checked)
             {
-                MessageBox.Show("Please enter your name!");
+                MessageBox.Show("Please Fill all the Fields", "Sign Up", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else if (guna2TextBox1.Text == "")
+            else
             {
-                MessageBox.Show("Please enter your E-mail!");
-            }
-            else if ()
-            {
+                string name = guna2TextBox3.Text;
+                string email = guna2TextBox1.Text;
+                string password = guna2TextBox2.Text;
 
-            }*/
+                string sql = "INSERT INTO Users (Name, Email, Password) VALUES ('" + name + "', '" + email + "', '" + password + "')";
+                SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
 
-            //SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
-            SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
-            SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+                try
+                {
+                    conn_ravindu.Open();
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("User Added Successfully Please LOGIN", "Sign Up", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
+                    this.Hide();
+                    login.Show();
+                }
 
-            string name = guna2TextBox3.Text;
-            string email = guna2TextBox1.Text;
-            string password = guna2TextBox2.Text;
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Sign Up", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
-            string sql = "INSERT INTO Users (Name, Email, Password) VALUES ('" + name + "', '" + email + "', '" + password + "')";
-            // string sql = "INSERT INTO Users (Name, Email, Password) VALUES ('" + "Ravindu" + "', '" + "guestpc87@gmail.com" + "', '" + "ravindu0823" + "')";
-
-            SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
-
-            try
-            {
-                conn_vinuri.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("User Added Successfully");
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
+                finally
+                {
+                    conn_ravindu.Close();
+                }
             }
 
-            finally
-            {
-                conn_vinuri.Close();
-            }
+        }
+
+        private void SignUp_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Login login = new Login();
+
+            login.Show();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            // Login login = new Login();
+
+            this.Hide();
+            login.Show();
         }
     }
 }

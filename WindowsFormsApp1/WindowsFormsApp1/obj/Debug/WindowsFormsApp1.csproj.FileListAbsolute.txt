@@ -240,3 +240,4 @@ C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug
 C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\dhanu\Desktop\Temp (Edit 1)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ForgotPassword.resources

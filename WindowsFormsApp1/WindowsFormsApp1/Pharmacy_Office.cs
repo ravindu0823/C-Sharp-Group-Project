@@ -16,5 +16,13 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void Pharmacy_Office_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            /*Pharmacy pharmacy = new Pharmacy();
+
+            // this.Hide();
+            pharmacy.Show();*/
+        }
     }
 }

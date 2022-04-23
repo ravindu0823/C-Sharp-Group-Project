@@ -24,22 +24,22 @@ namespace WindowsFormsApp1
 
         private void ShowMan()
         {
-            conn_vinuri.Open();
+            conn_ravindu.Open();
 
             string get = "SELECT Id AS ID, medi_id AS 'Medi Id', name AS Name, affect_on AS 'Affect On', mfg AS 'MFG Date', exp AS 'EXP Date', quantity AS Quantity, box_no AS 'Box No', price AS Price, supplier_id AS 'Supplier Id', supplier_name AS 'Supplier Name' FROM Pharmacist";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView1.DataSource = ds.Tables[0];
 
-            conn_vinuri.Close();
+            conn_ravindu.Close();
         }
 
         private void Pharmacist1_Load(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -50,19 +50,19 @@ namespace WindowsFormsApp1
 
         private void updatebtn_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void deletebtn_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void savebtn_Click_1(object sender, EventArgs e)
         {
             if (textID.Text == "" || textNAME.Text == "" || textAFFON.Text == "" || textMFGDATE.Text == "" || textEXPDATE.Text == "" || textQUANTITY.Text == "" || textBOXNO.Text == "" || textPRICE.Text == "" || textSUPPID.Text == "" || textSUPPNAME.Text == "")
             {
-                MessageBox.Show("Please Fill the all fields");
+                MessageBox.Show("Please Fill the all fields", "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -79,20 +79,34 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_vinuri.Open();
+                    conn_ravindu.Open();
 
                     string sql = "INSERT INTO Pharmacist (medi_id,name, affect_on,mfg, exp,quantity, box_no,price, supplier_id, supplier_name) VALUES ('" + medi_id + "', '" + name + "', '" + affect_on + "', '" + mfg + "', '" + exp + "', '" + quantity + "', '" + box_no + "', '" + price + "', '" + supplier_id + "', '" + supplier_name + "')";
-                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
+                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("User inserted Succesfully");
+                    MessageBox.Show("Record inserted Succesfully", "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    conn_vinuri.Close();
+                    conn_ravindu.Close();
                     ShowMan();
                 }
 
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                finally
+                {
+                    textID.Text = "";
+                    textNAME.Text = "";
+                    textAFFON.Text = "";
+                    textMFGDATE.Text = "";
+                    textEXPDATE.Text = "";
+                    textQUANTITY.Text = "";
+                    textBOXNO.Text = "";
+                    textPRICE.Text = "";
+                    textSUPPID.Text = "";
+                    textSUPPNAME.Text = "";
                 }
             }
         }
@@ -101,7 +115,7 @@ namespace WindowsFormsApp1
         {
             if (textID.Text == "" || textNAME.Text == "" || textAFFON.Text == "" || textMFGDATE.Text == "" || textEXPDATE.Text == "" || textQUANTITY.Text == "" || textBOXNO.Text == "" || textPRICE.Text == "" || textSUPPID.Text == "" || textSUPPNAME.Text == "")
             {
-                MessageBox.Show("Please Fill the all fields");
+                MessageBox.Show("Please Fill the all fields", "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -117,22 +131,33 @@ namespace WindowsFormsApp1
                 string supplier_name = textSUPPNAME.Text;
 
                 string update = "UPDATE Pharmacist SET name = '" + name + "', affect_on = '" + affect_on + "', mfg = '" + mfg + "', exp = '" + exp + "', quantity = '" + quantity + "', box_no = '" + box_no + "', price = '" + price + "', supplier_id = '" + supplier_id + "', supplier_name = '" + supplier_name + "' WHERE medi_id = '" + medi_id + "'";
-                SqlCommand cmd = new SqlCommand(update, conn_vinuri);
+                SqlCommand cmd = new SqlCommand(update, conn_ravindu);
 
                 try
                 {
-                    conn_vinuri.Open();
+                    conn_ravindu.Open();
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Record Updated Successfully");
+                    MessageBox.Show("Record Updated Successfully", "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (SqlException ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {
-                    conn_vinuri.Close();
+                    conn_ravindu.Close();
                     ShowMan();
+
+                    textID.Text = "";
+                    textNAME.Text = "";
+                    textAFFON.Text = "";
+                    textMFGDATE.Text = "";
+                    textEXPDATE.Text = "";
+                    textQUANTITY.Text = "";
+                    textBOXNO.Text = "";
+                    textPRICE.Text = "";
+                    textSUPPID.Text = "";
+                    textSUPPNAME.Text = "";
                 }
             }
         }
@@ -155,32 +180,47 @@ namespace WindowsFormsApp1
         {
             if (textID.Text == "")
             {
-                MessageBox.Show("Please enter the Medi Id");
+                MessageBox.Show("Please enter the Medi Id", "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                int medi_id = int.Parse(textID.Text);
-
-                string del = "DELETE FROM Pharmacist Where medi_id = '" + medi_id + "'";
-                SqlCommand cmd = new SqlCommand(del, conn_vinuri);
-
-                try
+                if (MessageBox.Show("Are you sure to Delete this Record?", "Medicine Information", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
-                    conn_vinuri.Open();
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Record deleted sucessfully");
+                    int medi_id = int.Parse(textID.Text);
+
+                    string del = "DELETE FROM Pharmacist Where medi_id = '" + medi_id + "'";
+                    SqlCommand cmd = new SqlCommand(del, conn_ravindu);
+
+                    try
+                    {
+                        conn_ravindu.Open();
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("Record deleted sucessfully", "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message, "Medicine Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                    finally
+                    {
+                        conn_ravindu.Close();
+                        ShowMan();
+
+                        textID.Text = "";
+                        textNAME.Text = "";
+                        textAFFON.Text = "";
+                        textMFGDATE.Text = "";
+                        textEXPDATE.Text = "";
+                        textQUANTITY.Text = "";
+                        textBOXNO.Text = "";
+                        textPRICE.Text = "";
+                        textSUPPID.Text = "";
+                        textSUPPNAME.Text = "";
+                    }
                 }
 
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-
-                finally
-                {
-                    conn_vinuri.Close();
-                    ShowMan();
-                }
             }
         }
     }

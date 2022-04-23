@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
         {
             if (guna2TextBox9.Text == "" || guna2TextBox8.Text == "" || guna2TextBox7.Text == "" || guna2TextBox14.Text == "" || guna2ComboBox1.Text == "" || guna2TextBox11.Text == "" || guna2TextBox1.Text == "" || guna2ComboBox2.Text == "")
             {
-                MessageBox.Show("Please Fill all the Fields");
+                MessageBox.Show("Please Fill all the Fields", "Patient Records", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -53,8 +53,6 @@ namespace WindowsFormsApp1
                 string middle_name = guna2TextBox8.Text;
                 string last_name = guna2TextBox7.Text;
                 string birth_date = guna2DateTimePicker1.Text;
-                // MessageBox.Show(birth_date);
-                // int age = DateTime.Today.Year - guna2DateTimePicker1.Value.Year;
                 int contact_number = int.Parse(guna2TextBox14.Text);
                 string gender = guna2ComboBox1.Text;
                 string address = guna2TextBox11.Text;
@@ -63,19 +61,31 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_vinuri.Open();
+                    conn_ravindu.Open();
 
                     string sql = "INSERT INTO PatientRecords (FirstName, MiddleName, LastName, BirthDate, ContactNumber, Gender, Address, EmgNumber, BloodGroup) VALUES ('" + first_name + "', '" + middle_name + "', '" + last_name + "', '" + birth_date + "', '" + contact_number + "', '" + gender + "', '" + address + "', '" + emg_number + "', '" + blood_group + "')";
-                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
+                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Patient Added Successfully");
+                    MessageBox.Show("Patient Added Successfully", "Patient Records", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    conn_vinuri.Close();
+                    conn_ravindu.Close();
                 }
 
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Patient Records", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                finally
+                {
+                    guna2TextBox1.Text = "";
+                    guna2TextBox9.Text = "";
+                    guna2TextBox8.Text = "";
+                    guna2TextBox7.Text = "";
+                    guna2TextBox11.Text = "";
+                    guna2TextBox14.Text = "";
+                    guna2ComboBox1.Text = "";
+                    guna2ComboBox2.Text = "";
                 }
 
             }
@@ -85,6 +95,14 @@ namespace WindowsFormsApp1
         private void PatientRecords_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void PatientRecords_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form1 form1_home = new Form1();
+
+            this.Hide();
+            form1_home.Show();
         }
     }
 }

@@ -11,6 +11,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        // Create the connection to the Database
         SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
         SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
 
@@ -57,12 +58,14 @@ namespace WindowsFormsApp1
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
 
+            // The user must enter all the text fields to store data in the database
             if (guna2TextBox1.Text == "" || guna2TextBox2.Text == "" || guna2TextBox3.Text == "" || guna2TextBox4.Text == "" || guna2TextBox5.Text == "" || guna2TextBox6.Text == "")
             {
-                MessageBox.Show("Please Fill All the Fields");
+                MessageBox.Show("Please Fill All the Fields", "Appoinment Management", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
+                // Assign the values to the variables from the textboxes
                 string fullname = guna2TextBox1.Text;
                 int phonenumber = Convert.ToInt32(guna2TextBox2.Text);
                 string department = guna2TextBox3.Text;
@@ -72,43 +75,40 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_vinuri.Open();
+                    conn_ravindu.Open();
 
                     string sql = "INSERT INTO appointment (Fullname,Phonenumber,Department,Age,Appointment_date,Doctor) VALUES ('" + fullname + "', '" + phonenumber + "', '" + department + "', '" + age + "', '" + appointmentdate + "', '" + doctor + "')";
-                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
+                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Appoinment Placed Successfully");
+                    MessageBox.Show("Appoinment Placed Successfully", "Appoinment Management", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    conn_vinuri.Close();
+                    conn_ravindu.Close();
                 }
 
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "Appoinment Management", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
+                finally
+                {
+                    guna2TextBox1.Text = "";
+                    guna2TextBox2.Text = "";
+                    guna2TextBox3.Text = "";
+                    guna2TextBox4.Text = "";
+                    guna2TextBox5.Text = "";
+                    guna2TextBox6.Text = "";
+                }
 
             }
+        }
 
-            
+        private void Appoinment_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form1 form1_home = new Form1();
 
-            
-
-            /*try
-            {
-                
-                
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                conn_vinuri.Close();
-            }*/
+            this.Hide();
+            form1_home.Show();
         }
     }
 }

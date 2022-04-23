@@ -61,14 +61,14 @@
             this.txtTOTAL.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTOTAL.ForeColor = System.Drawing.Color.Red;
             this.txtTOTAL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTOTAL.Location = new System.Drawing.Point(198, 15);
-            this.txtTOTAL.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtTOTAL.Location = new System.Drawing.Point(160, 12);
+            this.txtTOTAL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTOTAL.Name = "txtTOTAL";
             this.txtTOTAL.PasswordChar = '\0';
             this.txtTOTAL.PlaceholderText = "";
             this.txtTOTAL.ReadOnly = true;
             this.txtTOTAL.SelectedText = "";
-            this.txtTOTAL.Size = new System.Drawing.Size(151, 22);
+            this.txtTOTAL.Size = new System.Drawing.Size(113, 18);
             this.txtTOTAL.TabIndex = 8;
             // 
             // panel2
@@ -76,9 +76,10 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel2.Controls.Add(this.guna2GradientButton1);
             this.panel2.Controls.Add(this.panel1);
-            this.panel2.Location = new System.Drawing.Point(25, 320);
+            this.panel2.Location = new System.Drawing.Point(19, 260);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(749, 95);
+            this.panel2.Size = new System.Drawing.Size(562, 77);
             this.panel2.TabIndex = 9;
             // 
             // guna2GradientButton1
@@ -96,9 +97,10 @@
             this.guna2GradientButton1.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(510, 22);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(382, 18);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(187, 46);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(140, 37);
             this.guna2GradientButton1.TabIndex = 9;
             this.guna2GradientButton1.Text = "PAY";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click_1);
@@ -108,9 +110,10 @@
             this.panel1.BackColor = System.Drawing.Color.LightBlue;
             this.panel1.Controls.Add(this.txtTOTAL);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Location = new System.Drawing.Point(10, 22);
+            this.panel1.Location = new System.Drawing.Point(8, 18);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(368, 51);
+            this.panel1.Size = new System.Drawing.Size(276, 41);
             this.panel1.TabIndex = 8;
             // 
             // label5
@@ -118,9 +121,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(17, 15);
+            this.label5.Location = new System.Drawing.Point(13, 12);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(174, 21);
+            this.label5.Size = new System.Drawing.Size(143, 17);
             this.label5.TabIndex = 7;
             this.label5.Text = "TOTAL PAYMENT";
             // 
@@ -138,14 +142,15 @@
             this.txtCVV.Font = new System.Drawing.Font("Lucida Fax", 9F, System.Drawing.FontStyle.Bold);
             this.txtCVV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtCVV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCVV.Location = new System.Drawing.Point(497, 234);
-            this.txtCVV.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtCVV.Location = new System.Drawing.Point(373, 190);
+            this.txtCVV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtCVV.MaxLength = 3;
             this.txtCVV.Name = "txtCVV";
             this.txtCVV.PasswordChar = '\0';
             this.txtCVV.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.txtCVV.PlaceholderText = "CVV";
             this.txtCVV.SelectedText = "";
-            this.txtCVV.Size = new System.Drawing.Size(277, 30);
+            this.txtCVV.Size = new System.Drawing.Size(208, 24);
             this.txtCVV.TabIndex = 6;
             // 
             // label4
@@ -154,9 +159,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(503, 198);
+            this.label4.Location = new System.Drawing.Point(377, 161);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 21);
+            this.label4.Size = new System.Drawing.Size(82, 17);
             this.label4.TabIndex = 5;
             this.label4.Text = "CVV Code";
             // 
@@ -175,14 +181,14 @@
             this.txtEXP.Font = new System.Drawing.Font("Lucida Bright", 10.2F);
             this.txtEXP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtEXP.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEXP.Location = new System.Drawing.Point(25, 234);
-            this.txtEXP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtEXP.Location = new System.Drawing.Point(19, 190);
+            this.txtEXP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEXP.Name = "txtEXP";
             this.txtEXP.PasswordChar = '\0';
             this.txtEXP.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.txtEXP.PlaceholderText = "YYYY - MM - DD\r\n";
             this.txtEXP.SelectedText = "";
-            this.txtEXP.Size = new System.Drawing.Size(439, 30);
+            this.txtEXP.Size = new System.Drawing.Size(329, 24);
             this.txtEXP.TabIndex = 4;
             // 
             // label3
@@ -191,9 +197,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(31, 198);
+            this.label3.Location = new System.Drawing.Point(23, 161);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 21);
+            this.label3.Size = new System.Drawing.Size(99, 17);
             this.label3.TabIndex = 3;
             this.label3.Text = "EXPIRY Date";
             // 
@@ -212,14 +219,15 @@
             this.txtCardNum.Font = new System.Drawing.Font("Lucida Bright", 10.2F);
             this.txtCardNum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtCardNum.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCardNum.Location = new System.Drawing.Point(25, 132);
-            this.txtCardNum.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtCardNum.Location = new System.Drawing.Point(19, 107);
+            this.txtCardNum.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtCardNum.MaxLength = 16;
             this.txtCardNum.Name = "txtCardNum";
             this.txtCardNum.PasswordChar = '\0';
             this.txtCardNum.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txtCardNum.PlaceholderText = "Valid Card Number";
             this.txtCardNum.SelectedText = "";
-            this.txtCardNum.Size = new System.Drawing.Size(749, 30);
+            this.txtCardNum.Size = new System.Drawing.Size(562, 24);
             this.txtCardNum.TabIndex = 2;
             // 
             // label2
@@ -228,9 +236,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(31, 96);
+            this.label2.Location = new System.Drawing.Point(23, 78);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 21);
+            this.label2.Size = new System.Drawing.Size(110, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Card Number";
             // 
@@ -240,9 +249,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(290, 23);
+            this.label1.Location = new System.Drawing.Point(218, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 36);
+            this.label1.Size = new System.Drawing.Size(217, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "Payment Details";
             // 
@@ -258,17 +268,19 @@
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.ForeColor = System.Drawing.Color.White;
-            this.guna2Panel1.Location = new System.Drawing.Point(101, 82);
+            this.guna2Panel1.Location = new System.Drawing.Point(76, 67);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(804, 447);
+            this.guna2Panel1.Size = new System.Drawing.Size(603, 363);
             this.guna2Panel1.TabIndex = 5;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.card;
             this.pictureBox1.Location = new System.Drawing.Point(0, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1023, 614);
+            this.pictureBox1.Size = new System.Drawing.Size(767, 499);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -276,11 +288,12 @@
             // 
             // payment
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 616);
+            this.ClientSize = new System.Drawing.Size(767, 500);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "payment";
             this.Text = "payment";
             this.Load += new System.EventHandler(this.payment_Load);

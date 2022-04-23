@@ -60,19 +60,20 @@ namespace WindowsFormsApp1
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.panel1.Location = new System.Drawing.Point(33, 75);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(25, 61);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1191, 30);
+            this.panel1.Size = new System.Drawing.Size(893, 24);
             this.panel1.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 137);
+            this.label2.Location = new System.Drawing.Point(21, 111);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 21);
+            this.label2.Size = new System.Drawing.Size(81, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Doctor ID";
             // 
@@ -80,9 +81,10 @@ namespace WindowsFormsApp1
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(29, 194);
+            this.label3.Location = new System.Drawing.Point(22, 158);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 21);
+            this.label3.Size = new System.Drawing.Size(50, 17);
             this.label3.TabIndex = 7;
             this.label3.Text = "Name";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -91,9 +93,10 @@ namespace WindowsFormsApp1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(28, 250);
+            this.label4.Location = new System.Drawing.Point(21, 203);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 21);
+            this.label4.Size = new System.Drawing.Size(87, 17);
             this.label4.TabIndex = 8;
             this.label4.Text = "Profession";
             // 
@@ -101,9 +104,10 @@ namespace WindowsFormsApp1
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(559, 137);
+            this.label5.Location = new System.Drawing.Point(419, 111);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(264, 21);
+            this.label5.Size = new System.Drawing.Size(220, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "Emergency Contact Number";
             // 
@@ -111,9 +115,10 @@ namespace WindowsFormsApp1
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(559, 194);
+            this.label6.Location = new System.Drawing.Point(419, 158);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 21);
+            this.label6.Size = new System.Drawing.Size(54, 17);
             this.label6.TabIndex = 10;
             this.label6.Text = "Phone";
             // 
@@ -121,19 +126,20 @@ namespace WindowsFormsApp1
             // 
             this.panel3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(29, 338);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Location = new System.Drawing.Point(22, 275);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1195, 47);
+            this.panel3.Size = new System.Drawing.Size(896, 38);
             this.panel3.TabIndex = 15;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(503, 11);
+            this.label7.Location = new System.Drawing.Point(377, 9);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(170, 26);
+            this.label7.Size = new System.Drawing.Size(140, 22);
             this.label7.TabIndex = 0;
             this.label7.Text = "Medical Visit";
             // 
@@ -142,9 +148,10 @@ namespace WindowsFormsApp1
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(27, 27);
+            this.label1.Location = new System.Drawing.Point(20, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 43);
+            this.label1.Size = new System.Drawing.Size(264, 36);
             this.label1.TabIndex = 16;
             this.label1.Text = "Doctor Records";
             // 
@@ -160,17 +167,18 @@ namespace WindowsFormsApp1
             this.txtDocId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDocId.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtDocId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDocId.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtDocId.Font = new System.Drawing.Font("Lucida Fax", 10.2F);
             this.txtDocId.ForeColor = System.Drawing.Color.Black;
             this.txtDocId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDocId.Location = new System.Drawing.Point(149, 135);
-            this.txtDocId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDocId.Location = new System.Drawing.Point(112, 110);
+            this.txtDocId.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDocId.MaxLength = 4;
             this.txtDocId.Name = "txtDocId";
             this.txtDocId.PasswordChar = '\0';
             this.txtDocId.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtDocId.PlaceholderText = "";
             this.txtDocId.SelectedText = "";
-            this.txtDocId.Size = new System.Drawing.Size(371, 32);
+            this.txtDocId.Size = new System.Drawing.Size(278, 26);
             this.txtDocId.TabIndex = 17;
             // 
             // txtDocName
@@ -185,17 +193,17 @@ namespace WindowsFormsApp1
             this.txtDocName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDocName.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtDocName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDocName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtDocName.Font = new System.Drawing.Font("Lucida Fax", 10.2F);
             this.txtDocName.ForeColor = System.Drawing.Color.Black;
             this.txtDocName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDocName.Location = new System.Drawing.Point(149, 194);
-            this.txtDocName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDocName.Location = new System.Drawing.Point(112, 158);
+            this.txtDocName.Margin = new System.Windows.Forms.Padding(2);
             this.txtDocName.Name = "txtDocName";
             this.txtDocName.PasswordChar = '\0';
             this.txtDocName.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtDocName.PlaceholderText = "";
             this.txtDocName.SelectedText = "";
-            this.txtDocName.Size = new System.Drawing.Size(371, 32);
+            this.txtDocName.Size = new System.Drawing.Size(278, 26);
             this.txtDocName.TabIndex = 18;
             // 
             // txtProf
@@ -210,17 +218,17 @@ namespace WindowsFormsApp1
             this.txtProf.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtProf.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtProf.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtProf.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtProf.Font = new System.Drawing.Font("Lucida Fax", 10.2F);
             this.txtProf.ForeColor = System.Drawing.Color.Black;
             this.txtProf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtProf.Location = new System.Drawing.Point(149, 250);
-            this.txtProf.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtProf.Location = new System.Drawing.Point(112, 203);
+            this.txtProf.Margin = new System.Windows.Forms.Padding(2);
             this.txtProf.Name = "txtProf";
             this.txtProf.PasswordChar = '\0';
             this.txtProf.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtProf.PlaceholderText = "";
             this.txtProf.SelectedText = "";
-            this.txtProf.Size = new System.Drawing.Size(371, 32);
+            this.txtProf.Size = new System.Drawing.Size(278, 26);
             this.txtProf.TabIndex = 19;
             // 
             // txtEmgcyCont
@@ -235,17 +243,18 @@ namespace WindowsFormsApp1
             this.txtEmgcyCont.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmgcyCont.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtEmgcyCont.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmgcyCont.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtEmgcyCont.Font = new System.Drawing.Font("Lucida Fax", 10.2F);
             this.txtEmgcyCont.ForeColor = System.Drawing.Color.Black;
             this.txtEmgcyCont.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmgcyCont.Location = new System.Drawing.Point(853, 135);
-            this.txtEmgcyCont.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtEmgcyCont.Location = new System.Drawing.Point(640, 110);
+            this.txtEmgcyCont.Margin = new System.Windows.Forms.Padding(2);
+            this.txtEmgcyCont.MaxLength = 4;
             this.txtEmgcyCont.Name = "txtEmgcyCont";
             this.txtEmgcyCont.PasswordChar = '\0';
             this.txtEmgcyCont.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtEmgcyCont.PlaceholderText = "";
             this.txtEmgcyCont.SelectedText = "";
-            this.txtEmgcyCont.Size = new System.Drawing.Size(371, 32);
+            this.txtEmgcyCont.Size = new System.Drawing.Size(278, 26);
             this.txtEmgcyCont.TabIndex = 20;
             // 
             // txtPhn
@@ -260,17 +269,18 @@ namespace WindowsFormsApp1
             this.txtPhn.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPhn.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtPhn.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPhn.Font = new System.Drawing.Font("Lucida Fax", 10.2F);
             this.txtPhn.ForeColor = System.Drawing.Color.Black;
             this.txtPhn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhn.Location = new System.Drawing.Point(853, 194);
-            this.txtPhn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPhn.Location = new System.Drawing.Point(640, 158);
+            this.txtPhn.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPhn.MaxLength = 10;
             this.txtPhn.Name = "txtPhn";
             this.txtPhn.PasswordChar = '\0';
             this.txtPhn.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtPhn.PlaceholderText = "";
             this.txtPhn.SelectedText = "";
-            this.txtPhn.Size = new System.Drawing.Size(371, 32);
+            this.txtPhn.Size = new System.Drawing.Size(278, 26);
             this.txtPhn.TabIndex = 21;
             // 
             // guna2GradientButton1
@@ -287,10 +297,10 @@ namespace WindowsFormsApp1
             this.guna2GradientButton1.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(692, 274);
-            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(519, 223);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(173, 47);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(130, 38);
             this.guna2GradientButton1.TabIndex = 22;
             this.guna2GradientButton1.Text = "Insert";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
@@ -301,7 +311,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView1.AllowUserToDeleteRows = false;
             this.guna2DataGridView1.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
@@ -309,7 +319,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
@@ -330,8 +340,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(29, 391);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(22, 318);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -347,7 +356,7 @@ namespace WindowsFormsApp1
             this.guna2DataGridView1.RowHeadersWidth = 51;
             this.guna2DataGridView1.RowTemplate.Height = 25;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1195, 268);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(896, 218);
             this.guna2DataGridView1.TabIndex = 23;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -386,10 +395,10 @@ namespace WindowsFormsApp1
             this.guna2GradientButton2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(872, 274);
-            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(654, 223);
+            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(173, 47);
+            this.guna2GradientButton2.Size = new System.Drawing.Size(130, 38);
             this.guna2GradientButton2.TabIndex = 24;
             this.guna2GradientButton2.Text = "Update";
             this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
@@ -408,20 +417,20 @@ namespace WindowsFormsApp1
             this.guna2GradientButton3.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(1051, 274);
-            this.guna2GradientButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2GradientButton3.Location = new System.Drawing.Point(788, 223);
+            this.guna2GradientButton3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.Size = new System.Drawing.Size(173, 47);
+            this.guna2GradientButton3.Size = new System.Drawing.Size(130, 38);
             this.guna2GradientButton3.TabIndex = 25;
             this.guna2GradientButton3.Text = "Delete";
             this.guna2GradientButton3.Click += new System.EventHandler(this.guna2GradientButton3_Click);
             // 
             // DoctorRecords
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1277, 674);
+            this.ClientSize = new System.Drawing.Size(958, 548);
             this.Controls.Add(this.guna2GradientButton3);
             this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.guna2DataGridView1);
@@ -440,9 +449,10 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DoctorRecords";
             this.Text = "Doctor Records";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DoctorRecords_FormClosing);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();

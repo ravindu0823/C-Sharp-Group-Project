@@ -42,6 +42,7 @@ namespace WindowsFormsApp1
             // 
             // guna2GradientButton2
             // 
+            this.guna2GradientButton2.Animated = true;
             this.guna2GradientButton2.BorderRadius = 8;
             this.guna2GradientButton2.BorderThickness = 1;
             this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -54,15 +55,17 @@ namespace WindowsFormsApp1
             this.guna2GradientButton2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(51, 366);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(38, 297);
+            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(373, 37);
+            this.guna2GradientButton2.Size = new System.Drawing.Size(280, 30);
             this.guna2GradientButton2.TabIndex = 19;
             this.guna2GradientButton2.Text = "Prescriptions";
             this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
             // guna2GradientButton1
             // 
+            this.guna2GradientButton1.Animated = true;
             this.guna2GradientButton1.BorderRadius = 8;
             this.guna2GradientButton1.BorderThickness = 1;
             this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -75,15 +78,17 @@ namespace WindowsFormsApp1
             this.guna2GradientButton1.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(51, 275);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(38, 223);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(373, 37);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(280, 30);
             this.guna2GradientButton1.TabIndex = 18;
             this.guna2GradientButton1.Text = "Medi Information";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // guna2GradientButton5
             // 
+            this.guna2GradientButton5.Animated = true;
             this.guna2GradientButton5.BorderRadius = 8;
             this.guna2GradientButton5.BorderThickness = 1;
             this.guna2GradientButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -96,9 +101,10 @@ namespace WindowsFormsApp1
             this.guna2GradientButton5.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton5.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton5.Location = new System.Drawing.Point(51, 179);
+            this.guna2GradientButton5.Location = new System.Drawing.Point(38, 145);
+            this.guna2GradientButton5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton5.Name = "guna2GradientButton5";
-            this.guna2GradientButton5.Size = new System.Drawing.Size(373, 37);
+            this.guna2GradientButton5.Size = new System.Drawing.Size(280, 30);
             this.guna2GradientButton5.TabIndex = 17;
             this.guna2GradientButton5.Text = "Pharmacy Office";
             this.guna2GradientButton5.Click += new System.EventHandler(this.guna2GradientButton5_Click);
@@ -106,15 +112,17 @@ namespace WindowsFormsApp1
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.WhatsApp_Image_2022_04_16_at_12_15_43_PM;
-            this.pictureBox1.Location = new System.Drawing.Point(465, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(349, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(678, 626);
+            this.pictureBox1.Size = new System.Drawing.Size(508, 509);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
             // guna2GradientButton3
             // 
+            this.guna2GradientButton3.Animated = true;
             this.guna2GradientButton3.BorderRadius = 8;
             this.guna2GradientButton3.BorderThickness = 1;
             this.guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -127,9 +135,10 @@ namespace WindowsFormsApp1
             this.guna2GradientButton3.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(51, 465);
+            this.guna2GradientButton3.Location = new System.Drawing.Point(38, 378);
+            this.guna2GradientButton3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.Size = new System.Drawing.Size(373, 37);
+            this.guna2GradientButton3.Size = new System.Drawing.Size(280, 30);
             this.guna2GradientButton3.TabIndex = 22;
             this.guna2GradientButton3.Text = "Help";
             this.guna2GradientButton3.Click += new System.EventHandler(this.guna2GradientButton3_Click);
@@ -139,29 +148,30 @@ namespace WindowsFormsApp1
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(60, 48);
+            this.label1.Location = new System.Drawing.Point(45, 39);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(343, 72);
+            this.label1.Size = new System.Drawing.Size(270, 54);
             this.label1.TabIndex = 23;
             this.label1.Text = "VitaMind Pharmacy \r\nManagement System\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pharmacy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1142, 624);
+            this.ClientSize = new System.Drawing.Size(856, 507);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2GradientButton3);
             this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2GradientButton5);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Pharmacy";
             this.Text = "Pharmacy";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Pharmacy_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
