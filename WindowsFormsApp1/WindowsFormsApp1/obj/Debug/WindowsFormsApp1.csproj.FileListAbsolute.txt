@@ -212,3 +212,31 @@ C:\Users\dhanu\Desktop\Temp 2 (Edit 1 Backup)\WindowsFormsApp1\WindowsFormsApp1\
 C:\Users\dhanu\Desktop\Temp 2 (Edit 1 Backup)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\dhanu\Desktop\Temp 2 (Edit 1 Backup)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\dhanu\Desktop\Temp 2 (Edit 1 Backup)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Appoinment.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Billing.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.help.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.payment.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Medi_Information.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientHistory.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PatientRecords.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacy.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pharmacy_Office.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Prescriptions.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Rooms.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SignUp.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DoctorRecords.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Vinuri Disara\Desktop\Temp1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
