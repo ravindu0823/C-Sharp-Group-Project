@@ -300,5 +300,10 @@ namespace WindowsFormsApp1
             lblSodiumBicarb.Text = 0.ToString();
 
         }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

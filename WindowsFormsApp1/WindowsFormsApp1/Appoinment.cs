@@ -72,14 +72,14 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
 
                     string sql = "INSERT INTO appointment (Fullname,Phonenumber,Department,Age,Appointment_date,Doctor) VALUES ('" + fullname + "', '" + phonenumber + "', '" + department + "', '" + age + "', '" + appointmentdate + "', '" + doctor + "')";
-                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Appoinment Placed Successfully");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                 }
 
                 catch (Exception ex)
@@ -107,7 +107,7 @@ namespace WindowsFormsApp1
 
             finally
             {
-                conn_ravindu.Close();
+                conn_vinuri.Close();
             }*/
         }
     }

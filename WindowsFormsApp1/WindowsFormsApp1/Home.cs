@@ -76,5 +76,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

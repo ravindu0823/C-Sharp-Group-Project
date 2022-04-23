@@ -27,48 +27,48 @@ namespace WindowsFormsApp1
 
         private void ShowRooms()
         {
-            conn_ravindu.Open();
+            conn_vinuri.Open();
 
             string get = "SELECT * FROM Rooms WHERE Booked = 'Available'";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView1.DataSource = ds.Tables[0];
 
-            conn_ravindu.Close();
+            conn_vinuri.Close();
         }
 
         private void ShowPatients()
         {
-            conn_ravindu.Open();
+            conn_vinuri.Open();
 
             string get = "SELECT PatientId, CONCAT(FirstName, ' ', MiddleName, ' ', LastName) AS 'Full Name', ContactNumber, Gender, DATEDIFF (YY, BirthDate, GETDATE()) AS Age, Address, EmgNumber, BloodGroup FROM PatientRecords";
             // string get = "SELECT DATEDIFF (YY, BirthDate, GETDATE()) AS Age FROM PatientRecords";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView2.DataSource = ds.Tables[0];
 
-            conn_ravindu.Close();
+            conn_vinuri.Close();
         }
 
         private void ShowRecords()
         {
-            conn_ravindu.Open();
+            conn_vinuri.Open();
 
             string get = "SELECT * FROM RoomManagemenet";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView3.DataSource = ds.Tables[0];
 
-            conn_ravindu.Close();
+            conn_vinuri.Close();
         }
 
         private void label37_Click(object sender, System.EventArgs e)
@@ -128,23 +128,23 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
 
                     string sql1 = "INSERT INTO RoomManagemenet (RoomNum, Id, Name, Contact, Gender, Age, Address, EmgNum, BloodGroup, Advance, Outstanding, Consultant, Date) VALUES ('" + room_num + "', '" + patient_id + "', '" + full_name + "', '" + contact + "', '" + gender + "', '" + age + "', '" + address + "', '" + emg_num + "', '" + blood_group + "', '" + advance + "', '" + outstanding + "', '" + consultant + "', '" + date + "')";
-                    SqlCommand cmd1 = new SqlCommand(sql1, conn_ravindu);
+                    SqlCommand cmd1 = new SqlCommand(sql1, conn_vinuri);
                     cmd1.ExecuteNonQuery();
                     MessageBox.Show("Inserted to Room Management table");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
 
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
 
                     string update = "UPDATE Rooms SET Booked = 'Booked' WHERE RoomID = '" + room_num + "'";
-                    SqlCommand cmd2 = new SqlCommand(update, conn_ravindu);
+                    SqlCommand cmd2 = new SqlCommand(update, conn_vinuri);
                     cmd2.ExecuteNonQuery();
                     MessageBox.Show("Updated Rooms table");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                 }
 
                 catch (Exception ex)

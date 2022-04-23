@@ -24,17 +24,17 @@ namespace WindowsFormsApp1
 
         private void ShowRecords()
         {
-            conn_ravindu.Open();
+            conn_vinuri.Open();
 
             string get = "SELECT * FROM DoctorRecord";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView1.DataSource = ds.Tables[0];
 
-            conn_ravindu.Close();
+            conn_vinuri.Close();
         }
 
         private void label3_Click(object sender, System.EventArgs e)
@@ -58,14 +58,14 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
 
                     string sql = "INSERT INTO DoctorRecord (doctor_id,doctor_Name,profession,emergency_contact,phone) VALUES ('" + doctor_id + "', '" + doctor_name + "', '" + profession + "', '" + emergency_contact + "', '" + phone + "')";
-                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Doctor Inserted sucessfully");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                     ShowRecords();
                 }
 
@@ -94,14 +94,14 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
 
                     string sql = "UPDATE DoctorRecord SET doctor_name = '" + doctor_name + "', profession = '" + profession + "', emergency_contact = '" + emergency_contact + "', phone = '" + phone + "' WHERE doctor_id = '" + doctor_id + "'";
-                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Doctor Updated sucessfully");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                     ShowRecords();
                 }
 
@@ -124,14 +124,14 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
 
                     string sql = "DELETE FROM DoctorRecord WHERE doctor_id = '" + doctor_id + "'";
-                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Doctor Updated sucessfully");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                     ShowRecords();
                 }
 

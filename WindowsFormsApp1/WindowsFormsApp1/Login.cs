@@ -72,7 +72,9 @@ namespace WindowsFormsApp1
             string uname = guna2TextBox2.Text.Trim();
             string password = guna2TextBox3.Text.Trim();
 
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+            //SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+            SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+            SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
 
             try
             {
@@ -80,7 +82,7 @@ namespace WindowsFormsApp1
                 string sql = "SELECT * FROM Users WHERE Name = '" + uname + "' AND Password = '" + password + "'";
                 // string sql = "SELECT * FROM Users WHERE Name = '" + "dhanu" + "' AND Password = '" + "dhanu1234" + "'";
 
-                SqlDataAdapter sda = new SqlDataAdapter(sql, conn);
+                SqlDataAdapter sda = new SqlDataAdapter(sql, conn_vinuri);
 
                 DataTable dtbl = new DataTable();
                 sda.Fill(dtbl);
@@ -88,6 +90,7 @@ namespace WindowsFormsApp1
                 if (dtbl.Rows.Count > 0)
                 {
                     guna1.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -100,7 +103,7 @@ namespace WindowsFormsApp1
             }
             finally
             {
-                conn.Close();
+                conn_vinuri.Close();
             }
 
 

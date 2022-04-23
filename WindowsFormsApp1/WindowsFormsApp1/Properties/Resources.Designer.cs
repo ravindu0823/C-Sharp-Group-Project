@@ -618,6 +618,17 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap stock_photo_group_of_medical_doctors_over_hospital_background_health_care_335039969 {
+            get {
+                object obj = ResourceManager.GetObject("stock-photo-group-of-medical-doctors-over-hospital-background-health-care-3350399" +
+                        "69", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap team_1024x683 {
             get {
                 object obj = ResourceManager.GetObject("team-1024x683", resourceCulture);
@@ -651,6 +662,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap WhatsApp_Image_2022_04_16_at_12_15_43_PM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2022-04-16 at 12.15.43 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_04_22_at_9_23_45_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-04-22 at 9.23.45 PM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

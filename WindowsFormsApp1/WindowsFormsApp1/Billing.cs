@@ -35,13 +35,13 @@ namespace WindowsFormsApp1
                 try
                 {
                     string qry = "INSERT INTO BillingInfo (CardNumber, FullName, Address1, Address2, NameOnCard, CvvNumber, ExpMonth, ExpDay) VALUES ('" + cardnumber + "', '" + fullname + "', '" + address1 + "', '" + address2 + "', '" + nameoncard + "', '" + cvvnumber + "', '" + expmonth + "', '" + expday + "')";
-                    SqlCommand cmd = new SqlCommand(qry, conn_ravindu);
+                    SqlCommand cmd = new SqlCommand(qry, conn_vinuri);
 
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Data Inserted Successfully");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                 }
                 catch (Exception ex)
                 {

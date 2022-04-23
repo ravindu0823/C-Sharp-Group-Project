@@ -24,17 +24,17 @@ namespace WindowsFormsApp1
 
         private void ShowMan()
         {
-            conn_ravindu.Open();
+            conn_vinuri.Open();
 
             string get = "SELECT Id AS ID, medi_id AS 'Medi Id', name AS Name, affect_on AS 'Affect On', mfg AS 'MFG Date', exp AS 'EXP Date', quantity AS Quantity, box_no AS 'Box No', price AS Price, supplier_id AS 'Supplier Id', supplier_name AS 'Supplier Name' FROM Pharmacist";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView1.DataSource = ds.Tables[0];
 
-            conn_ravindu.Close();
+            conn_vinuri.Close();
         }
 
         private void Pharmacist1_Load(object sender, EventArgs e)
@@ -79,14 +79,14 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
 
                     string sql = "INSERT INTO Pharmacist (medi_id,name, affect_on,mfg, exp,quantity, box_no,price, supplier_id, supplier_name) VALUES ('" + medi_id + "', '" + name + "', '" + affect_on + "', '" + mfg + "', '" + exp + "', '" + quantity + "', '" + box_no + "', '" + price + "', '" + supplier_id + "', '" + supplier_name + "')";
-                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("User inserted Succesfully");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                     ShowMan();
                 }
 
@@ -117,11 +117,11 @@ namespace WindowsFormsApp1
                 string supplier_name = textSUPPNAME.Text;
 
                 string update = "UPDATE Pharmacist SET name = '" + name + "', affect_on = '" + affect_on + "', mfg = '" + mfg + "', exp = '" + exp + "', quantity = '" + quantity + "', box_no = '" + box_no + "', price = '" + price + "', supplier_id = '" + supplier_id + "', supplier_name = '" + supplier_name + "' WHERE medi_id = '" + medi_id + "'";
-                SqlCommand cmd = new SqlCommand(update, conn_ravindu);
+                SqlCommand cmd = new SqlCommand(update, conn_vinuri);
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Record Updated Successfully");
                 }
@@ -131,7 +131,7 @@ namespace WindowsFormsApp1
                 }
                 finally
                 {
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                     ShowMan();
                 }
             }
@@ -162,11 +162,11 @@ namespace WindowsFormsApp1
                 int medi_id = int.Parse(textID.Text);
 
                 string del = "DELETE FROM Pharmacist Where medi_id = '" + medi_id + "'";
-                SqlCommand cmd = new SqlCommand(del, conn_ravindu);
+                SqlCommand cmd = new SqlCommand(del, conn_vinuri);
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Record deleted sucessfully");
                 }
@@ -178,7 +178,7 @@ namespace WindowsFormsApp1
 
                 finally
                 {
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                     ShowMan();
                 }
             }

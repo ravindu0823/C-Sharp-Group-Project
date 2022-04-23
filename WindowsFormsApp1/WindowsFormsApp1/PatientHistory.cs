@@ -24,17 +24,17 @@ namespace WindowsFormsApp1
 
         private void ShowPatients()
         {
-            conn_ravindu.Open();
+            conn_vinuri.Open();
 
             string get = "SELECT * FROM PatientRecords";
 
-            SqlDataAdapter sda = new SqlDataAdapter(get, conn_ravindu);
+            SqlDataAdapter sda = new SqlDataAdapter(get, conn_vinuri);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
             guna2DataGridView1.DataSource = ds.Tables[0];
 
-            conn_ravindu.Close();
+            conn_vinuri.Close();
         }
 
         private void PatientHistory_Load(object sender, EventArgs e)
@@ -141,11 +141,11 @@ namespace WindowsFormsApp1
                 string blood_group = guna2ComboBox1.Text;
 
                 string update = "UPDATE PatientRecords SET FirstName = '" + first_name + "', MiddleName = '" + middle_name + "', LastName = '" + last_name + "', BirthDate = '" + birth_date + "', ContactNumber = '" + contact_number + "', Gender = '" + gender + "', Address = '" + address + "', EmgNumber = '" + emg_num + "', BloodGroup = '" + blood_group + "' WHERE PatientId = '" + patient_id + "'";
-                SqlCommand cmd = new SqlCommand(update, conn_ravindu);
+                SqlCommand cmd = new SqlCommand(update, conn_vinuri);
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Patient Updated Successfully");
                 }
@@ -157,7 +157,7 @@ namespace WindowsFormsApp1
 
                 finally
                 {
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                     ShowPatients();
                 }
             }
@@ -168,11 +168,11 @@ namespace WindowsFormsApp1
             int patient_id = int.Parse(guna2TextBox1.Text);
 
             string del = "DELETE FROM PatientRecords WHERE PatientId = '" + patient_id + "'";
-            SqlCommand cmd = new SqlCommand(del, conn_ravindu);
+            SqlCommand cmd = new SqlCommand(del, conn_vinuri);
 
             try
             {
-                conn_ravindu.Open();
+                conn_vinuri.Open();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Patient Deleted Successfully");
             }
@@ -184,7 +184,7 @@ namespace WindowsFormsApp1
 
             finally
             {
-                conn_ravindu.Close();
+                conn_vinuri.Close();
                 ShowPatients();
             }
         }

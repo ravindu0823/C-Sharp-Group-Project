@@ -88,7 +88,9 @@ namespace WindowsFormsApp1
 
             }*/
 
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+            //SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+            SqlConnection conn_vinuri = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
+            SqlConnection conn_ravindu = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Coding\NSBM\Year 01\Semester 02\C#\DATABASE Servers\Project.mdf';Integrated Security=True;Connect Timeout=30");
 
             string name = guna2TextBox3.Text;
             string email = guna2TextBox1.Text;
@@ -97,11 +99,11 @@ namespace WindowsFormsApp1
             string sql = "INSERT INTO Users (Name, Email, Password) VALUES ('" + name + "', '" + email + "', '" + password + "')";
             // string sql = "INSERT INTO Users (Name, Email, Password) VALUES ('" + "Ravindu" + "', '" + "guestpc87@gmail.com" + "', '" + "ravindu0823" + "')";
 
-            SqlCommand cmd = new SqlCommand(sql, conn);
+            SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
 
             try
             {
-                conn.Open();
+                conn_vinuri.Open();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("User Added Successfully");
             }
@@ -113,7 +115,7 @@ namespace WindowsFormsApp1
 
             finally
             {
-                conn.Close();
+                conn_vinuri.Close();
             }
         }
     }

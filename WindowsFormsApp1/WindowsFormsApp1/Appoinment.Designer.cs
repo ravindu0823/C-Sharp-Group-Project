@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(675, 82);
+            this.label1.Size = new System.Drawing.Size(674, 82);
             this.label1.TabIndex = 1;
             this.label1.Text = "Appoinment Managemnet";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -69,7 +69,7 @@ namespace WindowsFormsApp1
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(37, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 17);
+            this.label2.Size = new System.Drawing.Size(107, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "Full Name ";
             // 
@@ -284,7 +284,7 @@ namespace WindowsFormsApp1
             this.label7.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
             this.label7.Location = new System.Drawing.Point(37, 553);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 17);
+            this.label7.Size = new System.Drawing.Size(71, 21);
             this.label7.TabIndex = 33;
             this.label7.Text = "Doctor";
             // 
@@ -294,7 +294,7 @@ namespace WindowsFormsApp1
             this.label6.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(37, 446);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(141, 17);
+            this.label6.Size = new System.Drawing.Size(169, 21);
             this.label6.TabIndex = 27;
             this.label6.Text = "Appoinment Date";
             // 
@@ -304,7 +304,7 @@ namespace WindowsFormsApp1
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(37, 340);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 17);
+            this.label5.Size = new System.Drawing.Size(44, 21);
             this.label5.TabIndex = 26;
             this.label5.Text = "Age";
             // 
@@ -314,7 +314,7 @@ namespace WindowsFormsApp1
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(37, 234);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 17);
+            this.label4.Size = new System.Drawing.Size(123, 21);
             this.label4.TabIndex = 25;
             this.label4.Text = "Department ";
             // 
@@ -324,7 +324,7 @@ namespace WindowsFormsApp1
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(37, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 17);
+            this.label3.Size = new System.Drawing.Size(150, 21);
             this.label3.TabIndex = 24;
             this.label3.Text = "Phone Number ";
             // 
@@ -332,7 +332,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 121);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 164);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(675, 558);
@@ -350,7 +350,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Appoinment";
             this.Text = "Appoinment";
             this.Load += new System.EventHandler(this.Appoinment_Load);

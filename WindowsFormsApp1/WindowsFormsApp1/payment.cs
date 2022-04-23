@@ -55,11 +55,11 @@ namespace WindowsFormsApp1
 
             string sql = "INSERT INTO Payment (CardNumber, ExpDate, CvvCode) VALUES ('" + card_number + "', '" + expiry_date + "', '" + cvv + "')";
 
-            SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+            SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
 
             try
             {
-                conn_ravindu.Open();
+                conn_vinuri.Open();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Data inserted sucessfully");
             }
@@ -71,7 +71,7 @@ namespace WindowsFormsApp1
 
             finally
             {
-                conn_ravindu.Close();
+                conn_vinuri.Close();
             }
         }
     }

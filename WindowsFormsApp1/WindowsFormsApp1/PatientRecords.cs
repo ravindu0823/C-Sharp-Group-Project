@@ -63,14 +63,14 @@ namespace WindowsFormsApp1
 
                 try
                 {
-                    conn_ravindu.Open();
+                    conn_vinuri.Open();
 
                     string sql = "INSERT INTO PatientRecords (FirstName, MiddleName, LastName, BirthDate, ContactNumber, Gender, Address, EmgNumber, BloodGroup) VALUES ('" + first_name + "', '" + middle_name + "', '" + last_name + "', '" + birth_date + "', '" + contact_number + "', '" + gender + "', '" + address + "', '" + emg_number + "', '" + blood_group + "')";
-                    SqlCommand cmd = new SqlCommand(sql, conn_ravindu);
+                    SqlCommand cmd = new SqlCommand(sql, conn_vinuri);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Patient Added Successfully");
 
-                    conn_ravindu.Close();
+                    conn_vinuri.Close();
                 }
 
                 catch (Exception ex)
