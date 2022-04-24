@@ -102,7 +102,7 @@ namespace WindowsFormsApp1
             /*MessageBox.Show("Vitamind Hospital\n Version 1.0", "Vitamind Hopital", MessageBoxButtons.OK, MessageBoxIcon.Information);*/
 
             Application.Exit();
-            MessageBox.Show("VitaMind Hospital\nVersion 1.0v", "Vitamind Hopital", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // MessageBox.Show("VitaMind Hospital\nVersion 1.0v", "Vitamind Hopital", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
